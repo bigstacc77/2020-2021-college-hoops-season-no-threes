@@ -6,4 +6,4 @@ At the moment, this only takes into account the number of three pointers and doe
 NOTE: This does NOT work with NBA games (except for the individual game program). Make sure that any individual games are on the "Team Stats" page instead of the default "Gamecast" page. Otherwise, the program does not work.
 
 # Requirements
-The only requirement for this project is bs4 0.0.1, and the project is written in python 3.9.x
+To run this, you will need Python 3.9.x, any bs4 version (I used 4.9.2) and the latest version of requests.
