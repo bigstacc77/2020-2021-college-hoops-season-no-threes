@@ -1,6 +1,8 @@
 from requests import get
 from bs4 import BeautifulSoup
+from more_itertools import unique_everseen
 import csv
+import os
 
 #url
 url = 'https://www.espn.com/mens-college-basketball/teams'
@@ -112,3 +114,11 @@ with open('collegehoops.csv', 'w', newline='') as f:
         #adds to csv file
         hoops.writerow([awayTeamName, homeTeamName, leftTeam.next_element, rightTeam, leftTeamThrees, rightTeamThrees, leftTeamAdjust, rightTeamAdjust])
 
+print('part 4 done')
+
+#Create new .csv with duplicates removed
+with open('collegehoops.csv','r') as f, open('output.csv','w') as out_file:
+    out_file.writelines(unique_everseen(f))
+
+os.remove('collegehoops.csv')
+print('Finished, results in output.csv')
