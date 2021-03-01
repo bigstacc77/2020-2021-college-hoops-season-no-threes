@@ -45,7 +45,7 @@ print('part 3 done')
 #calculate scores w/o threes using game urls + creates csv file
 with open('collegehoops.csv', 'w', newline='') as f:
     hoops = csv.writer(f)
-    hoops.writerow(['team 1', 'team 2', 'original team 1 score', 'original team 2 score', 'team 1 threes', 'team 2 threes', 'adjusted team 1 score', 'adjusted team 2 score'])
+    hoops.writerow(['team 1', 'team 2', 'original team 1 score', 'original team 2 score', 'original winner', 'team 1 threes', 'team 2 threes', 'adjusted team 1 score', 'adjusted team 2 score', 'adjusted winner'])
     for component in gameList:
         gameURL = component
         response3 = get(gameURL)
@@ -84,6 +84,16 @@ with open('collegehoops.csv', 'w', newline='') as f:
         leftTeam = html_soup.find('div', class_ = 'score icon-font-after')
         awayTeamName = teamName[0].next_element
 
+        #String cleanup
+        rightTeam = rightTeam.replace('<div class="score icon-font-before">', '')
+        rightTeam = rightTeam.replace('</div>', '')
+
+        #Checks who won originally
+        if int(leftTeam.next_element) < int(rightTeam):
+            originalWinner = homeTeamName
+        elif int(leftTeam.next_element) > int(rightTeam):
+            originalWinner = awayTeamName
+
         #Finds three pointers for both teams
         table = html_soup.findAll('table')
         threeptTest = table[1]
@@ -103,16 +113,18 @@ with open('collegehoops.csv', 'w', newline='') as f:
         rightTeamThrees = rightTeamThrees.replace('\t', '')
         rightTeamThrees = rightTeamThrees.split(sep, 1)[0]
 
-        #String cleanup
-        rightTeam = rightTeam.replace('<div class="score icon-font-before">', '')
-        rightTeam = rightTeam.replace('</div>', '')
-
         #Calculates adjusted scores
         leftTeamAdjust = int(leftTeam.next_element) - int(leftTeamThrees)
         rightTeamAdjust = int(rightTeam) - int(rightTeamThrees)
 
+        #Checks who original winner was
+        if leftTeamAdjust > rightTeamAdjust:
+            adjWinner = awayTeamName
+        elif rightTeamAdjust > leftTeamAdjust:
+            adjWinner = homeTeamName
+
         #adds to csv file
-        hoops.writerow([awayTeamName, homeTeamName, leftTeam.next_element, rightTeam, leftTeamThrees, rightTeamThrees, leftTeamAdjust, rightTeamAdjust])
+        hoops.writerow([awayTeamName, homeTeamName, leftTeam.next_element, rightTeam, originalWinner, leftTeamThrees, rightTeamThrees, leftTeamAdjust, rightTeamAdjust, adjWinner])
 
 print('part 4 done')
 
