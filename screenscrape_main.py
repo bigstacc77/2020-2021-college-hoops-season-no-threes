@@ -13,6 +13,8 @@ soup = BeautifulSoup(response.text, 'html.parser')
 thing = []
 linkList = []
 gameList = []
+overtimeGamesPrev = []
+overtimeGames = []
 
 #gets team urls
 for a in soup.findAll('a', {'tabindex':'0'}, class_ = 'AnchorLink'):
@@ -84,6 +86,10 @@ with open('collegehoops.csv', 'w', newline='') as f:
         leftTeam = html_soup.find('div', class_ = 'score icon-font-after')
         awayTeamName = teamName[0].next_element
 
+        #Adds overtime games to list
+        if str(timeLeft.next_element) == 'Final/OT':
+            overtimeGamesPrev.append(component)   
+
         #String cleanup
         rightTeam = rightTeam.replace('<div class="score icon-font-before">', '')
         rightTeam = rightTeam.replace('</div>', '')
@@ -127,6 +133,11 @@ with open('collegehoops.csv', 'w', newline='') as f:
         hoops.writerow([awayTeamName, homeTeamName, leftTeam.next_element, rightTeam, originalWinner, leftTeamThrees, rightTeamThrees, leftTeamAdjust, rightTeamAdjust, adjWinner])
 
 print('part 4 done')
+
+#Remove duplicates from list of overtime games
+for i in overtimeGamesPrev:
+    if i not in overtimeGames:
+        overtimeGames.append(i)
 
 #Create new .csv with duplicates removed
 with open('collegehoops.csv','r') as f, open('output.csv','w') as out_file:

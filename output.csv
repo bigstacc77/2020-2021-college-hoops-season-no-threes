@@ -404,6 +404,7 @@ VCU,Dayton,76,67,VCU,12,10,64,57,VCU
 Dayton,Rhode Island,89,91,Rhode Island,5,7,84,84,VCU
 Saint Louis,Dayton,53,76,Dayton,7,8,46,68,Dayton
 Dayton,Saint Joseph's,84,97,Saint Joseph's,10,18,74,79,Saint Joseph's
+Dayton,St. Bonaventure,33,27,Dayton,4,4,29,23,Dayton
 Little Rock,Duquesne,76,66,Little Rock,3,7,73,59,Little Rock
 UNC Greensboro,Duquesne,68,81,Duquesne,9,6,59,75,Duquesne
 Duquesne,George Washington,75,63,Duquesne,8,3,67,60,Duquesne
@@ -499,6 +500,7 @@ St. Mary's (MD),Richmond,49,90,Richmond,4,16,45,74,Richmond
 Richmond,VCU,56,68,VCU,3,3,53,65,VCU
 UMass,Richmond,65,79,Richmond,7,7,58,72,Richmond
 Richmond,Saint Louis,67,72,Saint Louis,10,6,57,66,Saint Louis
+Saint Joseph's,Richmond,2,0,Saint Joseph's,0,0,2,0,Saint Joseph's
 Auburn,Saint Joseph's,96,91,Auburn,9,12,87,79,Auburn
 Saint Joseph's,Kansas,72,94,Kansas,13,9,59,85,Kansas
 Saint Joseph's,Drexel,77,81,Drexel,4,8,73,73,Kansas
@@ -516,10 +518,12 @@ Saint Louis,Minnesota,82,90,Minnesota,2,10,80,80,Saint Louis
 UM Kansas City,Saint Louis,46,62,Saint Louis,5,5,41,57,Saint Louis
 St. Bonaventure,Saint Louis,59,70,Saint Louis,6,11,53,59,Saint Louis
 Saint Louis,VCU,65,67,VCU,6,7,59,60,VCU
+UMass,Saint Louis,2,7,Saint Louis,0,1,2,6,Saint Louis
 St. Bonaventure,Akron,81,74,St. Bonaventure,1,6,80,68,St. Bonaventure
 Hofstra,St. Bonaventure,69,77,St. Bonaventure,9,7,60,70,St. Bonaventure
 VCU,St. Bonaventure,54,70,St. Bonaventure,8,6,46,64,St. Bonaventure
 St. Bonaventure,VCU,64,67,VCU,3,4,61,63,VCU
+Dayton,St. Bonaventure,33,29,Dayton,4,4,29,25,Dayton
 Northeastern,UMass,79,94,UMass,5,9,74,85,UMass
 UMass,Northeastern,75,78,Northeastern,7,7,68,71,Northeastern
 Bryant,UMass,93,88,Bryant,9,9,84,79,Bryant
@@ -637,6 +641,7 @@ Miami,Wake Forest,54,66,Wake Forest,9,13,45,53,Wake Forest
 Duke,Miami,75,77,Miami,5,7,70,70,Wake Forest
 Virginia Tech,Miami,80,76,Virginia Tech,8,6,72,70,Virginia Tech
 Miami,Notre Dame,61,71,Notre Dame,5,7,56,64,Notre Dame
+Miami,Virginia,11,10,Miami,1,2,10,8,Miami
 Charleston Southern,NC State,61,95,NC State,5,11,56,84,NC State
 Campbell,NC State,50,69,NC State,2,5,48,64,NC State
 North Carolina,NC State,76,79,NC State,2,8,74,71,North Carolina
@@ -702,6 +707,7 @@ William & Mary,Virginia,40,76,Virginia,3,9,37,67,Virginia
 Virginia,Gonzaga,75,98,Gonzaga,10,10,65,88,Gonzaga
 Wake Forest,Virginia,61,70,Virginia,10,6,51,64,Virginia
 Virginia,Virginia Tech,51,65,Virginia Tech,10,9,41,56,Virginia Tech
+Miami,Virginia,11,12,Virginia,1,2,10,10,NC State
 Radford,Virginia Tech,62,77,Virginia Tech,6,11,56,66,Virginia Tech
 Virginia Tech,Villanova,81,73,Virginia Tech,10,9,71,64,Virginia Tech
 VMI,Virginia Tech,57,64,Virginia Tech,7,4,50,60,Virginia Tech
@@ -1195,6 +1201,7 @@ Presbyterian,Hampton,57,62,Hampton,1,5,56,57,Hampton
 Hampton,Longwood,73,83,Longwood,11,12,62,71,Longwood
 Hampton,Longwood,74,68,Hampton,10,7,64,61,Hampton
 Presbyterian,Hampton,65,67,Hampton,6,7,59,60,Hampton
+Hampton,Radford,8,14,Radford,0,1,8,13,Radford
 High Point,Elon,75,76,Elon,5,8,70,68,High Point
 High Point,UNC Asheville,67,80,UNC Asheville,2,13,65,67,UNC Asheville
 High Point,UNC Asheville,84,90,UNC Asheville,5,12,79,78,High Point
@@ -1209,6 +1216,7 @@ Presbyterian,High Point,71,56,Presbyterian,8,3,63,53,Presbyterian
 Winthrop,High Point,76,70,Winthrop,7,6,69,64,Winthrop
 Winthrop,High Point,71,63,Winthrop,10,5,61,58,Winthrop
 South Carolina Upstate,High Point,60,65,High Point,7,4,53,61,High Point
+High Point,Winthrop,6,23,Winthrop,0,4,6,19,Winthrop
 Longwood,VMI,71,84,VMI,6,6,65,78,VMI
 Greensboro,Longwood,67,64,Greensboro,7,9,60,55,Greensboro
 North Carolina A&T,Longwood,60,77,Longwood,7,11,53,66,Longwood
@@ -1243,6 +1251,7 @@ South Carolina Upstate,Radford,66,102,Radford,6,13,60,89,Radford
 Winthrop,Radford,80,64,Winthrop,9,7,71,57,Winthrop
 Winthrop,Radford,55,47,Winthrop,8,1,47,46,Winthrop
 Mount Aloysius,Radford,51,74,Radford,8,6,43,68,Radford
+Hampton,Radford,10,14,Radford,0,1,10,13,Radford
 South Wesleyan,South Carolina Upstate,82,72,South Wesleyan,11,7,71,65,South Wesleyan
 South Carolina Upstate,Furman,63,91,Furman,8,8,55,83,Furman
 Eastern Kentucky,South Carolina Upstate,95,78,Eastern Kentucky,10,7,85,71,Eastern Kentucky
@@ -1491,7 +1500,7 @@ Hawai'i,CSU Northridge,80,88,CSU Northridge,13,13,67,75,CSU Northridge
 Bethesda,Cal Poly,46,100,Cal Poly,8,11,38,89,Cal Poly
 San Francisco,Cal Poly,88,60,San Francisco,10,3,78,57,San Francisco
 Santa Clara,Cal Poly,76,69,Santa Clara,5,7,71,62,Santa Clara
-San JosÃ© St,Cal Poly,71,73,Cal Poly,6,4,65,69,Cal Poly
+San José St,Cal Poly,71,73,Cal Poly,6,4,65,69,Cal Poly
 San Diego,Cal Poly,70,61,San Diego,3,6,67,55,San Diego
 Cal Poly,Loyola Marymount,52,76,Loyola Marymount,6,6,46,70,Loyola Marymount
 UC Riverside,Cal Poly,86,51,UC Riverside,12,7,74,44,UC Riverside
@@ -1703,7 +1712,7 @@ Florida International,UTEP,59,75,UTEP,11,12,48,63,UTEP
 Florida International,UTEP,68,77,UTEP,7,5,61,72,UTEP
 Southern Miss,Florida International,85,72,Southern Miss,3,12,82,60,Southern Miss
 Florida International,Western Kentucky,58,91,Western Kentucky,10,7,48,84,Western Kentucky
-Florida International,Western Kentucky,45,62,Western Kentucky,8,5,37,57,Western Kentucky
+Florida International,Western Kentucky,59,71,Western Kentucky,9,5,50,66,Western Kentucky
 Flagler,Florida International,81,85,Florida International,7,11,74,74,Western Kentucky
 UT Arlington,Louisiana Tech,71,76,Louisiana Tech,9,9,62,67,Louisiana Tech
 Northwestern State,Louisiana Tech,77,91,Louisiana Tech,10,11,67,80,Louisiana Tech
@@ -1838,7 +1847,6 @@ Western Kentucky,Northern Iowa,93,87,Western Kentucky,6,20,87,67,Western Kentuck
 Mississippi Valley State,Western Kentucky,69,96,Western Kentucky,12,8,57,88,Western Kentucky
 Western Kentucky,Alabama,73,71,Western Kentucky,3,7,70,64,Western Kentucky
 Tennessee Tech,Western Kentucky,68,88,Western Kentucky,6,9,62,79,Western Kentucky
-Florida International,Western Kentucky,50,64,Western Kentucky,9,5,41,59,Western Kentucky
 Cleveland State,Toledo,61,70,Toledo,7,8,54,62,Toledo
 Cleveland State,Ohio,46,101,Ohio,3,7,43,94,Ohio
 Cleveland State,Purdue Fort Wayne,63,61,Cleveland State,6,9,57,52,Cleveland State
@@ -2210,6 +2218,7 @@ Siena,Marist,63,50,Siena,7,3,56,47,Siena
 Marist,Saint Peter's,54,59,Saint Peter's,7,3,47,56,Saint Peter's
 Marist,Saint Peter's,51,50,Marist,4,3,47,47,Saint Peter's
 Quinnipiac,Marist,67,76,Marist,14,10,53,66,Marist
+Quinnipiac,Marist,16,19,Marist,1,2,15,17,Marist
 Saint Peter's,Monmouth,76,78,Monmouth,11,9,65,69,Monmouth
 Saint Peter's,Monmouth,78,76,Saint Peter's,10,5,68,71,Monmouth
 Monmouth,Siena,77,78,Siena,8,9,69,69,Monmouth
@@ -2571,8 +2580,8 @@ Wyoming,Air Force,69,72,Air Force,10,8,59,64,Air Force
 Wyoming,Air Force,77,58,Wyoming,16,1,61,57,Wyoming
 San Diego State,Air Force,98,61,San Diego State,13,9,85,52,San Diego State
 San Diego State,Air Force,91,59,San Diego State,16,8,75,51,San Diego State
-Air Force,San JosÃ© St,58,59,San JosÃ© St,8,6,50,53,San JosÃ© St
-Air Force,San JosÃ© St,62,75,San JosÃ© St,11,9,51,66,San JosÃ© St
+Air Force,San José St,58,59,San José St,8,6,50,53,San José St
+Air Force,San José St,62,75,San José St,11,9,51,66,San José St
 Air Force,UNLV,58,68,UNLV,15,2,43,66,UNLV
 Air Force,UNLV,64,69,UNLV,9,9,55,60,UNLV
 Fresno State,Air Force,69,63,Fresno State,6,11,63,52,Fresno State
@@ -2585,8 +2594,8 @@ College of Idaho,Boise State,49,86,Boise State,5,7,44,79,Boise State
 Boise State,BYU,74,70,Boise State,6,7,68,63,Boise State
 New Mexico,Boise State,53,77,Boise State,5,5,48,72,Boise State
 New Mexico,Boise State,52,89,Boise State,1,11,51,78,Boise State
-Boise State,San JosÃ© St,106,54,Boise State,11,3,95,51,Boise State
-Boise State,San JosÃ© St,87,86,Boise State,8,14,79,72,Boise State
+Boise State,San José St,106,54,Boise State,11,3,95,51,Boise State
+Boise State,San José St,87,86,Boise State,8,14,79,72,Boise State
 Boise State,Wyoming,83,60,Boise State,7,6,76,54,Boise State
 Boise State,Wyoming,90,70,Boise State,5,7,85,63,Boise State
 Fresno State,Boise State,51,73,Boise State,3,6,48,67,Boise State
@@ -2609,8 +2618,8 @@ Colorado State,San Diego State,70,67,Colorado State,11,14,59,53,Colorado State
 Colorado State,San Diego State,65,78,San Diego State,7,14,58,64,San Diego State
 UNLV,Colorado State,71,74,Colorado State,7,12,64,62,UNLV
 UNLV,Colorado State,80,83,Colorado State,6,16,74,67,UNLV
-Colorado State,San JosÃ© St,90,57,Colorado State,12,8,78,49,Colorado State
-Colorado State,San JosÃ© St,88,61,Colorado State,12,6,76,55,Colorado State
+Colorado State,San José St,90,57,Colorado State,12,8,78,49,Colorado State
+Colorado State,San José St,88,61,Colorado State,12,6,76,55,Colorado State
 Colorado State,Utah State,64,83,Utah State,9,10,55,73,Utah State
 Colorado State,Utah State,84,76,Colorado State,9,8,75,68,Colorado State
 Colorado State,Wyoming,74,72,Colorado State,6,10,68,62,Colorado State
@@ -2619,8 +2628,8 @@ William Jessup,Fresno State,47,87,Fresno State,8,5,39,82,Fresno State
 Fresno Pacific,Fresno State,65,78,Fresno State,10,8,55,70,Fresno State
 Wyoming,Fresno State,78,74,Wyoming,12,5,66,69,Fresno State
 Wyoming,Fresno State,61,81,Fresno State,5,6,56,75,Fresno State
-San JosÃ© St,Fresno State,64,79,Fresno State,6,7,58,72,Fresno State
-San JosÃ© St,Fresno State,65,80,Fresno State,7,13,58,67,Fresno State
+San José St,Fresno State,64,79,Fresno State,6,7,58,72,Fresno State
+San José St,Fresno State,65,80,Fresno State,7,13,58,67,Fresno State
 Fresno State,Nevada,57,73,Nevada,7,10,50,63,Nevada
 Fresno State,Nevada,65,79,Nevada,6,5,59,74,Nevada
 New Mexico,Fresno State,62,64,Fresno State,1,10,61,54,New Mexico
@@ -2653,8 +2662,8 @@ Utah State,New Mexico,82,46,Utah State,7,5,75,41,Utah State
 New Mexico,Dixie State,72,63,New Mexico,2,8,70,55,New Mexico
 New Mexico,UNLV,54,77,UNLV,3,10,51,67,UNLV
 New Mexico,UNLV,46,53,UNLV,6,6,40,47,UNLV
-San JosÃ© St,New Mexico,51,67,New Mexico,3,3,48,64,New Mexico
-San JosÃ© St,New Mexico,83,71,San JosÃ© St,10,5,73,66,San JosÃ© St
+San José St,New Mexico,51,67,New Mexico,3,3,48,64,New Mexico
+San José St,New Mexico,83,71,San José St,10,5,73,66,San José St
 Wyoming,New Mexico,83,74,Wyoming,13,7,70,67,Wyoming
 Wyoming,New Mexico,79,67,Wyoming,9,3,70,64,Wyoming
 UCLA,San Diego State,58,73,San Diego State,7,9,51,64,San Diego State
@@ -2667,15 +2676,15 @@ San Diego State,Utah State,45,57,Utah State,5,9,40,48,Utah State
 San Diego State,Utah State,59,64,Utah State,6,7,53,57,Utah State
 Wyoming,San Diego State,57,87,San Diego State,10,11,47,76,San Diego State
 Wyoming,San Diego State,71,98,San Diego State,10,11,61,87,San Diego State
-San JosÃ© St,San Diego State,54,85,San Diego State,7,6,47,79,San Diego State
-San JosÃ© St,San Diego State,55,77,San Diego State,10,10,45,67,San Diego State
-Fresno Pacific,San JosÃ© St,79,87,San JosÃ© St,5,10,74,77,San JosÃ© St
-San JosÃ© St,Saint Mary's,61,96,Saint Mary's,9,6,52,90,Saint Mary's
-San JosÃ© St,Utah State,62,107,Utah State,6,11,56,96,Utah State
-San JosÃ© St,Utah State,52,85,Utah State,4,8,48,77,Utah State
-Benedictine (AZ),San JosÃ© St,64,80,San JosÃ© St,10,8,54,72,San JosÃ© St
-UNLV,San JosÃ© St,76,60,UNLV,5,7,71,53,UNLV
-UNLV,San JosÃ© St,67,64,UNLV,7,9,60,55,UNLV
+San José St,San Diego State,54,85,San Diego State,7,6,47,79,San Diego State
+San José St,San Diego State,55,77,San Diego State,10,10,45,67,San Diego State
+Fresno Pacific,San José St,79,87,San José St,5,10,74,77,San José St
+San José St,Saint Mary's,61,96,Saint Mary's,9,6,52,90,Saint Mary's
+San José St,Utah State,62,107,Utah State,6,11,56,96,Utah State
+San José St,Utah State,52,85,Utah State,4,8,48,77,Utah State
+Benedictine (AZ),San José St,64,80,San José St,10,8,54,72,San José St
+UNLV,San José St,76,60,UNLV,5,7,71,53,UNLV
+UNLV,San José St,67,64,UNLV,7,9,60,55,UNLV
 UNLV,Alabama,74,86,Alabama,13,15,61,71,Alabama
 St. Katherine,UNLV,34,95,UNLV,2,12,32,83,UNLV
 Benedict,UNLV,45,99,UNLV,8,8,37,91,UNLV
@@ -3433,6 +3442,7 @@ McNeese,Central Arkansas,80,70,McNeese,14,11,66,59,McNeese
 Central Arkansas,Sam Houston State,57,97,Sam Houston State,6,13,51,84,Sam Houston State
 Central Arkansas,Nicholls,68,79,Nicholls,11,9,57,70,Nicholls
 Central Arkansas,New Orleans,63,88,New Orleans,4,6,59,82,New Orleans
+Stephen F. Austin,Central Arkansas,79,66,Stephen F. Austin,3,7,76,59,Stephen F. Austin
 Champion Christian College,Houston Baptist,60,93,Houston Baptist,9,13,51,80,Houston Baptist
 Northwestern State,Houston Baptist,93,99,Houston Baptist,7,12,86,87,Houston Baptist
 Houston Baptist,Lamar,65,71,Lamar,9,3,56,68,Lamar
@@ -3501,6 +3511,7 @@ Nicholls,Northwestern State,76,66,Nicholls,5,4,71,62,Nicholls
 Carver College,Nicholls,60,105,Nicholls,4,9,56,96,Nicholls
 Nicholls,Sam Houston State,71,78,Sam Houston State,7,8,64,70,Sam Houston State
 Nicholls,SE Louisiana,86,84,Nicholls,8,9,78,75,Nicholls
+Northwestern State,Nicholls,4,12,Nicholls,0,1,4,11,Nicholls
 Northwestern State,UT Arlington,71,80,UT Arlington,9,6,62,74,UT Arlington
 UL Monroe,Northwestern State,92,83,UL Monroe,8,11,84,72,UL Monroe
 Champion Christian College,Northwestern State,44,77,Northwestern State,6,10,38,67,Northwestern State
