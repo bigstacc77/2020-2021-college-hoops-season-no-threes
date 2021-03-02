@@ -87,7 +87,7 @@ with open('collegehoops.csv', 'w', newline='') as f:
         awayTeamName = teamName[0].next_element
 
         #Adds overtime games to list
-        if str(timeLeft.next_element) == 'Final/OT':
+        if str(timeLeft.next_element) == 'Final/OT' or str(timeLeft.next_element) == 'Final/2OT':
             overtimeGamesPrev.append(component)   
 
         #String cleanup
