@@ -18,6 +18,7 @@ Jacksonville,Bellarmine,44,63,Bellarmine,5,6,39,57,Bellarmine
 Bellarmine,North Alabama,66,64,Bellarmine,7,11,59,53,Bellarmine
 Bellarmine,North Alabama,87,63,Bellarmine,9,13,78,50,Bellarmine
 Liberty,Bellarmine,94,78,Liberty,15,3,79,75,Liberty
+Stetson,Bellarmine,73,70,Stetson,11,7,62,63,Bellarmine
 Florida A&M,Florida Gulf Coast,56,65,Florida Gulf Coast,6,6,50,59,Florida Gulf Coast
 Florida Gulf Coast,South Florida,57,76,South Florida,7,7,50,69,South Florida
 Florida National,Florida Gulf Coast,74,91,Florida Gulf Coast,9,8,65,83,Florida Gulf Coast
@@ -32,6 +33,8 @@ Stetson,Florida Gulf Coast,77,66,Stetson,12,10,65,56,Stetson
 North Alabama,Florida Gulf Coast,60,86,Florida Gulf Coast,5,9,55,77,Florida Gulf Coast
 North Alabama,Florida Gulf Coast,60,69,Florida Gulf Coast,4,8,56,61,Florida Gulf Coast
 Florida Gulf Coast,Kennesaw State,63,80,Kennesaw State,9,8,54,72,Kennesaw State
+Florida Gulf Coast,Lipscomb,72,60,Florida Gulf Coast,7,6,65,54,Florida Gulf Coast
+Florida Gulf Coast,North Alabama,81,96,North Alabama,7,11,74,85,North Alabama
 College of Coastal Georgia,Jacksonville,57,99,Jacksonville,6,14,51,85,Jacksonville
 Southern Miss,Jacksonville,51,66,Jacksonville,3,9,48,57,Jacksonville
 Presbyterian,Jacksonville,65,78,Jacksonville,9,7,56,71,Jacksonville
@@ -72,6 +75,7 @@ Stetson,Kennesaw State,74,61,Stetson,6,6,68,55,Stetson
 Stetson,Kennesaw State,75,83,Kennesaw State,6,11,69,72,Kennesaw State
 Kennesaw State,Lipscomb,62,76,Lipscomb,4,6,58,70,Lipscomb
 Kennesaw State,Lipscomb,63,77,Lipscomb,4,10,59,67,Lipscomb
+Kennesaw State,Liberty,59,69,Liberty,4,8,55,61,Liberty
 Liberty,Purdue,64,77,Purdue,11,9,53,68,Purdue
 Liberty,Mississippi State,84,73,Liberty,19,4,65,69,Mississippi State
 South Carolina,Liberty,62,78,Liberty,3,11,59,67,Liberty
@@ -92,6 +96,8 @@ North Florida,Liberty,61,73,Liberty,11,9,50,64,Liberty
 North Florida,Liberty,60,80,Liberty,7,11,53,69,Liberty
 North Alabama,Liberty,54,74,Liberty,6,12,48,62,Liberty
 North Alabama,Liberty,54,74,Liberty,5,16,49,58,Liberty
+Stetson,Liberty,64,77,Liberty,9,7,55,70,Liberty
+North Alabama,Liberty,75,79,Liberty,12,10,63,69,Liberty
 Lipscomb,Lamar,76,73,Lipscomb,10,5,66,68,Lamar
 Lipscomb,Tulane,66,68,Tulane,6,9,60,59,Lipscomb
 Lipscomb,Cincinnati,55,67,Cincinnati,3,4,52,63,Cincinnati
@@ -118,6 +124,7 @@ Stetson,North Alabama,86,77,Stetson,12,10,74,67,Stetson
 Stetson,North Alabama,66,73,North Alabama,10,9,56,64,North Alabama
 North Alabama,North Florida,82,78,North Alabama,5,9,77,69,North Alabama
 North Alabama,North Florida,72,82,North Florida,6,11,66,71,North Florida
+North Alabama,North Florida,68,60,North Alabama,2,5,66,55,North Alabama
 North Florida,Eastern Kentucky,67,80,Eastern Kentucky,10,5,57,75,Eastern Kentucky
 North Florida,NC State,51,86,NC State,7,8,44,78,NC State
 North Florida,Miami,59,77,Miami,12,5,47,72,Miami
@@ -188,6 +195,8 @@ Hartford,Stony Brook,59,57,Hartford,3,8,56,49,Hartford
 Hartford,Stony Brook,49,63,Stony Brook,3,7,46,56,Stony Brook
 NJIT,Hartford,67,57,NJIT,7,8,60,49,NJIT
 NJIT,Hartford,61,75,Hartford,8,9,53,66,Hartford
+Hartford,Vermont,71,65,Hartford,10,5,61,60,Hartford
+UMass Lowell,Hartford,50,64,Hartford,7,3,43,61,Hartford
 Maine,Boston College,62,78,Boston College,8,9,54,69,Boston College
 New Hampshire,Maine,56,59,Maine,4,6,52,53,Maine
 New Hampshire,Maine,62,58,New Hampshire,2,9,60,49,New Hampshire
@@ -236,6 +245,7 @@ Delaware,UMBC,61,76,UMBC,6,7,55,69,UMBC
 UMBC,Coppin State,66,49,UMBC,3,7,63,42,UMBC
 Vermont,UMBC,80,71,Vermont,10,8,70,63,Vermont
 Vermont,UMBC,55,66,UMBC,4,5,51,61,UMBC
+UMass Lowell,UMBC,79,77,UMass Lowell,13,10,66,67,UMBC
 San Francisco,UMass Lowell,68,76,UMass Lowell,5,5,63,71,UMass Lowell
 Illinois State,UMass Lowell,82,72,Illinois State,8,5,74,67,Illinois State
 UMass Lowell,Ohio State,64,74,Ohio State,11,4,53,70,Ohio State
@@ -259,6 +269,11 @@ Cincinnati,Houston,52,90,Houston,5,9,47,81,Houston
 Cincinnati,Tulsa,70,69,Cincinnati,10,8,60,61,Tulsa
 Tulane,Cincinnati,71,91,Cincinnati,7,10,64,81,Cincinnati
 Memphis,Cincinnati,80,74,Memphis,7,9,73,65,Memphis
+Vanderbilt,Cincinnati,78,64,Vanderbilt,8,9,70,55,Vanderbilt
+Cincinnati,East Carolina,82,69,Cincinnati,12,4,70,65,Cincinnati
+Cincinnati,SMU,74,71,Cincinnati,8,10,66,61,Cincinnati
+Cincinnati,Wichita State,60,59,Cincinnati,5,9,55,50,Cincinnati
+Cincinnati,Houston,54,91,Houston,8,11,46,80,Houston
 East Carolina,Charlotte,66,57,East Carolina,2,5,64,52,East Carolina
 NC Wesleyan,East Carolina,62,91,East Carolina,5,9,57,82,East Carolina
 Radford,East Carolina,50,63,East Carolina,4,5,46,58,East Carolina
@@ -274,6 +289,8 @@ Tulsa,East Carolina,77,68,Tulsa,6,5,71,63,Tulsa
 Houston,East Carolina,73,82,East Carolina,9,11,64,71,East Carolina
 East Carolina,Memphis,59,66,Memphis,1,8,58,58,East Carolina
 SMU,East Carolina,71,56,SMU,4,2,67,54,SMU
+UCF,East Carolina,64,60,UCF,8,8,56,52,UCF
+East Carolina,UCF,62,72,UCF,3,6,59,66,UCF
 Lamar,Houston,45,89,Houston,1,13,44,76,Houston
 Boise State,Houston,58,68,Houston,1,5,57,63,Houston
 Texas Tech,Houston,53,64,Houston,4,8,49,56,Houston
@@ -295,6 +312,9 @@ Houston,South Florida,82,65,Houston,8,6,74,59,Houston
 Houston,Wichita State,63,68,Wichita State,8,10,55,58,Wichita State
 Western Kentucky,Houston,57,81,Houston,4,13,53,68,Houston
 South Florida,Houston,52,98,Houston,7,15,45,83,Houston
+Memphis,Houston,64,67,Houston,8,8,56,59,Houston
+Tulane,Houston,52,77,Houston,4,12,48,65,Houston
+Memphis,Houston,74,76,Houston,7,7,67,69,Houston
 Saint Mary's,Memphis,56,73,Memphis,1,7,55,66,Memphis
 Western Kentucky,Memphis,75,69,Western Kentucky,8,9,67,60,Western Kentucky
 VCU,Memphis,70,59,VCU,7,6,63,53,VCU
@@ -313,6 +333,8 @@ UCF,Memphis,69,96,Memphis,8,13,61,83,Memphis
 UCF,Memphis,61,75,Memphis,4,3,57,72,Memphis
 East Carolina,Memphis,59,66,Memphis,1,8,58,58,Memphis
 Tulane,Memphis,46,61,Memphis,2,5,44,56,Memphis
+Memphis,South Florida,73,52,Memphis,11,3,62,49,Memphis
+UCF,Memphis,62,70,Memphis,7,6,55,64,Memphis
 Sam Houston State,SMU,67,97,SMU,8,11,59,86,SMU
 Texas A&M-CC,SMU,54,91,SMU,6,10,48,81,SMU
 Houston Baptist,SMU,75,102,SMU,12,8,63,94,SMU
@@ -332,6 +354,9 @@ Tulane,South Florida,62,59,Tulane,7,6,55,53,Tulane
 South Florida,UCF,65,81,UCF,5,9,60,72,UCF
 South Florida,Temple,83,76,South Florida,9,10,74,66,South Florida
 Temple,South Florida,65,47,Temple,11,7,54,40,Temple
+South Florida,Wichita State,63,80,Wichita State,5,11,58,69,Wichita State
+Temple,South Florida,71,73,South Florida,7,5,64,68,South Florida
+South Florida,Wichita State,67,68,Wichita State,10,10,57,58,Wichita State
 UCF,Temple,55,62,Temple,7,9,48,53,Temple
 Temple,Tulane,65,57,Temple,8,7,57,50,Temple
 Tulsa,Temple,67,76,Temple,7,7,60,69,Temple
@@ -347,6 +372,8 @@ Cincinnati,Tulane,64,61,Cincinnati,6,3,58,58,Wichita State
 Tulane,Tulsa,58,48,Tulane,8,4,50,44,Tulane
 Tulane,UCF,49,53,UCF,5,10,44,43,Tulane
 UCF,Tulane,84,81,UCF,14,11,70,70,Tulane
+Wichita State,Tulane,78,70,Wichita State,13,7,65,63,Wichita State
+Tulane,Tulsa,77,70,Tulane,6,12,71,58,Tulane
 Tulsa,TCU,65,70,TCU,4,11,61,59,Tulsa
 South Carolina,Tulsa,69,58,South Carolina,9,4,60,54,South Carolina
 UT Arlington,Tulsa,64,79,Tulsa,10,8,54,71,Tulsa
@@ -355,6 +382,8 @@ Northwestern State,Tulsa,55,82,Tulsa,7,9,48,73,Tulsa
 SW Christian Univ,Tulsa,45,102,Tulsa,6,11,39,91,Tulsa
 Tulsa,Wichita State,53,72,Wichita State,4,11,49,61,Wichita State
 UCF,Tulsa,65,58,UCF,13,8,52,50,UCF
+Tulsa,UCF,69,73,UCF,8,8,61,65,UCF
+Northeastern State,Tulsa,74,107,Tulsa,10,14,64,93,Tulsa
 Auburn,UCF,55,63,UCF,7,7,48,56,UCF
 UCF,Michigan,58,80,Michigan,5,9,53,71,Michigan
 UCF,Florida State,86,74,UCF,9,10,77,64,UCF
@@ -386,6 +415,8 @@ Southern Virginia,Davidson,51,101,Davidson,9,18,42,83,Davidson
 Davidson,St. Bonaventure,58,69,St. Bonaventure,13,11,45,58,St. Bonaventure
 St. Bonaventure,Davidson,56,53,St. Bonaventure,11,8,45,45,St. Bonaventure
 VCU,Davidson,57,65,Davidson,4,7,53,58,Davidson
+George Mason,Davidson,67,99,Davidson,5,17,62,82,Davidson
+Davidson,VCU,52,64,VCU,9,5,43,59,VCU
 Eastern Illinois,Dayton,63,66,Dayton,6,7,57,59,Dayton
 Northern Kentucky,Dayton,60,66,Dayton,5,4,55,62,Dayton
 Mississippi State,Dayton,82,85,Dayton,5,8,77,77,Dayton
@@ -405,6 +436,8 @@ Dayton,Rhode Island,89,91,Rhode Island,5,7,84,84,VCU
 Saint Louis,Dayton,53,76,Dayton,7,8,46,68,Dayton
 Dayton,Saint Joseph's,84,97,Saint Joseph's,10,18,74,79,Saint Joseph's
 Dayton,St. Bonaventure,55,52,Dayton,6,7,49,45,Dayton
+Rhode Island,Dayton,72,84,Dayton,9,12,63,72,Dayton
+Dayton,VCU,68,73,VCU,10,5,58,68,VCU
 Little Rock,Duquesne,76,66,Little Rock,3,7,73,59,Little Rock
 UNC Greensboro,Duquesne,68,81,Duquesne,9,6,59,75,Duquesne
 Duquesne,George Washington,75,63,Duquesne,8,3,67,60,Duquesne
@@ -418,6 +451,8 @@ Saint Joseph's,Duquesne,50,67,Duquesne,7,6,43,61,Duquesne
 Duquesne,Richmond,72,79,Richmond,5,9,67,70,Richmond
 Duquesne,La Salle,65,85,La Salle,4,11,61,74,La Salle
 Rhode Island,Duquesne,75,86,Duquesne,3,9,72,77,Duquesne
+Duquesne,Richmond,67,62,Duquesne,5,5,62,57,Duquesne
+Duquesne,St. Bonaventure,59,75,St. Bonaventure,5,6,54,69,St. Bonaventure
 George Washington,Fordham,71,47,George Washington,9,2,62,45,George Washington
 Fordham,La Salle,52,89,La Salle,4,16,48,73,La Salle
 Fordham,Duquesne,45,48,Duquesne,2,5,43,43,Dayton
@@ -428,12 +463,13 @@ Fordham,UMass,54,60,UMass,3,8,51,52,UMass
 La Salle,Fordham,68,76,Fordham,9,11,59,65,Fordham
 Fordham,George Mason,45,77,George Mason,4,11,41,66,George Mason
 Saint Louis,Fordham,68,40,Saint Louis,9,2,59,38,Saint Louis
+Fordham,George Washington,49,53,George Washington,6,6,43,47,George Washington
 Queens NC,George Mason,65,66,George Mason,3,6,62,60,Queens NC
 George Mason,Belmont,67,77,Belmont,2,8,65,69,Belmont
 George Mason,Howard,84,70,George Mason,17,11,67,59,George Mason
 VMI,George Mason,66,68,George Mason,7,9,59,59,George Mason
 Towson,George Mason,65,70,George Mason,4,9,61,61,George Mason
-Norfolk St,George Mason,68,65,Norfolk St,7,6,61,59,Norfolk St
+Norfolk State,George Mason,68,65,Norfolk State,7,6,61,59,Norfolk State
 George Mason,UMass,93,92,George Mason,7,10,86,82,George Mason
 VCU,George Mason,66,61,VCU,6,4,60,57,VCU
 Richmond,George Mason,77,57,Richmond,8,4,69,53,Richmond
@@ -445,6 +481,7 @@ George Mason,St. Bonaventure,67,84,St. Bonaventure,10,5,57,79,St. Bonaventure
 George Mason,VCU,79,76,George Mason,3,5,76,71,George Mason
 George Washington,George Mason,58,63,George Mason,4,7,54,56,George Mason
 La Salle,George Mason,54,89,George Mason,5,11,49,78,George Mason
+George Washington,George Mason,59,73,George Mason,5,5,54,68,George Mason
 George Washington,Navy,71,78,Navy,9,10,62,68,Navy
 Hampton,George Washington,82,78,Hampton,10,3,72,75,George Washington
 Coppin State,George Washington,69,85,George Washington,11,3,58,82,George Washington
@@ -471,6 +508,7 @@ Saint Louis,La Salle,75,82,La Salle,4,8,71,74,La Salle
 La Salle,St. Bonaventure,73,86,St. Bonaventure,12,9,61,77,St. Bonaventure
 La Salle,Saint Louis,57,78,Saint Louis,5,6,52,72,Saint Louis
 La Salle,Saint Joseph's,82,91,Saint Joseph's,3,11,79,80,Saint Joseph's
+Saint Joseph's,La Salle,72,66,Saint Joseph's,7,8,65,58,Saint Joseph's
 Arizona State,Rhode Island,94,88,Arizona State,6,9,88,79,Arizona State
 Boston College,Rhode Island,69,64,Boston College,7,3,62,61,Boston College
 San Francisco,Rhode Island,71,84,Rhode Island,11,4,60,80,Rhode Island
@@ -508,6 +546,7 @@ Saint Joseph's,Villanova,68,88,Villanova,10,9,58,79,Villanova
 Saint Joseph's,Tennessee,66,102,Tennessee,5,10,61,92,Tennessee
 VCU,Saint Joseph's,80,64,VCU,8,7,72,57,VCU
 Saint Joseph's,St. Bonaventure,57,83,St. Bonaventure,10,10,47,73,St. Bonaventure
+Saint Joseph's,UMass,66,100,UMass,11,15,55,85,UMass
 SIU Edwardsville,Saint Louis,52,89,Saint Louis,2,10,50,79,Saint Louis
 LSU,Saint Louis,81,85,Saint Louis,9,10,72,75,Saint Louis
 Arkansas-Pine Bluff,Saint Louis,54,107,Saint Louis,8,11,46,96,Saint Louis
@@ -519,10 +558,13 @@ UM Kansas City,Saint Louis,46,62,Saint Louis,5,5,41,57,Saint Louis
 St. Bonaventure,Saint Louis,59,70,Saint Louis,6,11,53,59,Saint Louis
 Saint Louis,VCU,65,67,VCU,6,7,59,60,VCU
 UMass,Saint Louis,57,78,Saint Louis,8,6,49,72,Saint Louis
+UMass,Saint Louis,72,86,Saint Louis,6,4,66,82,Saint Louis
+Saint Louis,St. Bonaventure,53,71,St. Bonaventure,5,5,48,66,St. Bonaventure
 St. Bonaventure,Akron,81,74,St. Bonaventure,1,6,80,68,St. Bonaventure
 Hofstra,St. Bonaventure,69,77,St. Bonaventure,9,7,60,70,St. Bonaventure
 VCU,St. Bonaventure,54,70,St. Bonaventure,8,6,46,64,St. Bonaventure
 St. Bonaventure,VCU,64,67,VCU,3,4,61,63,VCU
+VCU,St. Bonaventure,65,74,St. Bonaventure,6,8,59,66,St. Bonaventure
 Northeastern,UMass,79,94,UMass,5,9,74,85,UMass
 UMass,Northeastern,75,78,Northeastern,7,7,68,71,Northeastern
 Bryant,UMass,93,88,Bryant,9,9,84,79,Bryant
@@ -549,6 +591,9 @@ NC State,Boston College,81,65,NC State,6,9,75,56,NC State
 Wake Forest,Boston College,69,65,Wake Forest,7,8,62,57,Wake Forest
 Boston College,Syracuse,67,75,Syracuse,9,5,58,70,Syracuse
 Notre Dame,Boston College,90,94,Boston College,7,9,83,85,Boston College
+Boston College,Florida State,64,93,Florida State,12,13,52,80,Florida State
+Boston College,Miami,76,80,Miami,9,7,67,73,Miami
+Boston College,Duke,51,86,Duke,1,15,50,71,Duke
 Mississippi State,Clemson,42,53,Clemson,4,5,38,48,Clemson
 Purdue,Clemson,70,81,Clemson,9,10,61,71,Clemson
 South Carolina State,Clemson,38,75,Clemson,1,8,37,67,Clemson
@@ -569,6 +614,9 @@ Syracuse,Clemson,61,78,Clemson,5,10,56,68,Clemson
 Georgia Tech,Clemson,72,74,Clemson,5,9,67,65,Georgia Tech
 Clemson,Wake Forest,60,39,Clemson,7,5,53,34,Clemson
 Miami,Clemson,58,66,Clemson,5,11,53,55,Clemson
+Clemson,Syracuse,54,64,Syracuse,10,10,44,54,Syracuse
+Pittsburgh,Clemson,62,77,Clemson,9,12,53,65,Clemson
+Miami,Clemson,67,64,Miami,5,12,62,52,Miami
 Coppin State,Duke,71,81,Duke,10,9,61,72,Duke
 Michigan State,Duke,75,69,Michigan State,5,5,70,64,Michigan State
 Illinois,Duke,83,68,Illinois,7,5,76,63,Illinois
@@ -586,6 +634,9 @@ Duke,Wake Forest,84,60,Duke,11,7,73,53,Duke
 Virginia,Duke,65,66,Duke,5,9,60,57,Virginia
 Syracuse,Duke,71,85,Duke,8,13,63,72,Duke
 Louisville,Duke,80,73,Louisville,4,4,76,69,Louisville
+Duke,Georgia Tech,77,81,Georgia Tech,7,6,70,75,Georgia Tech
+Duke,North Carolina,73,91,North Carolina,5,8,68,83,North Carolina
+Duke,Louisville,70,56,Duke,6,7,64,49,Duke
 Indiana,Florida State,67,69,Florida State,4,8,63,61,Indiana
 Florida,Florida State,71,83,Florida State,10,8,61,75,Florida State
 Georgia Tech,Florida State,61,74,Florida State,5,8,56,66,Florida State
@@ -600,7 +651,10 @@ Virginia,Florida State,60,81,Florida State,9,13,51,68,Florida State
 Florida State,Pittsburgh,79,72,Florida State,4,4,75,68,Florida State
 Florida State,Miami,88,71,Florida State,9,8,79,63,Florida State
 Florida State,North Carolina,70,78,North Carolina,5,5,65,73,North Carolina
-Georgia State,Georgia Tech,123,120,Georgia State,10,7,113,113,North Carolina
+Florida State,Notre Dame,73,83,Notre Dame,6,9,67,74,Notre Dame
+North Carolina,Florida State,66,69,Florida State,6,5,60,64,Florida State
+Georgia Tech,Florida State,80,75,Georgia Tech,5,8,75,67,Georgia Tech
+Georgia State,Georgia Tech,123,120,Georgia State,10,7,113,113,Georgia Tech
 Mercer,Georgia Tech,83,73,Mercer,12,8,71,65,Mercer
 Kentucky,Georgia Tech,62,79,Georgia Tech,8,8,54,71,Georgia Tech
 Georgia Tech,Nebraska,75,64,Georgia Tech,8,8,67,56,Georgia Tech
@@ -616,7 +670,8 @@ Pittsburgh,Georgia Tech,65,71,Georgia Tech,7,6,58,65,Georgia Tech
 Georgia Tech,Miami,87,60,Georgia Tech,11,5,76,55,Georgia Tech
 Georgia Tech,Virginia Tech,69,53,Georgia Tech,8,5,61,48,Georgia Tech
 Syracuse,Georgia Tech,77,84,Georgia Tech,7,5,70,79,Georgia Tech
-Georgia State,Georgia Tech,123,120,Georgia State,10,7,113,113,Georgia Tech
+Georgia Tech,Wake Forest,75,63,Georgia Tech,4,7,71,56,Georgia Tech
+Miami,Georgia Tech,66,70,Georgia Tech,5,7,61,63,Georgia Tech
 Evansville,Louisville,44,79,Louisville,6,6,38,73,Louisville
 Seton Hall,Louisville,70,71,Louisville,6,2,64,69,Louisville
 Prairie View A&M,Louisville,64,86,Louisville,9,6,55,80,Louisville
@@ -629,6 +684,7 @@ Louisville,Wake Forest,77,65,Louisville,7,7,70,58,Louisville
 Louisville,Miami,72,78,Miami,3,8,69,70,Miami
 Louisville,North Carolina,54,99,North Carolina,1,8,53,91,North Carolina
 Notre Dame,Louisville,57,69,Louisville,7,7,50,62,Louisville
+Virginia,Louisville,68,58,Virginia,3,5,65,53,Virginia
 Purdue,Miami,54,58,Miami,4,1,50,57,Miami
 Pittsburgh,Miami,70,55,Pittsburgh,7,5,63,50,Pittsburgh
 Miami,Virginia Tech,78,80,Virginia Tech,10,9,68,71,Virginia Tech
@@ -641,6 +697,7 @@ Duke,Miami,75,77,Miami,5,7,70,70,Wake Forest
 Virginia Tech,Miami,80,76,Virginia Tech,8,6,72,70,Virginia Tech
 Miami,Notre Dame,61,71,Notre Dame,5,7,56,64,Notre Dame
 Miami,Virginia,51,62,Virginia,4,8,47,54,Virginia
+Miami,Pittsburgh,79,73,Miami,5,10,74,63,Miami
 Charleston Southern,NC State,61,95,NC State,5,11,56,84,NC State
 Campbell,NC State,50,69,NC State,2,5,48,64,NC State
 North Carolina,NC State,76,79,NC State,2,8,74,71,North Carolina
@@ -653,6 +710,8 @@ NC State,Pittsburgh,74,73,NC State,4,6,70,67,NC State
 NC State,Wake Forest,80,62,NC State,8,7,72,55,NC State
 NC State,Virginia,68,61,NC State,5,7,63,54,NC State
 Pittsburgh,NC State,62,65,NC State,3,5,59,60,NC State
+NC State,Notre Dame,80,69,NC State,9,10,71,59,NC State
+NC State,Syracuse,68,89,Syracuse,7,14,61,75,Syracuse
 Charleston,North Carolina,60,79,North Carolina,8,4,52,75,North Carolina
 North Carolina,UNLV,78,51,North Carolina,7,8,71,43,North Carolina
 North Carolina,Stanford,67,63,North Carolina,4,5,63,58,North Carolina
@@ -667,7 +726,9 @@ North Carolina,Pittsburgh,75,65,North Carolina,4,6,71,59,North Carolina
 North Carolina,Virginia,48,60,Virginia,2,10,46,50,Virginia
 Northeastern,North Carolina,62,82,North Carolina,10,5,52,77,North Carolina
 Marquette,North Carolina,83,70,Marquette,9,5,74,65,Marquette
-North Carolina,Syracuse,38,44,Syracuse,1,8,37,36,North Carolina
+North Carolina,Syracuse,70,72,Syracuse,4,8,66,64,North Carolina
+Notre Dame,North Carolina,59,101,North Carolina,7,9,52,92,North Carolina
+North Carolina,Virginia Tech,81,73,North Carolina,8,8,73,65,North Carolina
 Notre Dame,Michigan State,70,80,Michigan State,8,7,62,73,Michigan State
 Detroit Mercy,Notre Dame,70,78,Notre Dame,8,11,62,67,Notre Dame
 Ohio State,Notre Dame,90,85,Ohio State,11,11,79,74,Ohio State
@@ -680,6 +741,7 @@ Virginia Tech,Notre Dame,62,51,Virginia Tech,7,3,55,48,Virginia Tech
 Notre Dame,Pittsburgh,84,58,Notre Dame,13,8,71,50,Notre Dame
 Wake Forest,Notre Dame,58,79,Notre Dame,9,10,49,69,Notre Dame
 Notre Dame,Syracuse,67,75,Syracuse,12,10,55,65,Syracuse
+Wake Forest,Notre Dame,77,80,Notre Dame,12,12,65,68,Notre Dame
 St. Francis (PA),Pittsburgh,80,70,St. Francis (PA),9,6,71,64,St. Francis (PA)
 Drexel,Pittsburgh,74,83,Pittsburgh,3,5,71,78,Pittsburgh
 Northern Illinois,Pittsburgh,59,89,Pittsburgh,7,14,52,75,Pittsburgh
@@ -690,6 +752,7 @@ Syracuse,Pittsburgh,76,96,Pittsburgh,3,8,73,88,Pittsburgh
 Pittsburgh,Wake Forest,75,76,Wake Forest,5,15,70,61,Pittsburgh
 Virginia Tech,Pittsburgh,72,83,Pittsburgh,9,9,63,74,Pittsburgh
 Pittsburgh,Virginia,66,73,Virginia,4,12,62,61,Pittsburgh
+Wake Forest,Pittsburgh,57,70,Pittsburgh,10,6,47,64,Pittsburgh
 Bryant,Syracuse,84,85,Syracuse,13,10,71,75,Syracuse
 Niagara,Syracuse,45,75,Syracuse,6,5,39,70,Syracuse
 Rider,Syracuse,52,87,Syracuse,7,15,45,72,Syracuse
@@ -699,6 +762,7 @@ Buffalo,Syracuse,96,107,Syracuse,9,3,87,104,Syracuse
 Georgetown,Syracuse,69,74,Syracuse,11,9,58,65,Syracuse
 Virginia Tech,Syracuse,60,78,Syracuse,8,4,52,74,Syracuse
 Syracuse,Virginia,58,81,Virginia,5,14,53,67,Virginia
+Syracuse,Virginia,69,72,Virginia,8,11,61,61,Syracuse
 Towson,Virginia,54,89,Virginia,7,15,47,74,Virginia
 Virginia,San Francisco,60,61,San Francisco,3,13,57,48,Virginia
 St. Francis (PA),Virginia,51,76,Virginia,7,5,44,71,Virginia
@@ -707,6 +771,7 @@ William & Mary,Virginia,40,76,Virginia,3,9,37,67,Virginia
 Virginia,Gonzaga,75,98,Gonzaga,10,10,65,88,Gonzaga
 Wake Forest,Virginia,61,70,Virginia,10,6,51,64,Virginia
 Virginia,Virginia Tech,51,65,Virginia Tech,10,9,41,56,Virginia Tech
+Syracuse,Virginia,69,72,Virginia,8,11,61,61,Virginia
 Radford,Virginia Tech,62,77,Virginia Tech,6,11,56,66,Virginia Tech
 Virginia Tech,Villanova,81,73,Virginia Tech,10,9,71,64,Virginia Tech
 VMI,Virginia Tech,57,64,Virginia Tech,7,4,50,60,Virginia Tech
@@ -737,6 +802,11 @@ Auburn,Baylor,72,84,Baylor,6,11,66,73,Baylor
 Baylor,Texas,83,69,Baylor,11,10,72,59,Baylor
 Iowa State,Baylor,72,77,Baylor,10,8,62,69,Baylor
 Baylor,Kansas,58,71,Kansas,6,3,52,68,Kansas
+Baylor,West Virginia,94,89,Baylor,13,9,81,80,Baylor
+Oklahoma State,Baylor,70,81,Baylor,7,9,63,72,Baylor
+Texas Tech,Baylor,73,88,Baylor,9,15,64,73,Baylor
+Kansas State,Baylor,68,74,Baylor,8,9,60,65,Baylor
+Oklahoma State,Baylor,83,74,Oklahoma State,6,6,77,68,Oklahoma State
 Arkansas-Pine Bluff,Iowa State,63,80,Iowa State,3,12,60,68,Iowa State
 South Dakota State,Iowa State,71,68,South Dakota State,9,4,62,64,Iowa State
 Iowa State,Iowa,77,105,Iowa,13,11,64,94,Iowa
@@ -755,6 +825,10 @@ Kansas,Iowa State,64,50,Kansas,7,4,57,46,Kansas
 Iowa State,Oklahoma State,58,76,Oklahoma State,6,7,52,69,Oklahoma State
 Oklahoma,Iowa State,66,56,Oklahoma,6,4,60,52,Oklahoma
 TCU,Iowa State,76,72,TCU,8,9,68,63,TCU
+Texas,Iowa State,81,67,Texas,9,8,72,59,Texas
+Iowa State,Texas Tech,54,81,Texas Tech,8,5,46,76,Texas Tech
+Iowa State,Kansas State,56,61,Kansas State,5,7,51,54,Kansas State
+Iowa State,Oklahoma,73,79,Oklahoma,8,6,65,73,Oklahoma
 Kansas,Gonzaga,90,102,Gonzaga,8,6,82,96,Gonzaga
 Kansas,Kentucky,65,62,Kansas,5,3,60,59,Kansas
 Washburn,Kansas,54,89,Kansas,9,13,45,76,Kansas
@@ -776,6 +850,8 @@ Oklahoma State,Kansas,66,78,Kansas,7,5,59,73,Kansas
 Kansas,Kansas State,59,41,Kansas,4,3,55,38,Kansas
 Texas Tech,Kansas,61,67,Kansas,5,8,56,59,Kansas
 Kansas,Texas,72,75,Texas,8,5,64,70,Texas
+UTEP,Kansas,62,67,Kansas,8,5,54,62,Kansas
+Oklahoma,Kansas,62,69,Kansas,9,8,53,61,Kansas
 Drake,Kansas State,80,70,Drake,7,8,73,62,Drake
 Colorado,Kansas State,76,58,Colorado,6,10,70,48,Colorado
 UM Kansas City,Kansas State,58,62,Kansas State,9,6,49,56,Kansas State
@@ -796,6 +872,7 @@ Kansas State,Oklahoma State,60,67,Oklahoma State,5,10,55,57,Oklahoma State
 Kansas State,TCU,62,54,Kansas State,5,4,57,50,Kansas State
 Oklahoma,Kansas State,57,62,Kansas State,4,7,53,55,Kansas State
 Kansas State,West Virginia,43,65,West Virginia,3,6,40,59,West Virginia
+Kansas State,TCU,71,50,Kansas State,7,4,64,46,Kansas State
 UTSA,Oklahoma,66,105,Oklahoma,8,17,58,88,Oklahoma
 Oklahoma,TCU,82,78,Oklahoma,6,10,76,68,Oklahoma
 Oklahoma,Xavier,77,99,Xavier,6,19,71,80,Xavier
@@ -810,6 +887,8 @@ Alabama,Oklahoma,61,66,Oklahoma,10,8,51,58,Oklahoma
 Oklahoma,Texas Tech,52,57,Texas Tech,6,5,46,52,Texas Tech
 Oklahoma,West Virginia,91,90,Oklahoma,11,7,80,83,West Virginia
 Oklahoma State,Oklahoma,94,90,Oklahoma State,9,10,85,80,Oklahoma State
+Oklahoma,Oklahoma State,75,79,Oklahoma State,13,5,62,74,Oklahoma State
+Texas,Oklahoma,69,65,Texas,8,7,61,58,Texas
 Oklahoma State,UT Arlington,75,68,Oklahoma State,7,5,68,63,Oklahoma State
 Texas Southern,Oklahoma State,65,85,Oklahoma State,3,10,62,75,Oklahoma State
 Oklahoma State,Marquette,70,62,Oklahoma State,5,8,65,54,Oklahoma State
@@ -823,6 +902,9 @@ Arkansas,Oklahoma State,77,81,Oklahoma State,5,7,72,74,Oklahoma State
 Oklahoma State,TCU,78,81,TCU,8,5,70,76,TCU
 Texas,Oklahoma State,67,75,Oklahoma State,5,5,62,70,Oklahoma State
 Texas Tech,Oklahoma State,69,74,Oklahoma State,5,2,64,72,Oklahoma State
+Oklahoma State,West Virginia,85,80,Oklahoma State,4,5,81,75,Oklahoma State
+Oklahoma State,West Virginia,72,69,Oklahoma State,6,7,66,62,Oklahoma State
+Oklahoma State,Texas,86,91,Texas,7,7,79,84,Texas
 Houston Baptist,TCU,45,69,TCU,3,7,42,62,TCU
 Northwestern State,TCU,68,74,TCU,5,7,63,67,TCU
 Providence,TCU,79,70,Providence,7,6,72,64,Providence
@@ -832,6 +914,9 @@ Prairie View A&M,TCU,61,66,TCU,6,5,55,61,TCU
 TCU,Missouri,98,102,Missouri,7,11,91,91,Kansas
 TCU,Texas,55,70,Texas,7,6,48,64,Texas
 West Virginia,TCU,74,66,West Virginia,5,8,69,58,West Virginia
+TCU,Texas Tech,49,69,Texas Tech,4,6,45,63,Texas Tech
+TCU,West Virginia,67,76,West Virginia,5,8,62,68,West Virginia
+Texas,TCU,76,64,Texas,11,8,65,56,Texas
 UT Rio Grande Valley,Texas,55,91,Texas,4,7,51,84,Texas
 Texas,Indiana,66,44,Texas,7,2,59,42,Texas
 Villanova,Texas,68,64,Villanova,6,7,62,57,Villanova
@@ -842,6 +927,7 @@ Texas Tech,Texas,79,77,Texas Tech,7,13,72,64,Texas Tech
 Oklahoma,Texas,80,79,Oklahoma,7,6,73,73,Texas
 West Virginia,Texas,84,82,West Virginia,10,14,74,68,West Virginia
 Texas,Texas Tech,59,68,Texas Tech,7,4,52,64,Texas Tech
+Texas Tech,Texas,66,67,Texas,6,11,60,56,Texas Tech
 Northwestern State,Texas Tech,58,101,Texas Tech,5,8,53,93,Texas Tech
 Sam Houston State,Texas Tech,52,84,Texas Tech,4,7,48,77,Texas Tech
 Troy,Texas Tech,46,80,Texas Tech,2,11,44,69,Texas Tech
@@ -882,6 +968,9 @@ Marquette,Butler,73,57,Marquette,5,7,68,50,Marquette
 Butler,Xavier,51,63,Xavier,6,2,45,61,Xavier
 Seton Hall,Butler,52,61,Butler,6,4,46,57,Butler
 Villanova,Butler,61,73,Butler,2,10,59,63,Butler
+Butler,Creighton,73,93,Creighton,5,12,68,81,Creighton
+Butler,Xavier,70,69,Butler,9,9,61,60,Butler
+Butler,Creighton,56,87,Creighton,7,13,49,74,Creighton
 North Dakota State,Creighton,58,69,Creighton,4,8,54,61,Creighton
 Omaha,Creighton,67,94,Creighton,8,11,59,83,Creighton
 Creighton,Kansas,72,73,Kansas,9,10,63,63,Creighton
@@ -903,6 +992,9 @@ Creighton,Georgetown,63,48,Creighton,6,9,57,39,Creighton
 Villanova,Creighton,70,86,Creighton,10,12,60,74,Creighton
 DePaul,Creighton,53,77,Creighton,7,11,46,66,Creighton
 Creighton,Xavier,69,77,Xavier,9,7,60,70,Xavier
+Creighton,Villanova,60,72,Villanova,10,9,50,63,Villanova
+UConn,Creighton,56,59,Creighton,3,5,53,54,Creighton
+Georgetown,Creighton,73,48,Georgetown,10,9,63,39,Georgetown
 Western Illinois,DePaul,72,91,DePaul,9,10,63,81,DePaul
 DePaul,Providence,90,95,Providence,10,6,80,89,Providence
 DePaul,UConn,61,82,UConn,4,7,57,75,UConn
@@ -915,6 +1007,9 @@ Providence,DePaul,57,47,Providence,7,3,50,44,Providence
 DePaul,Seton Hall,52,60,Seton Hall,3,8,49,52,Seton Hall
 DePaul,St. John's,88,83,DePaul,4,12,84,71,DePaul
 Georgetown,DePaul,68,60,Georgetown,7,7,61,53,Georgetown
+Marquette,DePaul,77,71,Marquette,6,5,71,66,Marquette
+DePaul,Providence,70,62,DePaul,4,7,66,55,DePaul
+DePaul,UConn,60,94,UConn,4,8,56,86,UConn
 Navy,Georgetown,78,71,Navy,9,10,69,61,Navy
 Coppin State,Georgetown,48,80,Georgetown,8,10,40,70,Georgetown
 Villanova,Georgetown,76,63,Villanova,15,7,61,56,Villanova
@@ -926,6 +1021,11 @@ Providence,Georgetown,72,73,Georgetown,8,6,64,67,Georgetown
 Georgetown,Villanova,74,84,Villanova,7,13,67,71,Villanova
 Seton Hall,Georgetown,75,81,Georgetown,6,10,69,71,Georgetown
 UConn,Georgetown,70,57,UConn,2,4,68,53,UConn
+Xavier,Georgetown,66,72,Georgetown,9,9,57,63,Georgetown
+Georgetown,UConn,82,98,UConn,8,12,74,86,UConn
+Marquette,Georgetown,49,68,Georgetown,5,4,44,64,Georgetown
+Georgetown,Villanova,72,71,Georgetown,9,9,63,62,Georgetown
+Georgetown,Seton Hall,66,58,Georgetown,6,5,60,53,Georgetown
 Arkansas-Pine Bluff,Marquette,57,99,Marquette,3,10,54,89,Marquette
 Eastern Illinois,Marquette,50,75,Marquette,7,9,43,66,Marquette
 Wisconsin,Marquette,65,67,Marquette,7,5,58,62,Marquette
@@ -942,6 +1042,7 @@ St. John's,Marquette,75,73,St. John's,9,5,66,68,Marquette
 Marquette,Villanova,64,96,Villanova,6,13,58,83,Villanova
 Marquette,Seton Hall,51,57,Seton Hall,3,4,48,53,Seton Hall
 Marquette,UConn,62,80,UConn,4,6,58,74,UConn
+Xavier,Marquette,59,66,Marquette,4,4,55,62,Marquette
 Fairfield,Providence,56,97,Providence,2,7,54,90,Providence
 Indiana,Providence,79,58,Indiana,5,3,74,55,Indiana
 Providence,Alabama,71,88,Alabama,5,12,66,76,Alabama
@@ -954,6 +1055,8 @@ St. John's,Providence,92,81,St. John's,10,8,82,73,St. John's
 UConn,Providence,59,70,Providence,4,6,55,64,Providence
 Providence,UConn,61,73,UConn,4,5,57,68,UConn
 Xavier,Providence,68,83,Providence,3,11,65,72,Providence
+Providence,St. John's,67,81,St. John's,4,5,63,76,St. John's
+Villanova,Providence,52,54,Providence,4,5,48,49,Providence
 Iona,Seton Hall,64,86,Seton Hall,9,7,55,79,Seton Hall
 Seton Hall,Oregon,70,83,Oregon,14,9,56,74,Oregon
 Seton Hall,Penn State,98,92,Seton Hall,7,13,91,79,Seton Hall
@@ -963,6 +1066,9 @@ Seton Hall,Xavier,85,68,Seton Hall,7,5,78,63,Seton Hall
 Seton Hall,Villanova,74,76,Villanova,8,9,66,67,Villanova
 Villanova,Seton Hall,80,72,Villanova,10,8,70,64,Villanova
 Seton Hall,UConn,80,73,Seton Hall,9,6,71,67,Seton Hall
+UConn,Seton Hall,69,58,UConn,4,5,65,53,UConn
+Seton Hall,St. John's,71,81,St. John's,7,10,64,71,St. John's
+Seton Hall,St. John's,77,69,Seton Hall,5,6,72,63,Seton Hall
 Saint Peter's,St. John's,75,76,St. John's,9,7,66,69,St. John's
 St. John's,BYU,68,74,BYU,4,10,64,64,St. John's
 Rider,St. John's,79,82,St. John's,11,5,68,77,St. John's
@@ -1000,6 +1106,11 @@ Eastern Washington,Montana State,93,77,Eastern Washington,10,9,83,68,Eastern Was
 Eastern Washington,Montana State,85,69,Eastern Washington,13,4,72,65,Eastern Washington
 Montana,Eastern Washington,76,90,Eastern Washington,7,11,69,79,Eastern Washington
 Eastern Washington,Montana,90,76,Eastern Washington,7,6,83,70,Eastern Washington
+Idaho State,Eastern Washington,68,63,Idaho State,6,5,62,58,Idaho State
+Idaho State,Eastern Washington,62,75,Eastern Washington,6,9,56,66,Eastern Washington
+Northern Arizona,Eastern Washington,60,66,Eastern Washington,4,8,56,58,Eastern Washington
+Montana,Eastern Washington,50,78,Eastern Washington,5,7,45,71,Eastern Washington
+Montana State,Eastern Washington,55,65,Eastern Washington,2,4,53,61,Eastern Washington
 Idaho State,Santa Clara,49,62,Santa Clara,8,4,41,58,Santa Clara
 Nicholls,Idaho State,70,51,Nicholls,7,5,63,46,Nicholls
 Idaho State,UC Davis,61,70,UC Davis,7,6,54,64,UC Davis
@@ -1021,6 +1132,7 @@ Idaho,Idaho State,58,64,Idaho State,7,8,51,56,Idaho State
 George Fox,Idaho State,59,84,Idaho State,11,9,48,75,Idaho State
 Montana,Idaho State,64,58,Montana,7,4,57,54,Montana
 Montana,Idaho State,59,58,Montana,5,7,54,51,Montana
+Montana State,Idaho State,71,63,Montana State,1,3,70,60,Montana State
 Idaho,Sacramento State,55,77,Sacramento State,6,5,49,72,Sacramento State
 Idaho,Sacramento State,57,73,Sacramento State,4,8,53,65,Sacramento State
 Idaho,Washington State,58,61,Washington State,7,5,51,56,Washington State
@@ -1038,6 +1150,7 @@ Idaho,Portland State,64,84,Portland State,5,9,59,75,Portland State
 Portland State,Idaho,71,40,Portland State,11,2,60,38,Portland State
 Montana State,Idaho,69,74,Idaho,0,9,69,65,Montana State
 Montana State,Idaho,71,61,Montana State,4,4,67,57,Montana State
+Idaho,Montana,64,69,Montana,6,7,58,62,Montana
 Montana,USC,62,76,USC,4,6,58,70,USC
 Montana,Southern Utah,63,64,Southern Utah,6,6,57,58,Southern Utah
 Montana,Southern Utah,74,75,Southern Utah,8,10,66,65,Montana
@@ -1057,6 +1170,9 @@ Montana,Portland State,70,64,Montana,4,6,66,58,Montana
 Montana,Portland State,56,61,Portland State,3,5,53,56,Portland State
 Weber State,Montana,67,80,Montana,3,9,64,71,Montana
 Weber State,Montana,91,82,Weber State,5,7,86,75,Weber State
+Warner Pacific,Montana,61,92,Montana,3,9,58,83,Montana
+Warner Pacific,Montana,62,80,Montana,5,6,57,74,Montana
+Montana,Weber State,80,75,Montana,6,7,74,68,Montana
 Montana State,UNLV,91,78,Montana State,10,11,81,67,Montana State
 Montana State,Pacific,70,74,Pacific,9,4,61,70,Pacific
 Yellowstone Christian College,Montana State,74,114,Montana State,13,11,61,103,Montana State
@@ -1071,6 +1187,9 @@ Montana State,Northern Arizona,62,51,Montana State,6,3,56,48,Montana State
 Montana State,Northern Arizona,58,53,Montana State,6,1,52,52,Montana State
 Montana State,Weber State,88,96,Weber State,13,7,75,89,Weber State
 Montana State,Weber State,74,82,Weber State,7,8,67,74,Weber State
+Sacramento State,Montana State,75,77,Montana State,8,6,67,71,Montana State
+Sacramento State,Montana State,74,73,Sacramento State,6,5,68,68,Montana State
+Montana State,Southern Utah,80,77,Montana State,7,11,73,66,Montana State
 Northern Arizona,Arizona,53,96,Arizona,5,13,48,83,Arizona
 UC Riverside,Northern Arizona,74,50,UC Riverside,13,4,61,46,UC Riverside
 Northern Arizona,Colorado State,52,91,Colorado State,5,11,47,80,Colorado State
@@ -1082,6 +1201,7 @@ Northern Arizona,Weber State,59,92,Weber State,6,18,53,74,Weber State
 Northern Arizona,Weber State,52,74,Weber State,4,8,48,66,Weber State
 Northern Arizona,Southern Utah,80,85,Southern Utah,14,7,66,78,Southern Utah
 Southern Utah,Northern Arizona,92,62,Southern Utah,11,9,81,53,Southern Utah
+Northern Arizona,Portland State,77,66,Northern Arizona,12,6,65,60,Northern Arizona
 Colorado Christian,Northern Colorado,62,87,Northern Colorado,5,7,57,80,Northern Colorado
 Regis Univ,Northern Colorado,58,83,Northern Colorado,4,11,54,72,Northern Colorado
 Northern Colorado,Colorado,45,81,Colorado,6,6,39,75,Colorado
@@ -1090,6 +1210,9 @@ Northern Colorado,Utah State,50,63,Utah State,6,3,44,60,Utah State
 Warner Pacific,Northern Colorado,60,89,Northern Colorado,3,14,57,75,Northern Colorado
 Portland State,Northern Colorado,64,66,Northern Colorado,6,5,58,61,Northern Colorado
 Portland State,Northern Colorado,73,65,Portland State,4,12,69,53,Portland State
+Northern Colorado,Weber State,59,60,Weber State,9,1,50,59,Weber State
+Sacramento State,Northern Colorado,83,90,Northern Colorado,7,13,76,77,Northern Colorado
+Northern Colorado,Southern Utah,83,91,Southern Utah,10,5,73,86,Southern Utah
 Portland State,Portland,73,86,Portland,6,3,67,83,Portland
 Northwest University,Portland State,48,88,Portland State,6,8,42,80,Portland State
 Portland State,Washington State,60,69,Washington State,4,7,56,62,Washington State
@@ -1099,6 +1222,8 @@ Portland State,Oregon State,62,67,Oregon State,7,8,55,59,Oregon State
 NW Nazarene,Portland State,75,72,NW Nazarene,7,5,68,67,NW Nazarene
 St. Martin's,Portland State,60,69,Portland State,11,5,49,64,Portland State
 Simpson University,Portland State,66,99,Portland State,7,14,59,85,Portland State
+Southern Utah,Portland State,68,58,Southern Utah,5,7,63,51,Southern Utah
+Southern Utah,Portland State,73,54,Southern Utah,6,8,67,46,Southern Utah
 Bethesda,Sacramento State,57,101,Sacramento State,9,10,48,91,Sacramento State
 Sacramento State,Saint Mary's,45,63,Saint Mary's,3,4,42,59,Saint Mary's
 Fresno Pacific,Sacramento State,54,85,Sacramento State,4,5,50,80,Sacramento State
@@ -1146,7 +1271,9 @@ South Carolina Upstate,Campbell,49,64,Campbell,5,4,44,60,Campbell
 Campbell,Hampton,76,57,Campbell,13,7,63,50,Campbell
 Campbell,Hampton,73,68,Campbell,11,5,62,63,Hampton
 High Point,Campbell,48,68,Campbell,2,8,46,60,Campbell
-Gardner-Webb,Campbell,42,47,Campbell,6,6,36,41,Campbell
+Gardner-Webb,Campbell,57,63,Campbell,7,8,50,55,Campbell
+Campbell,Radford,78,60,Campbell,7,9,71,51,Campbell
+Campbell,Winthrop,53,80,Winthrop,3,7,50,73,Winthrop
 Eastern Kentucky,Charleston Southern,60,50,Eastern Kentucky,4,3,56,47,Eastern Kentucky
 North Carolina A&T,Charleston Southern,70,63,North Carolina A&T,6,4,64,59,North Carolina A&T
 Carver College,Charleston Southern,59,94,Charleston Southern,7,9,52,85,Charleston Southern
@@ -1184,7 +1311,7 @@ Gardner-Webb,Longwood,71,78,Longwood,9,8,62,70,Longwood
 Gardner-Webb,Radford,69,57,Gardner-Webb,9,5,60,52,Gardner-Webb
 Gardner-Webb,Radford,77,49,Gardner-Webb,11,7,66,42,Gardner-Webb
 Gardner-Webb,South Carolina Upstate,69,58,Gardner-Webb,5,3,64,55,Gardner-Webb
-Hampton,Norfolk St,64,76,Norfolk St,8,5,56,71,Norfolk St
+Hampton,Norfolk State,64,76,Norfolk State,8,5,56,71,Norfolk State
 Hampton,VMI,64,79,VMI,10,10,54,69,VMI
 William & Mary,Hampton,75,58,William & Mary,10,1,65,57,William & Mary
 Hampton,Howard,76,81,Howard,6,3,70,78,Howard
@@ -1231,7 +1358,8 @@ Longwood,Winthrop,61,72,Winthrop,4,4,57,68,Winthrop
 Longwood,Winthrop,50,70,Winthrop,5,7,45,63,Winthrop
 Longwood,Presbyterian,49,45,Longwood,4,10,45,35,Longwood
 Longwood,Presbyterian,54,66,Presbyterian,3,7,51,59,Presbyterian
-Longwood,UNC Asheville,66,46,Longwood,5,3,61,43,Longwood
+Longwood,UNC Asheville,77,61,Longwood,5,4,72,57,Longwood
+Longwood,Winthrop,61,82,Winthrop,8,7,53,75,Winthrop
 Carver College,Presbyterian,46,85,Presbyterian,3,8,43,77,Presbyterian
 South Carolina State,Presbyterian,56,62,Presbyterian,6,1,50,61,Presbyterian
 Presbyterian,The Citadel,82,94,The Citadel,8,11,74,83,The Citadel
@@ -1241,7 +1369,7 @@ Winthrop,Presbyterian,72,58,Winthrop,5,5,67,53,Winthrop
 Winthrop,Presbyterian,78,66,Winthrop,10,6,68,60,Winthrop
 South Carolina Upstate,Presbyterian,65,75,Presbyterian,3,4,62,71,Presbyterian
 South Carolina Upstate,Presbyterian,65,51,South Carolina Upstate,9,5,56,46,South Carolina Upstate
-Radford,Norfolk St,54,57,Norfolk St,7,9,47,48,Norfolk St
+Radford,Norfolk State,54,57,Norfolk State,7,9,47,48,Norfolk State
 Radford,James Madison,59,67,James Madison,4,7,55,60,James Madison
 Mars Hill,Radford,50,98,Radford,5,8,45,90,Radford
 Radford,Vanderbilt,50,59,Vanderbilt,1,8,49,51,Vanderbilt
@@ -1293,6 +1421,11 @@ Illinois,Minnesota,94,63,Illinois,7,8,87,55,Illinois
 Illinois,Michigan State,72,81,Michigan State,5,4,67,77,Michigan State
 Nebraska,Illinois,70,86,Illinois,5,4,65,82,Illinois
 Illinois,Wisconsin,74,69,Illinois,5,10,69,59,Illinois
+Illinois,Michigan,76,53,Illinois,6,2,70,51,Illinois
+Illinois,Ohio State,73,68,Illinois,4,9,69,59,Illinois
+Rutgers,Illinois,68,90,Illinois,2,5,66,85,Illinois
+Iowa,Illinois,71,82,Illinois,8,3,63,79,Illinois
+Ohio State,Illinois,88,91,Illinois,8,9,80,82,Illinois
 Tennessee Tech,Indiana,59,89,Indiana,5,5,54,84,Indiana
 Indiana,Stanford,79,63,Indiana,5,5,74,58,Indiana
 Northwestern,Indiana,74,67,Northwestern,7,7,67,60,Northwestern
@@ -1310,6 +1443,9 @@ Minnesota,Indiana,72,82,Indiana,4,7,68,75,Indiana
 Michigan State,Indiana,78,71,Michigan State,7,4,71,67,Michigan State
 Indiana,Rutgers,63,74,Rutgers,8,11,55,63,Rutgers
 Michigan,Indiana,73,57,Michigan,8,4,65,53,Michigan
+Indiana,Michigan State,58,64,Michigan State,2,4,56,60,Michigan State
+Indiana,Purdue,58,67,Purdue,5,6,53,61,Purdue
+Indiana,Rutgers,50,61,Rutgers,2,6,48,55,Rutgers
 North Carolina Central,Iowa,67,97,Iowa,6,10,61,87,Iowa
 Southern,Iowa,76,103,Iowa,7,12,69,91,Iowa
 Western Illinois,Iowa,58,99,Iowa,6,8,52,91,Iowa
@@ -1330,6 +1466,9 @@ Iowa,Wisconsin,77,62,Iowa,12,13,65,49,Iowa
 Penn State,Iowa,68,74,Iowa,11,10,57,64,Iowa
 Iowa,Michigan,57,79,Michigan,6,8,51,71,Michigan
 Iowa,Ohio State,73,57,Iowa,10,5,63,52,Iowa
+Nebraska,Iowa,64,102,Iowa,12,16,52,86,Iowa
+Wisconsin,Iowa,73,77,Iowa,9,7,64,70,Iowa
+Wisconsin,Iowa,57,62,Iowa,7,2,50,60,Iowa
 Old Dominion,Maryland,67,85,Maryland,6,10,61,75,Maryland
 Navy,Maryland,52,82,Maryland,6,8,46,74,Maryland
 Mount St. Mary's,Maryland,61,79,Maryland,8,7,53,72,Maryland
@@ -1351,6 +1490,10 @@ Nebraska,Maryland,50,64,Maryland,8,9,42,55,Maryland
 Nebraska,Maryland,71,79,Maryland,13,13,58,66,Maryland
 Maryland,Rutgers,68,59,Maryland,6,5,62,54,Maryland
 Michigan State,Maryland,55,73,Maryland,8,8,47,65,Maryland
+Maryland,Northwestern,55,60,Northwestern,9,10,46,50,Northwestern
+Penn State,Maryland,66,61,Penn State,9,8,57,53,Penn State
+Michigan State,Maryland,57,68,Maryland,4,6,53,62,Maryland
+Maryland,Michigan,66,79,Michigan,8,10,58,69,Michigan
 Eastern Michigan,Michigan State,67,83,Michigan State,4,12,63,71,Michigan State
 Detroit Mercy,Michigan State,76,83,Michigan State,5,6,71,77,Michigan State
 Western Michigan,Michigan State,61,79,Michigan State,5,10,56,69,Michigan State
@@ -1367,6 +1510,8 @@ Nebraska,Michigan State,56,66,Michigan State,3,6,53,60,Michigan State
 Penn State,Michigan State,58,60,Michigan State,5,4,53,56,Michigan State
 Michigan State,Purdue,65,75,Purdue,7,3,58,72,Purdue
 Ohio State,Michigan State,67,71,Michigan State,4,4,63,67,Michigan State
+Michigan State,Michigan,50,69,Michigan,0,7,50,62,Michigan
+Michigan,Michigan State,64,70,Michigan State,7,4,57,66,Michigan State
 Bowling Green,Michigan,82,96,Michigan,12,10,70,86,Michigan
 Oakland,Michigan,71,81,Michigan,8,8,63,73,Michigan
 Ball State,Michigan,65,84,Michigan,7,4,58,80,Michigan
@@ -1381,6 +1526,7 @@ Michigan,Purdue,70,53,Michigan,6,2,64,51,Michigan
 Michigan,Wisconsin,67,59,Michigan,7,6,60,53,Michigan
 Rutgers,Michigan,64,71,Michigan,3,6,61,65,Michigan
 Michigan,Ohio State,92,87,Michigan,11,11,81,76,Michigan
+Ohio State,Michigan,68,67,Ohio State,12,6,56,61,Michigan
 Green Bay,Minnesota,69,99,Minnesota,3,7,66,92,Minnesota
 Loyola Marymount,Minnesota,73,88,Minnesota,6,8,67,80,Minnesota
 Loyola Marymount,Minnesota,64,67,Minnesota,5,4,59,63,Minnesota
@@ -1396,6 +1542,10 @@ Nebraska,Minnesota,61,79,Minnesota,3,8,58,71,Minnesota
 Purdue,Minnesota,68,71,Minnesota,2,7,66,64,Purdue
 Northwestern,Minnesota,67,59,Northwestern,7,4,60,55,Northwestern
 Minnesota,Nebraska,74,78,Nebraska,8,9,66,69,Nebraska
+Minnesota,Penn State,65,84,Penn State,5,10,60,74,Penn State
+Rutgers,Minnesota,77,70,Rutgers,8,6,69,64,Rutgers
+Minnesota,Northwestern,51,46,Minnesota,5,5,46,41,Minnesota
+Minnesota,Ohio State,75,79,Ohio State,8,4,67,75,Ohio State
 McNeese,Nebraska,55,102,Nebraska,7,10,48,92,Nebraska
 Nevada,Nebraska,69,66,Nevada,6,9,63,57,Nevada
 North Dakota State,Nebraska,57,79,Nebraska,6,9,51,70,Nebraska
@@ -1407,7 +1557,9 @@ Wisconsin,Nebraska,61,48,Wisconsin,9,5,52,43,Wisconsin
 Nebraska,Penn State,62,61,Nebraska,7,9,55,52,Nebraska
 Purdue,Nebraska,75,58,Purdue,10,9,65,49,Purdue
 Penn State,Nebraska,86,83,Penn State,14,12,72,71,Penn State
-Rutgers,Nebraska,35,61,Nebraska,2,7,33,54,Nebraska
+Rutgers,Nebraska,51,72,Nebraska,3,8,48,64,Nebraska
+Nebraska,Northwestern,78,79,Northwestern,14,11,64,68,Northwestern
+Nebraska,Penn State,66,72,Penn State,9,7,57,65,Penn State
 Arkansas-Pine Bluff,Northwestern,49,92,Northwestern,2,14,47,78,Northwestern
 Chicago State,Northwestern,66,111,Northwestern,9,11,57,100,Northwestern
 Quincy,Northwestern,48,100,Northwestern,8,14,40,86,Northwestern
@@ -1430,21 +1582,23 @@ Purdue,Ohio State,67,65,Purdue,5,14,62,51,Purdue
 Ohio State,Wisconsin,74,62,Ohio State,5,7,69,55,Ohio State
 Penn State,Ohio State,79,83,Ohio State,9,7,70,76,Ohio State
 Ohio State,Penn State,92,82,Ohio State,11,12,81,70,Ohio State
+Ohio State,Purdue,87,78,Ohio State,11,9,76,69,Ohio State
 VMI,Penn State,65,86,Penn State,9,11,56,75,Penn State
 Penn State,Purdue,72,80,Purdue,10,6,62,74,Purdue
 Rutgers,Penn State,67,75,Penn State,7,6,60,69,Penn State
 Wisconsin,Penn State,71,81,Penn State,7,8,64,73,Penn State
 Penn State,Wisconsin,56,72,Wisconsin,6,9,50,63,Wisconsin
 Purdue,Penn State,73,52,Purdue,7,6,66,46,Purdue
+Penn State,Wisconsin,74,75,Wisconsin,7,12,67,63,Penn State
 Oakland,Purdue,50,93,Purdue,3,17,47,76,Purdue
 Valparaiso,Purdue,61,68,Purdue,8,6,53,62,Purdue
 Indiana State,Purdue,68,80,Purdue,7,6,61,74,Purdue
 Purdue,Rutgers,76,81,Rutgers,7,11,69,70,Rutgers
+Wisconsin,Purdue,69,73,Purdue,7,5,62,68,Purdue
 Sacred Heart,Rutgers,63,86,Rutgers,9,1,54,85,Rutgers
 Fairleigh Dickinson,Rutgers,75,96,Rutgers,8,7,67,89,Rutgers
 Hofstra,Rutgers,56,70,Rutgers,6,4,50,66,Rutgers
 Wisconsin,Rutgers,60,54,Wisconsin,6,2,54,52,Wisconsin
-Rutgers,Nebraska,36,64,Nebraska,2,8,34,56,Nebraska
 Eastern Illinois,Wisconsin,67,77,Wisconsin,6,7,61,70,Wisconsin
 Arkansas-Pine Bluff,Wisconsin,58,92,Wisconsin,6,10,52,82,Wisconsin
 Green Bay,Wisconsin,42,82,Wisconsin,3,9,39,73,Wisconsin
@@ -1473,6 +1627,7 @@ CSU Bakersfield,UC Santa Barbara,66,71,UC Santa Barbara,8,9,58,62,UC Santa Barba
 CSU Bakersfield,UC Santa Barbara,44,63,UC Santa Barbara,3,10,41,53,UC Santa Barbara
 CSU Northridge,CSU Bakersfield,58,84,CSU Bakersfield,6,9,52,75,CSU Bakersfield
 CSU Northridge,CSU Bakersfield,90,87,CSU Northridge,8,10,82,77,CSU Northridge
+CSU Bakersfield,UC Davis,56,58,UC Davis,3,2,53,56,UC Davis
 San Diego Christian,CSU Fullerton,70,94,CSU Fullerton,11,11,59,83,CSU Fullerton
 CSU Fullerton,UC Santa Barbara,63,81,UC Santa Barbara,5,6,58,75,UC Santa Barbara
 CSU Fullerton,UC Santa Barbara,61,65,UC Santa Barbara,8,3,53,62,UC Santa Barbara
@@ -1484,6 +1639,9 @@ Hawai'i,CSU Fullerton,67,83,CSU Fullerton,9,9,58,74,CSU Fullerton
 Hawai'i,CSU Fullerton,76,53,Hawai'i,8,4,68,49,Hawai'i
 UC Irvine,CSU Fullerton,89,78,UC Irvine,6,10,83,68,UC Irvine
 UC Irvine,CSU Fullerton,64,67,CSU Fullerton,3,5,61,62,CSU Fullerton
+CSU Fullerton,UC San Diego,85,89,UC San Diego,7,16,78,73,CSU Fullerton
+CSU Fullerton,UC San Diego,78,85,UC San Diego,9,10,69,75,UC San Diego
+Cal Poly,CSU Fullerton,87,82,Cal Poly,12,13,75,69,Cal Poly
 Westmont,CSU Northridge,79,97,CSU Northridge,8,13,71,84,CSU Northridge
 Air Force,CSU Northridge,66,61,Air Force,11,7,55,54,Air Force
 CSU Northridge,Seattle U,76,65,CSU Northridge,5,7,71,58,CSU Northridge
@@ -1499,6 +1657,9 @@ UC Davis,CSU Northridge,77,80,CSU Northridge,3,8,74,72,UC Davis
 UC Davis,CSU Northridge,75,63,UC Davis,10,7,65,56,UC Davis
 Hawai'i,CSU Northridge,75,74,Hawai'i,9,10,66,64,Hawai'i
 Hawai'i,CSU Northridge,80,88,CSU Northridge,13,13,67,75,CSU Northridge
+UC Riverside,CSU Northridge,72,68,UC Riverside,12,6,60,62,CSU Northridge
+UC Riverside,CSU Northridge,66,65,UC Riverside,5,6,61,59,UC Riverside
+Long Beach State,CSU Northridge,85,63,Long Beach State,9,5,76,58,Long Beach State
 Bethesda,Cal Poly,46,100,Cal Poly,8,11,38,89,Cal Poly
 San Francisco,Cal Poly,88,60,San Francisco,10,3,78,57,San Francisco
 Santa Clara,Cal Poly,76,69,Santa Clara,5,7,71,62,Santa Clara
@@ -1515,6 +1676,9 @@ Cal Poly,Long Beach State,60,64,Long Beach State,6,2,54,62,Long Beach State
 Cal Poly,Long Beach State,69,74,Long Beach State,10,8,59,66,Long Beach State
 UC Davis,Cal Poly,69,61,UC Davis,7,3,62,58,UC Davis
 UC Davis,Cal Poly,68,66,UC Davis,5,9,63,57,UC Davis
+Cal Poly,UC Santa Barbara,57,71,UC Santa Barbara,4,3,53,68,UC Santa Barbara
+Cal Poly,UC Santa Barbara,54,70,UC Santa Barbara,6,8,48,62,UC Santa Barbara
+Cal Poly,UC Irvine,51,58,UC Irvine,8,4,43,54,UC Irvine
 Hawaii Pacific,Hawai'i,50,83,Hawai'i,5,6,45,77,Hawai'i
 Hawaii Hilo,Hawai'i,66,89,Hawai'i,4,9,62,80,Hawai'i
 Hawai'i,UC Riverside,88,83,Hawai'i,8,7,80,76,Hawai'i
@@ -1525,18 +1689,25 @@ UC Santa Barbara,Hawai'i,59,50,UC Santa Barbara,3,4,56,46,UC Santa Barbara
 UC Santa Barbara,Hawai'i,81,74,UC Santa Barbara,3,8,78,66,UC Santa Barbara
 Long Beach State,Hawai'i,76,78,Hawai'i,7,7,69,71,Hawai'i
 Long Beach State,Hawai'i,76,79,Hawai'i,8,9,68,70,Hawai'i
+Hawai'i,UC Davis,73,68,Hawai'i,12,6,61,62,UC Davis
+Hawai'i,UC Davis,66,74,UC Davis,4,1,62,73,UC Davis
+Hawai'i,UC Riverside,52,62,UC Riverside,5,9,47,53,UC Riverside
 Long Beach State,Loyola Marymount,61,85,Loyola Marymount,4,15,57,70,Loyola Marymount
 Seattle U,Long Beach State,75,80,Long Beach State,13,5,62,75,Long Beach State
 Long Beach State,San Francisco,62,107,San Francisco,4,18,58,89,San Francisco
 Long Beach State,California Baptist,75,96,California Baptist,8,11,67,85,California Baptist
 Long Beach State,UC Davis,66,68,UC Davis,4,7,62,61,Long Beach State
 Long Beach State,UC Davis,76,78,UC Davis,5,8,71,70,Long Beach State
+UC Irvine,Long Beach State,71,68,UC Irvine,3,6,68,62,UC Irvine
+UC Irvine,Long Beach State,73,58,UC Irvine,7,7,66,51,UC Irvine
+Long Beach State,UC Santa Barbara,87,95,UC Santa Barbara,10,7,77,88,UC Santa Barbara
 UC Davis,Nicholls,93,101,Nicholls,7,9,86,92,Nicholls
 William Jessup,UC Davis,62,95,UC Davis,5,6,57,89,UC Davis
 UC Davis,UC San Diego,69,89,UC San Diego,4,11,65,78,UC San Diego
 UC Davis,UC San Diego,78,71,UC Davis,9,6,69,65,UC Davis
 UC Santa Barbara,UC Davis,72,51,UC Santa Barbara,5,3,67,48,UC Santa Barbara
 UC Santa Barbara,UC Davis,89,86,UC Santa Barbara,11,8,78,78,UC Santa Barbara
+UC Davis,UC Santa Barbara,55,71,UC Santa Barbara,5,3,50,68,UC Santa Barbara
 UC Irvine,Pepperdine,72,86,Pepperdine,6,8,66,78,Pepperdine
 UC Irvine,San Diego State,58,77,San Diego State,5,13,53,64,San Diego State
 Bethesda,UC Irvine,55,135,UC Irvine,9,8,46,127,UC Irvine
@@ -1551,6 +1722,8 @@ UC Irvine,UC Riverside,65,86,UC Riverside,5,14,60,72,UC Riverside
 UC Irvine,UC Riverside,73,67,UC Irvine,7,12,66,55,UC Irvine
 UC San Diego,UC Irvine,55,80,UC Irvine,9,1,46,79,UC Irvine
 UC San Diego,UC Irvine,64,75,UC Irvine,12,6,52,69,UC Irvine
+UC Riverside,UC Irvine,61,78,UC Irvine,6,6,55,72,UC Irvine
+UC Irvine,UC Santa Barbara,63,79,UC Santa Barbara,3,8,60,71,UC Santa Barbara
 UC Riverside,Pacific,60,66,Pacific,6,5,54,61,Pacific
 UC Riverside,Washington,57,42,UC Riverside,6,3,51,39,UC Riverside
 UC Riverside,Denver,83,63,UC Riverside,15,4,68,59,UC Riverside
@@ -1588,6 +1761,7 @@ Towson,Charleston,53,66,Charleston,3,8,50,58,Charleston
 Elon,Charleston,53,71,Charleston,7,12,46,59,Charleston
 Elon,Charleston,66,55,Elon,9,7,57,48,Elon
 Columbus State,Charleston,83,86,Charleston,7,7,76,79,Charleston
+Drexel,Charleston,80,75,Drexel,11,10,69,65,Drexel
 Salem University,Delaware,76,79,Delaware,15,16,61,63,Delaware
 Morgan St,Delaware,65,59,Morgan St,7,7,58,52,Morgan St
 Delaware,William & Mary,62,67,William & Mary,4,5,58,62,William & Mary
@@ -1597,6 +1771,7 @@ Delaware,UNC Wilmington,70,77,UNC Wilmington,4,6,66,71,UNC Wilmington
 Delaware,UNC Wilmington,67,62,Delaware,4,3,63,59,Delaware
 Elon,Delaware,43,66,Delaware,3,9,40,57,Delaware
 Elon,Delaware,70,75,Delaware,9,9,61,66,Delaware
+Delaware,Hofstra,75,83,Hofstra,9,8,66,75,Hofstra
 Drexel,Quinnipiac,66,48,Drexel,7,1,59,47,Drexel
 Quinnipiac,Drexel,58,70,Drexel,5,6,53,64,Drexel
 Coppin State,Drexel,54,69,Drexel,4,9,50,60,Drexel
@@ -1609,6 +1784,8 @@ Drexel,James Madison,64,73,James Madison,6,7,58,66,James Madison
 Drexel,Hofstra,73,71,Drexel,10,9,63,62,Drexel
 Drexel,Hofstra,74,79,Hofstra,6,8,68,71,Hofstra
 Drexel,James Madison,84,78,Drexel,12,8,72,70,Drexel
+Drexel,Northeastern,74,67,Drexel,8,6,66,61,Drexel
+Elon,Drexel,56,63,Drexel,4,10,52,53,Drexel
 NC Wesleyan,Elon,52,82,Elon,0,5,52,77,Elon
 UNC Greensboro,Elon,71,64,UNC Greensboro,9,6,62,58,UNC Greensboro
 Elon,Northeastern,52,75,Northeastern,6,8,46,67,Northeastern
@@ -1618,6 +1795,9 @@ James Madison,Elon,70,61,James Madison,6,10,64,51,James Madison
 Elon,William & Mary,75,54,Elon,10,6,65,48,Elon
 William & Mary,Elon,54,73,Elon,4,8,50,65,Elon
 Elon,UNC Wilmington,80,77,Elon,11,7,69,70,UNC Wilmington
+Towson,Elon,48,69,Elon,1,8,47,61,Elon
+Elon,James Madison,72,71,Elon,13,6,59,65,James Madison
+Elon,Hofstra,76,58,Elon,12,9,64,49,Elon
 Fairleigh Dickinson,Hofstra,58,73,Hofstra,7,6,51,67,Hofstra
 Iona,Hofstra,82,74,Iona,10,6,72,68,Iona
 Hofstra,Monmouth,96,88,Hofstra,11,15,85,73,Hofstra
@@ -1632,7 +1812,7 @@ Hofstra,UNC Wilmington,89,83,Hofstra,5,9,84,74,Hofstra
 Hofstra,James Madison,89,93,James Madison,17,7,72,86,James Madison
 Hofstra,James Madison,70,74,James Madison,8,8,62,66,James Madison
 Limestone,James Madison,55,89,James Madison,9,5,46,84,James Madison
-Norfolk St,James Madison,83,73,Norfolk St,10,9,73,64,Norfolk St
+Norfolk State,James Madison,83,73,Norfolk State,10,9,73,64,Norfolk State
 Alice Lloyd College,James Madison,55,98,James Madison,5,13,50,85,James Madison
 Morgan St,James Madison,80,73,Morgan St,11,7,69,66,Morgan St
 Florida Atlantic,James Madison,70,79,James Madison,7,4,63,75,James Madison
@@ -1645,6 +1825,7 @@ Northeastern,Old Dominion,62,66,Old Dominion,7,6,55,60,Old Dominion
 Northeastern,Georgia,58,76,Georgia,12,5,46,71,Georgia
 Northeastern,Towson,76,67,Northeastern,10,5,66,62,Northeastern
 Northeastern,Towson,57,68,Towson,6,5,51,63,Towson
+William & Mary,Northeastern,47,63,Northeastern,5,8,42,55,Northeastern
 Towson,San Francisco,68,79,San Francisco,5,13,63,66,San Francisco
 Buffalo,Towson,74,65,Buffalo,5,3,69,62,Buffalo
 Towson,George Mason,65,70,George Mason,4,9,61,61,Buffalo
@@ -1658,8 +1839,9 @@ Western Carolina,UNC Wilmington,98,76,Western Carolina,10,8,88,68,Western Caroli
 UNC Wilmington,Troy,73,50,UNC Wilmington,12,5,61,45,UNC Wilmington
 St. Andrews,UNC Wilmington,66,116,UNC Wilmington,5,12,61,104,UNC Wilmington
 UNC Wilmington,Ole Miss,58,78,Ole Miss,9,4,49,74,Ole Miss
-UNC Wilmington,Norfolk St,80,72,UNC Wilmington,8,4,72,68,UNC Wilmington
+UNC Wilmington,Norfolk State,80,72,UNC Wilmington,8,4,72,68,UNC Wilmington
 Delaware State,UNC Wilmington,63,87,UNC Wilmington,4,6,59,81,UNC Wilmington
+UNC Wilmington,William & Mary,60,73,William & Mary,8,4,52,69,William & Mary
 William & Mary,Old Dominion,78,86,Old Dominion,12,7,66,79,Old Dominion
 Georgia State,Charlotte,76,65,Georgia State,11,6,65,59,Georgia State
 South Carolina State,Charlotte,40,78,Charlotte,7,9,33,69,Charlotte
@@ -1680,6 +1862,9 @@ Old Dominion,Charlotte,78,76,Old Dominion,3,9,75,67,Old Dominion
 Charlotte,Old Dominion,45,64,Old Dominion,4,5,41,59,Old Dominion
 Charlotte,UTEP,47,70,UTEP,4,6,43,64,UTEP
 Charlotte,UTEP,62,77,UTEP,4,10,58,67,UTEP
+Charlotte,Marshall,67,75,Marshall,5,9,62,66,Marshall
+Charlotte,Marshall,66,75,Marshall,8,9,58,66,Marshall
+Charlotte,UTSA,62,72,UTSA,5,4,57,68,UTSA
 Florida Atlantic,South Alabama,66,68,South Alabama,13,8,53,60,South Alabama
 Jacksonville State,Florida Atlantic,60,50,Jacksonville State,6,4,54,46,Jacksonville State
 Mobile,Florida Atlantic,41,83,Florida Atlantic,6,10,35,73,Florida Atlantic
@@ -1695,7 +1880,11 @@ Florida Atlantic,UTSA,80,84,UTSA,13,6,67,78,UTSA
 Florida Atlantic,UTSA,75,86,UTSA,6,10,69,76,UTSA
 Florida Atlantic,Southern Miss,69,60,Florida Atlantic,13,7,56,53,Florida Atlantic
 Florida Atlantic,Southern Miss,73,66,Florida Atlantic,10,7,63,59,Florida Atlantic
-Flagler,Florida International,81,85,Florida International,7,11,74,74,Florida Atlantic
+Middle Tennessee,Florida Atlantic,50,80,Florida Atlantic,4,8,46,72,Florida Atlantic
+Middle Tennessee,Florida Atlantic,54,63,Florida Atlantic,4,7,50,56,Florida Atlantic
+UTEP,Florida Atlantic,70,76,Florida Atlantic,3,8,67,68,Florida Atlantic
+Florida Atlantic,Louisiana Tech,69,75,Louisiana Tech,11,9,58,66,Louisiana Tech
+Flagler,Florida International,81,85,Florida International,7,11,74,74,Louisiana Tech
 Flagler,Florida International,75,82,Florida International,11,13,64,69,Florida International
 Central Michigan,Florida International,76,96,Florida International,8,18,68,78,Florida International
 Jacksonville State,Florida International,70,74,Florida International,7,9,63,65,Florida International
@@ -1741,6 +1930,8 @@ UAB,Louisiana Tech,58,70,Louisiana Tech,5,5,53,65,Louisiana Tech
 UAB,Louisiana Tech,64,69,Louisiana Tech,4,5,60,64,Louisiana Tech
 Rice,Louisiana Tech,57,101,Louisiana Tech,9,17,48,84,Louisiana Tech
 Rice,Louisiana Tech,58,79,Louisiana Tech,9,9,49,70,Louisiana Tech
+Our Lady of the Lake,Louisiana Tech,66,99,Louisiana Tech,4,11,62,88,Louisiana Tech
+North Texas,Louisiana Tech,54,48,North Texas,3,3,51,45,North Texas
 Arkansas State,Marshall,56,70,Marshall,3,5,53,65,Marshall
 Marshall,Wright State,80,64,Marshall,6,7,74,57,Marshall
 Ohio,Marshall,67,81,Marshall,7,5,60,76,Marshall
@@ -1754,6 +1945,7 @@ Middle Tennessee,Marshall,79,107,Marshall,12,15,67,92,Marshall
 Middle Tennessee,Marshall,85,96,Marshall,12,10,73,86,Marshall
 North Texas,Marshall,77,65,North Texas,5,10,72,55,North Texas
 North Texas,Marshall,72,73,Marshall,14,10,58,63,Marshall
+Rice,Marshall,72,68,Rice,10,10,62,58,Rice
 Middle Tennessee,Omaha,59,60,Omaha,7,1,52,59,Omaha
 East Tennessee State,Middle Tennessee,57,43,East Tennessee State,4,4,53,39,East Tennessee State
 Murray State,Middle Tennessee,61,78,Middle Tennessee,3,9,58,69,Middle Tennessee
@@ -1768,6 +1960,7 @@ UAB,Middle Tennessee,70,59,UAB,5,9,65,50,UAB
 Middle Tennessee,UAB,52,63,UAB,5,5,47,58,UAB
 Middle Tennessee,Old Dominion,61,67,Old Dominion,10,4,51,63,Old Dominion
 Middle Tennessee,Old Dominion,60,73,Old Dominion,9,6,51,67,Old Dominion
+Middle Tennessee,North Texas,56,76,North Texas,8,10,48,66,North Texas
 Mississippi Valley State,North Texas,62,116,North Texas,11,21,51,95,North Texas
 North Texas,Arkansas,54,69,Arkansas,2,6,52,63,Arkansas
 North Texas,Mississippi State,63,69,Mississippi State,7,1,56,68,Mississippi State
@@ -1783,12 +1976,18 @@ North Texas,Rice,79,74,North Texas,7,9,72,65,North Texas
 Rice,North Texas,53,79,North Texas,3,8,50,71,North Texas
 North Texas,Southern Miss,65,49,North Texas,7,2,58,47,North Texas
 North Texas,Southern Miss,68,56,North Texas,6,2,62,54,North Texas
-Old Dominion,Norfolk St,80,66,Old Dominion,7,8,73,58,Old Dominion
+UAB,North Texas,65,51,UAB,5,4,60,47,UAB
+UAB,North Texas,65,61,UAB,4,5,61,56,UAB
+North Texas,Old Dominion,61,55,North Texas,9,2,52,53,Old Dominion
+North Texas,Western Kentucky,61,57,North Texas,8,6,53,51,North Texas
+Old Dominion,Norfolk State,80,66,Old Dominion,7,8,73,58,Old Dominion
 VA Wesleyan,Old Dominion,57,77,Old Dominion,10,2,47,75,Old Dominion
 Old Dominion,Rice,59,69,Rice,4,14,55,55,Old Dominion
 Old Dominion,Rice,61,58,Old Dominion,4,10,57,48,Old Dominion
 Old Dominion,UAB,69,76,UAB,5,2,64,74,UAB
 Old Dominion,UAB,65,58,Old Dominion,7,4,58,54,Old Dominion
+Old Dominion,Western Kentucky,71,69,Old Dominion,7,5,64,64,Old Dominion
+Old Dominion,Western Kentucky,57,60,Western Kentucky,6,8,51,52,Western Kentucky
 Rice,Incarnate Word,68,53,Rice,4,4,64,49,Rice
 Our Lady of the Lake,Rice,64,103,Rice,4,14,60,89,Rice
 Le Tourneau,Rice,74,94,Rice,9,10,65,84,Rice
@@ -1808,6 +2007,9 @@ Southern Miss,Rice,62,88,Rice,6,13,56,75,Rice
 Southern Miss,Rice,68,76,Rice,3,14,65,62,Southern Miss
 Rice,Western Kentucky,71,77,Western Kentucky,13,9,58,68,Western Kentucky
 Rice,Western Kentucky,66,89,Western Kentucky,9,14,57,75,Western Kentucky
+Our Lady of the Lake,Rice,77,80,Rice,9,8,68,72,Rice
+Southern Miss,Rice,52,61,Rice,2,7,50,54,Rice
+Rice,UAB,60,73,UAB,9,5,51,68,UAB
 William Carey,Southern Miss,53,80,Southern Miss,8,6,45,74,Southern Miss
 South Alabama,Southern Miss,76,75,South Alabama,10,15,66,60,South Alabama
 Southern Miss,Lamar,66,63,Southern Miss,9,5,57,58,Lamar
@@ -1831,6 +2033,7 @@ UTEP,UAB,60,75,UAB,9,8,51,67,UAB
 Rust,UAB,45,117,UAB,5,5,40,112,UAB
 UAB,UTSA,64,57,UAB,2,6,62,51,UAB
 UAB,UTSA,79,96,UTSA,8,13,71,83,UTSA
+UAB,Western Kentucky,60,64,Western Kentucky,5,10,55,54,UAB
 Texas Permian Basin,UTEP,81,100,UTEP,11,10,70,90,UTEP
 Sul Ross,UTEP,65,84,UTEP,10,9,55,75,UTEP
 UTEP,Saint Mary's,61,73,Saint Mary's,6,5,55,68,Saint Mary's
@@ -1845,10 +2048,13 @@ Sul Ross,UTSA,62,91,UTSA,10,10,52,81,UTSA
 UTSA,Oregon State,61,73,Oregon State,6,5,55,68,Oregon State
 Our Lady of the Lake,UTSA,70,102,UTSA,5,8,65,94,UTSA
 Lamar,UTSA,66,88,UTSA,7,5,59,83,UTSA
+SW Adventist,UTSA,43,123,UTSA,7,12,36,111,UTSA
+UTSA,Western Kentucky,67,80,Western Kentucky,9,6,58,74,Western Kentucky
 Western Kentucky,Northern Iowa,93,87,Western Kentucky,6,20,87,67,Western Kentucky
 Mississippi Valley State,Western Kentucky,69,96,Western Kentucky,12,8,57,88,Western Kentucky
 Western Kentucky,Alabama,73,71,Western Kentucky,3,7,70,64,Western Kentucky
 Tennessee Tech,Western Kentucky,68,88,Western Kentucky,6,9,62,79,Western Kentucky
+Old Dominion,Western Kentucky,71,69,Old Dominion,7,5,64,64,Western Kentucky
 Cleveland State,Toledo,61,70,Toledo,7,8,54,62,Toledo
 Cleveland State,Ohio,46,101,Ohio,3,7,43,94,Ohio
 Cleveland State,Purdue Fort Wayne,63,61,Cleveland State,6,9,57,52,Cleveland State
@@ -1871,6 +2077,9 @@ Detroit Mercy,Cleveland State,89,83,Detroit Mercy,13,6,76,77,Cleveland State
 Detroit Mercy,Cleveland State,64,71,Cleveland State,7,8,57,63,Cleveland State
 Cleveland State,Purdue Fort Wayne,68,75,Purdue Fort Wayne,7,6,61,69,Purdue Fort Wayne
 Cleveland State,Purdue Fort Wayne,67,55,Cleveland State,3,10,64,45,Cleveland State
+Purdue Fort Wayne,Cleveland State,104,108,Cleveland State,16,6,88,102,Cleveland State
+Milwaukee,Cleveland State,65,71,Cleveland State,3,8,62,63,Cleveland State
+Oakland,Cleveland State,69,80,Cleveland State,11,3,58,77,Cleveland State
 Kent State,Detroit Mercy,80,66,Kent State,12,8,68,58,Kent State
 Detroit Mercy,Western Michigan,67,57,Detroit Mercy,7,5,60,52,Detroit Mercy
 Wright State,Detroit Mercy,93,70,Wright State,10,8,83,62,Wright State
@@ -1888,6 +2097,7 @@ Purdue Fort Wayne,Detroit Mercy,56,83,Detroit Mercy,9,12,47,71,Detroit Mercy
 Robert Morris,Detroit Mercy,74,85,Detroit Mercy,9,8,65,77,Detroit Mercy
 Robert Morris,Detroit Mercy,61,80,Detroit Mercy,8,12,53,68,Detroit Mercy
 Robert Morris,Detroit Mercy,73,83,Detroit Mercy,8,13,65,70,Detroit Mercy
+Detroit Mercy,Northern Kentucky,69,70,Northern Kentucky,13,9,56,61,Northern Kentucky
 Eastern Illinois,Green Bay,93,91,Eastern Illinois,5,12,88,79,Eastern Illinois
 Milwaukee,Green Bay,68,65,Milwaukee,4,7,64,58,Milwaukee
 Milwaukee,Green Bay,74,62,Milwaukee,4,9,70,53,Milwaukee
@@ -1930,6 +2140,7 @@ Milwaukee,Wright State,81,92,Wright State,9,11,72,81,Wright State
 Milwaukee,Wright State,82,92,Wright State,7,10,75,82,Wright State
 Oakland,Milwaukee,85,81,Oakland,10,9,75,72,Oakland
 Oakland,Milwaukee,87,89,Milwaukee,7,10,80,79,Oakland
+Milwaukee,Wright State,94,92,Milwaukee,11,6,83,86,Wright State
 Ball State,Northern Kentucky,73,74,Northern Kentucky,6,8,67,66,Ball State
 Tennessee Tech,Northern Kentucky,65,74,Northern Kentucky,8,6,57,68,Northern Kentucky
 Northern Kentucky,Chattanooga,72,79,Chattanooga,7,4,65,75,Chattanooga
@@ -1944,6 +2155,7 @@ UIC,Northern Kentucky,68,72,Northern Kentucky,13,4,55,68,Northern Kentucky
 UIC,Northern Kentucky,67,69,Northern Kentucky,7,3,60,66,Northern Kentucky
 Wright State,Northern Kentucky,75,81,Northern Kentucky,8,10,67,71,Northern Kentucky
 Wright State,Northern Kentucky,77,71,Wright State,7,7,70,64,Wright State
+Northern Kentucky,Oakland,58,69,Oakland,7,7,51,62,Oakland
 Toledo,Oakland,80,53,Toledo,16,2,64,51,Toledo
 Oakland,Bradley,60,74,Bradley,12,10,48,64,Bradley
 Oakland,UIC,72,74,UIC,2,14,70,60,Oakland
@@ -1956,6 +2168,7 @@ Oakland,Purdue Fort Wayne,81,66,Oakland,11,10,70,56,Oakland
 Oakland,Purdue Fort Wayne,82,75,Oakland,6,11,76,64,Oakland
 Oakland,Robert Morris,82,88,Robert Morris,8,12,74,76,Robert Morris
 Oakland,Robert Morris,86,81,Oakland,11,11,75,70,Oakland
+Youngstown State,Oakland,83,87,Oakland,13,9,70,78,Oakland
 SE Louisiana,Purdue Fort Wayne,63,67,Purdue Fort Wayne,1,7,62,60,SE Louisiana
 Robert Morris,Purdue Fort Wayne,102,88,Robert Morris,13,6,89,82,Robert Morris
 Robert Morris,Purdue Fort Wayne,82,87,Purdue Fort Wayne,9,11,73,76,Purdue Fort Wayne
@@ -2170,6 +2383,9 @@ Canisius,Quinnipiac,74,67,Canisius,6,11,68,56,Canisius
 Canisius,Quinnipiac,89,70,Canisius,9,5,80,65,Canisius
 Canisius,Fairfield,80,69,Canisius,8,6,72,63,Canisius
 Canisius,Fairfield,53,66,Fairfield,5,2,48,64,Fairfield
+Canisius,Siena,66,73,Siena,7,8,59,65,Siena
+Canisius,Siena,76,75,Canisius,7,4,69,71,Siena
+Rider,Canisius,78,76,Rider,6,9,72,67,Rider
 Iona,Fairfield,70,42,Iona,7,4,63,38,Iona
 Iona,Fairfield,52,67,Fairfield,3,5,49,62,Fairfield
 Fairfield,Niagara,51,68,Niagara,8,7,43,61,Niagara
@@ -2185,6 +2401,12 @@ Quinnipiac,Fairfield,78,63,Quinnipiac,11,6,67,57,Quinnipiac
 Quinnipiac,Fairfield,70,77,Fairfield,12,5,58,72,Fairfield
 Fairfield,Saint Peter's,55,50,Fairfield,6,2,49,48,Fairfield
 Fairfield,Saint Peter's,49,66,Saint Peter's,5,9,44,57,Saint Peter's
+Fairfield,Manhattan,59,69,Manhattan,6,7,53,62,Manhattan
+Fairfield,Manhattan,85,67,Fairfield,11,4,74,63,Fairfield
+Manhattan,Fairfield,58,59,Fairfield,2,5,56,54,Manhattan
+Fairfield,Monmouth,79,60,Fairfield,8,6,71,54,Fairfield
+Fairfield,Saint Peter's,52,47,Fairfield,6,6,46,41,Fairfield
+Iona,Fairfield,60,51,Iona,4,5,56,46,Iona
 Morgan St,Iona,83,72,Morgan St,11,6,72,66,Morgan St
 Iona,Rider,70,56,Iona,4,4,66,52,Iona
 Iona,Rider,72,64,Iona,11,1,61,63,Rider
@@ -2194,6 +2416,9 @@ Manhattan,Iona,77,70,Manhattan,8,5,69,65,Manhattan
 Iona,Quinnipiac,70,74,Quinnipiac,9,9,61,65,Quinnipiac
 Monmouth,Iona,86,91,Iona,5,8,81,83,Iona
 Monmouth,Iona,65,88,Iona,8,13,57,75,Iona
+Iona,Quinnipiac,72,48,Iona,3,7,69,41,Iona
+Iona,Siena,55,52,Iona,7,5,48,47,Iona
+Iona,Niagara,70,64,Iona,7,7,63,57,Iona
 Rider,Manhattan,82,64,Rider,6,9,76,55,Rider
 Rider,Manhattan,77,87,Manhattan,6,7,71,80,Manhattan
 Marist,Manhattan,61,39,Marist,12,2,49,37,Marist
@@ -2221,6 +2446,7 @@ Marist,Saint Peter's,54,59,Saint Peter's,7,3,47,56,Saint Peter's
 Marist,Saint Peter's,51,50,Marist,4,3,47,47,Saint Peter's
 Quinnipiac,Marist,67,76,Marist,14,10,53,66,Marist
 Quinnipiac,Marist,52,65,Marist,5,8,47,57,Marist
+Niagara,Marist,67,62,Niagara,3,8,64,54,Niagara
 Saint Peter's,Monmouth,76,78,Monmouth,11,9,65,69,Monmouth
 Saint Peter's,Monmouth,78,76,Saint Peter's,10,5,68,71,Monmouth
 Monmouth,Siena,77,78,Siena,8,9,69,69,Monmouth
@@ -2229,6 +2455,8 @@ Quinnipiac,Monmouth,80,92,Monmouth,9,10,71,82,Monmouth
 Quinnipiac,Monmouth,63,70,Monmouth,6,7,57,63,Monmouth
 Monmouth,Niagara,77,67,Monmouth,9,6,68,61,Monmouth
 Monmouth,Niagara,74,83,Niagara,10,7,64,76,Niagara
+Monmouth,Rider,77,74,Monmouth,7,11,70,63,Monmouth
+Monmouth,Rider,65,62,Monmouth,4,6,61,56,Monmouth
 Niagara,Saint Peter's,54,70,Saint Peter's,4,8,50,62,Saint Peter's
 Niagara,Saint Peter's,49,53,Saint Peter's,8,2,41,51,Saint Peter's
 Rider,Niagara,76,70,Rider,8,9,68,61,Rider
@@ -2240,15 +2468,18 @@ Siena,Niagara,68,66,Siena,7,9,61,57,Siena
 Fairleigh Dickinson,Quinnipiac,66,84,Quinnipiac,2,9,64,75,Quinnipiac
 Rider,Quinnipiac,64,80,Quinnipiac,5,10,59,70,Quinnipiac
 Rider,Quinnipiac,68,93,Quinnipiac,8,14,60,79,Quinnipiac
+Saint Peter's,Quinnipiac,60,65,Quinnipiac,6,3,54,62,Quinnipiac
+Saint Peter's,Quinnipiac,66,64,Saint Peter's,8,8,58,56,Saint Peter's
 Siena,Rider,78,69,Siena,10,6,68,63,Siena
 Siena,Rider,74,72,Siena,9,8,65,64,Siena
 Rider,Saint Peter's,52,66,Saint Peter's,5,1,47,65,Saint Peter's
 Rider,Saint Peter's,78,65,Rider,10,6,68,59,Rider
+Rider,Saint Peter's,60,75,Saint Peter's,5,7,55,68,Saint Peter's
 Saint Peter's,St. Francis (BKN),70,64,Saint Peter's,2,6,68,58,Saint Peter's
 Saint Peter's,Siena,68,62,Saint Peter's,7,10,61,52,Saint Peter's
 Saint Peter's,Siena,40,47,Siena,6,4,34,43,Siena
-Monmouth,Siena,77,78,Siena,8,9,69,69,Rider
-Monmouth,Siena,77,78,Siena,8,9,69,69,Siena
+Monmouth,Siena,77,78,Siena,8,9,69,69,Fairfield
+Monmouth,Siena,77,78,Siena,8,9,69,69,Iona
 Cedarville,Akron,49,97,Akron,4,16,45,81,Akron
 Malone University,Akron,83,93,Akron,8,4,75,89,Akron
 Ohio,Akron,70,90,Akron,8,14,62,76,Akron
@@ -2268,6 +2499,9 @@ Northern Illinois,Akron,76,81,Akron,9,11,67,70,Akron
 Akron,Ball State,88,79,Akron,9,8,79,71,Akron
 Akron,Ohio,73,90,Ohio,8,10,65,80,Ohio
 Bowling Green,Akron,83,71,Bowling Green,7,7,76,64,Bowling Green
+Akron,Buffalo,78,80,Buffalo,7,5,71,75,Buffalo
+Bowling Green,Akron,67,74,Akron,3,7,64,67,Akron
+Akron,Buffalo,74,81,Buffalo,6,7,68,74,Buffalo
 Ball State,Northern Illinois,79,70,Ball State,10,5,69,65,Ball State
 Illinois State,Ball State,66,82,Ball State,9,9,57,73,Ball State
 Ball State,Indiana State,57,67,Indiana State,5,4,52,63,Indiana State
@@ -2283,6 +2517,9 @@ Toledo,Ball State,67,81,Ball State,7,15,60,66,Ball State
 Bowling Green,Ball State,75,62,Bowling Green,7,5,68,57,Bowling Green
 Kent State,Ball State,71,90,Ball State,5,13,66,77,Ball State
 Central Michigan,Ball State,91,97,Ball State,10,13,81,84,Ball State
+Eastern Michigan,Ball State,65,100,Ball State,8,11,57,89,Ball State
+Ball State,Toledo,70,89,Toledo,7,10,63,79,Toledo
+Ball State,Toledo,89,91,Toledo,10,10,79,81,Toledo
 South Carolina State,Bowling Green,78,101,Bowling Green,13,10,65,91,Bowling Green
 Bowling Green,Appalachian State,78,76,Bowling Green,7,13,71,63,Bowling Green
 Purdue Northwest,Bowling Green,67,88,Bowling Green,6,10,61,78,Bowling Green
@@ -2299,6 +2536,7 @@ Western Michigan,Bowling Green,76,70,Western Michigan,12,8,64,62,Western Michiga
 Kent State,Bowling Green,71,67,Kent State,7,9,64,58,Kent State
 Bowling Green,Toledo,88,81,Bowling Green,10,11,78,70,Bowling Green
 Bowling Green,Eastern Michigan,82,69,Bowling Green,15,5,67,64,Bowling Green
+Miami (OH),Bowling Green,84,79,Miami (OH),10,10,74,69,Miami (OH)
 Buffalo,Army,74,78,Army,5,4,69,74,Army
 Mercyhurst,Buffalo,64,81,Buffalo,7,6,57,75,Buffalo
 Buffalo,Miami (OH),90,62,Buffalo,11,6,79,56,Buffalo
@@ -2312,6 +2550,9 @@ Toledo,Buffalo,80,70,Toledo,10,2,70,68,Toledo
 Buffalo,Northern Illinois,102,74,Buffalo,3,5,99,69,Buffalo
 Central Michigan,Buffalo,73,85,Buffalo,7,5,66,80,Buffalo
 Buffalo,Ohio,86,66,Buffalo,6,4,80,62,Buffalo
+Kent State,Buffalo,67,81,Buffalo,6,7,61,74,Buffalo
+Miami (OH),Buffalo,63,74,Buffalo,6,12,57,62,Buffalo
+Ohio,Buffalo,84,69,Ohio,8,5,76,64,Ohio
 Flagler,Central Michigan,92,73,Flagler,7,9,85,64,Flagler
 Central Michigan,Western Illinois,79,73,Central Michigan,6,7,73,66,Central Michigan
 Valparaiso,Central Michigan,79,84,Central Michigan,7,9,72,75,Central Michigan
@@ -2326,6 +2567,8 @@ Central Michigan,Kent State,76,83,Kent State,9,9,67,74,Kent State
 Ohio,Central Michigan,83,69,Ohio,6,9,77,60,Ohio
 Western Michigan,Central Michigan,67,65,Western Michigan,9,3,58,62,Central Michigan
 Miami (OH),Central Michigan,96,54,Miami (OH),18,5,78,49,Miami (OH)
+Toledo,Central Michigan,79,81,Central Michigan,9,10,70,71,Central Michigan
+Northern Illinois,Central Michigan,79,74,Northern Illinois,8,6,71,68,Northern Illinois
 Toledo,Eastern Michigan,91,74,Toledo,11,9,80,65,Toledo
 Adrian College,Eastern Michigan,35,95,Eastern Michigan,2,7,33,88,Eastern Michigan
 Olivet College,Eastern Michigan,65,94,Eastern Michigan,11,14,54,80,Eastern Michigan
@@ -2335,6 +2578,7 @@ Miami (OH),Eastern Michigan,85,63,Miami (OH),8,5,77,58,Miami (OH)
 Eastern Michigan,Kent State,51,64,Kent State,5,8,46,56,Kent State
 Eastern Michigan,Ohio,67,86,Ohio,8,12,59,74,Ohio
 Northern Illinois,Eastern Michigan,57,91,Eastern Michigan,6,12,51,79,Eastern Michigan
+Eastern Michigan,Western Michigan,64,63,Eastern Michigan,8,7,56,56,Ball State
 Point Park,Kent State,41,90,Kent State,5,5,36,85,Kent State
 Toledo,Kent State,84,82,Toledo,13,13,71,69,Toledo
 Western Michigan,Kent State,54,80,Kent State,4,9,50,71,Kent State
@@ -2344,6 +2588,7 @@ Miami (OH),Kent State,68,77,Kent State,7,11,61,66,Kent State
 Northern Illinois,Kent State,58,80,Kent State,6,11,52,69,Kent State
 Kent State,Western Michigan,76,69,Kent State,5,9,71,60,Kent State
 Kent State,Miami (OH),64,51,Kent State,6,8,58,43,Kent State
+Ohio,Kent State,85,63,Ohio,9,7,76,56,Ohio
 North Dakota,Miami (OH),67,81,Miami (OH),7,5,60,76,Miami (OH)
 Western Illinois,Miami (OH),57,67,Miami (OH),7,7,50,60,Miami (OH)
 Mount St. Joseph,Miami (OH),64,79,Miami (OH),9,12,55,67,Miami (OH)
@@ -2359,39 +2604,45 @@ SIU Edwardsville,Northern Illinois,73,53,SIU Edwardsville,8,2,65,51,SIU Edwardsv
 Chicago State,Northern Illinois,54,64,Northern Illinois,8,3,46,61,Northern Illinois
 Northern Illinois,Toledo,55,78,Toledo,1,12,54,66,Toledo
 Northern Illinois,Ohio,73,76,Ohio,10,8,63,68,Ohio
+Western Michigan,Northern Illinois,73,63,Western Michigan,11,7,62,56,Western Michigan
 Chicago State,Ohio,61,84,Ohio,4,8,57,76,Ohio
 Ohio,North Carolina A&T,84,72,Ohio,13,9,71,63,Ohio
 Purdue Northwest,Ohio,72,92,Ohio,7,6,65,86,Ohio
 Ohio,Toledo,78,95,Toledo,9,12,69,83,Toledo
 Western Michigan,Ohio,58,81,Ohio,8,7,50,74,Ohio
+Ohio,Toledo,87,80,Ohio,9,6,78,74,Ohio
 Bradley,Toledo,61,59,Bradley,5,11,56,48,Bradley
 UM Kansas City,Toledo,57,64,Toledo,6,7,51,57,Toledo
 Valparaiso,Toledo,57,71,Toledo,4,10,53,61,Toledo
 Toledo,Western Michigan,70,59,Toledo,8,5,62,54,Toledo
 Western Michigan,Toledo,44,91,Toledo,3,13,41,78,Toledo
 Adrian College,Western Michigan,42,62,Western Michigan,3,2,39,60,Western Michigan
+Eastern Michigan,Western Michigan,64,63,Eastern Michigan,8,7,56,56,Western Michigan
 UNC Greensboro,Coppin State,80,86,Coppin State,5,10,75,76,Coppin State
 Delaware State,Coppin State,78,86,Coppin State,10,9,68,77,Coppin State
 Delaware State,Coppin State,77,81,Coppin State,13,8,64,73,Coppin State
 Coppin State,Morgan St,72,92,Morgan St,9,10,63,82,Morgan St
 Coppin State,Morgan St,89,79,Coppin State,12,11,77,68,Coppin State
-Norfolk St,Coppin State,71,81,Coppin State,5,12,66,69,Coppin State
-Norfolk St,Coppin State,77,81,Coppin State,8,12,69,69,Coppin State
+Norfolk State,Coppin State,71,81,Coppin State,5,12,66,69,Coppin State
+Norfolk State,Coppin State,77,81,Coppin State,8,12,69,69,Coppin State
 Morgan St,Coppin State,79,76,Morgan St,8,6,71,70,Morgan St
 Morgan St,Coppin State,95,82,Morgan St,13,6,82,76,Morgan St
-Coppin State,Norfolk St,72,84,Norfolk St,10,6,62,78,Norfolk St
-Coppin State,Norfolk St,74,64,Coppin State,11,9,63,55,Coppin State
+Coppin State,Norfolk State,72,84,Norfolk State,10,6,62,78,Norfolk State
+Coppin State,Norfolk State,74,64,Coppin State,11,9,63,55,Coppin State
 Coppin State,Delaware State,81,68,Coppin State,7,5,74,63,Coppin State
 Coppin State,Delaware State,94,74,Coppin State,10,7,84,67,Coppin State
+Morgan St,Coppin State,82,61,Morgan St,9,5,73,56,Morgan St
 Delaware State,Coastal Carolina,73,99,Coastal Carolina,11,6,62,93,Coastal Carolina
-Norfolk St,Delaware State,87,76,Norfolk St,13,12,74,64,Norfolk St
-Norfolk St,Delaware State,83,79,Norfolk St,5,12,78,67,Norfolk St
+Norfolk State,Delaware State,87,76,Norfolk State,13,12,74,64,Norfolk State
+Norfolk State,Delaware State,83,79,Norfolk State,5,12,78,67,Norfolk State
 Delaware State,Morgan St,83,99,Morgan St,9,7,74,92,Morgan St
-Delaware State,Norfolk St,66,94,Norfolk St,8,15,58,79,Norfolk St
+Delaware State,Norfolk State,66,94,Norfolk State,8,15,58,79,Norfolk State
 Lancaster Bible College,Delaware State,80,81,Delaware State,10,7,70,74,Delaware State
 Delaware State,Morgan St,69,74,Morgan St,10,3,59,71,Morgan St
 St. Mary's (MD),Delaware State,58,75,Delaware State,7,7,51,68,Delaware State
-Delaware State,Norfolk St,55,86,Norfolk St,6,9,49,77,Norfolk St
+Delaware State,Norfolk State,55,86,Norfolk State,6,9,49,77,Norfolk State
+Morgan St,Delaware State,92,67,Morgan St,9,5,83,62,Morgan St
+Morgan St,Delaware State,75,82,Delaware State,9,8,66,74,Delaware State
 Florida A&M,Georgia,75,85,Georgia,2,5,73,80,Georgia
 Florida A&M,Oregon,66,87,Oregon,3,6,63,81,Oregon
 Florida A&M,Austin Peay,76,70,Florida A&M,7,6,69,64,Florida A&M
@@ -2406,19 +2657,24 @@ North Carolina A&T,Florida A&M,70,63,North Carolina A&T,4,5,66,58,North Carolina
 Florida A&M,South Carolina State,75,67,Florida A&M,2,6,73,61,Florida A&M
 Florida A&M,South Carolina State,57,63,South Carolina State,3,5,54,58,South Carolina State
 Florida A&M,South Carolina State,63,58,Florida A&M,3,6,60,52,Florida A&M
+Florida A&M,North Carolina Central,65,58,Florida A&M,5,5,60,53,Florida A&M
+Florida A&M,North Carolina Central,71,74,North Carolina Central,9,7,62,67,North Carolina Central
+Morgan St,Florida A&M,77,75,Morgan St,8,3,69,72,Florida A&M
 Belmont,Howard,95,78,Belmont,9,11,86,67,Belmont
 Howard,Queens NC,71,85,Queens NC,2,7,69,78,Queens NC
 Mount St. Mary's,Morgan St,62,55,Mount St. Mary's,4,3,58,52,Mount St. Mary's
 Lincoln PA,Morgan St,94,102,Morgan St,8,14,86,88,Morgan St
 W. Virginia Tech,Morgan St,73,67,W. Virginia Tech,12,5,61,62,Morgan St
-Morgan St,Norfolk St,78,74,Morgan St,8,10,70,64,Morgan St
-Morgan St,Norfolk St,85,89,Norfolk St,13,9,72,80,Norfolk St
+Morgan St,Norfolk State,78,74,Morgan St,8,10,70,64,Morgan St
+Morgan St,Norfolk State,85,89,Norfolk State,13,9,72,80,Norfolk State
 St. Mary's (MD),Morgan St,41,99,Morgan St,4,9,37,90,Morgan St
-Norfolk St,Morgan St,74,69,Norfolk St,8,7,66,62,Norfolk St
-Norfolk St,Morgan St,68,65,Norfolk St,4,4,64,61,Norfolk St
-Norfolk St,UNC Greensboro,47,64,UNC Greensboro,2,4,45,60,UNC Greensboro
-NC Wesleyan,Norfolk St,58,80,Norfolk St,5,7,53,73,Norfolk St
-St. Mary's (MD),Norfolk St,51,72,Norfolk St,6,6,45,66,Norfolk St
+Norfolk State,Morgan St,74,69,Norfolk State,8,7,66,62,Norfolk State
+Norfolk State,Morgan St,68,65,Norfolk State,4,4,64,61,Norfolk State
+Morgan St,Norfolk State,63,71,Norfolk State,3,7,60,64,Norfolk State
+Norfolk State,UNC Greensboro,47,64,UNC Greensboro,2,4,45,60,UNC Greensboro
+NC Wesleyan,Norfolk State,58,80,Norfolk State,5,7,53,73,Norfolk State
+St. Mary's (MD),Norfolk State,51,72,Norfolk State,6,6,45,66,Norfolk State
+North Carolina Central,Norfolk State,58,87,Norfolk State,5,14,53,73,Norfolk State
 North Carolina A&T,Chicago State,74,44,North Carolina A&T,10,4,64,40,North Carolina A&T
 North Carolina A&T,The Citadel,70,78,The Citadel,4,11,66,67,The Citadel
 Stanford,North Carolina A&T,78,46,Stanford,8,4,70,42,Stanford
@@ -2460,6 +2716,7 @@ Bradley,Missouri State,57,72,Missouri State,8,11,49,61,Missouri State
 Illinois State,Bradley,88,71,Illinois State,10,8,78,63,Illinois State
 Drake,Bradley,80,71,Drake,12,8,68,63,Drake
 Drake,Bradley,61,67,Bradley,2,6,59,61,Bradley
+Southern Illinois,Bradley,73,63,Southern Illinois,10,7,63,56,Southern Illinois
 South Dakota,Drake,53,69,Drake,2,7,51,62,Drake
 Omaha,Drake,66,87,Drake,6,8,60,79,Drake
 St. Ambrose,Drake,53,97,Drake,10,14,43,83,Drake
@@ -2484,6 +2741,8 @@ Loyola Chicago,Drake,50,51,Drake,4,3,46,48,Drake
 Drake,Northern Iowa,77,69,Drake,9,7,68,62,Drake
 Evansville,Drake,71,85,Drake,5,11,66,74,Drake
 Evansville,Drake,63,74,Drake,9,8,54,66,Drake
+Missouri State,Drake,69,71,Drake,6,3,63,68,Drake
+Drake,Loyola Chicago,65,75,Loyola Chicago,7,10,58,65,Loyola Chicago
 Evansville,Prairie View A&M,61,64,Prairie View A&M,7,5,54,59,Prairie View A&M
 Evansville,UT Martin,87,93,UT Martin,15,10,72,83,UT Martin
 Eastern Illinois,Evansville,65,68,Evansville,11,9,54,59,Evansville
@@ -2503,6 +2762,7 @@ Indiana State,Evansville,76,70,Indiana State,5,7,71,63,Indiana State
 Evansville,Indiana State,73,87,Indiana State,12,7,61,80,Indiana State
 Missouri State,Evansville,90,81,Missouri State,8,10,82,71,Missouri State
 Missouri State,Evansville,63,72,Evansville,1,12,62,60,Missouri State
+Evansville,Indiana State,43,53,Indiana State,4,4,39,49,Indiana State
 Greenville,Illinois State,108,177,Illinois State,14,8,94,169,Illinois State
 Illinois State,Murray State,65,76,Murray State,5,9,60,67,Murray State
 Chicago State,Illinois State,62,91,Illinois State,5,17,57,74,Illinois State
@@ -2518,6 +2778,7 @@ Illinois State,Southern Illinois,80,55,Illinois State,10,6,70,49,Illinois State
 Illinois State,Southern Illinois,49,59,Southern Illinois,4,10,45,49,Southern Illinois
 Northern Iowa,Illinois State,70,56,Northern Iowa,5,5,65,51,Northern Iowa
 Northern Iowa,Illinois State,94,87,Northern Iowa,11,8,83,79,Northern Iowa
+Illinois State,Northern Iowa,60,65,Northern Iowa,4,4,56,61,Northern Iowa
 Truman State,Indiana State,66,80,Indiana State,12,5,54,75,Indiana State
 Southeast Missouri State,Indiana State,66,72,Indiana State,6,4,60,68,Indiana State
 Indiana State,Missouri State,74,84,Missouri State,9,8,65,76,Missouri State
@@ -2530,6 +2791,7 @@ Indiana State,Northern Iowa,61,57,Indiana State,6,7,55,50,Indiana State
 Indiana State,Northern Iowa,67,70,Northern Iowa,9,11,58,59,Northern Iowa
 Indiana State,Valparaiso,58,43,Indiana State,3,3,55,40,Indiana State
 Indiana State,Valparaiso,58,70,Valparaiso,6,8,52,62,Valparaiso
+Indiana State,Loyola Chicago,49,65,Loyola Chicago,4,8,45,57,Loyola Chicago
 Lewis,Loyola Chicago,48,76,Loyola Chicago,4,10,44,66,Loyola Chicago
 Chicago State,Loyola Chicago,51,88,Loyola Chicago,2,8,49,80,Loyola Chicago
 St. Francis (ILL),Loyola Chicago,55,92,Loyola Chicago,5,12,50,80,Loyola Chicago
@@ -2541,6 +2803,7 @@ Loyola Chicago,Missouri State,70,50,Loyola Chicago,8,0,62,50,Loyola Chicago
 Valparaiso,Loyola Chicago,52,54,Loyola Chicago,5,10,47,44,Valparaiso
 Southern Illinois,Loyola Chicago,52,60,Loyola Chicago,12,5,40,55,Loyola Chicago
 Southern Illinois,Loyola Chicago,58,65,Loyola Chicago,7,3,51,62,Loyola Chicago
+Southern Illinois,Loyola Chicago,49,73,Loyola Chicago,4,10,45,63,Loyola Chicago
 William Jewell,Missouri State,64,73,Missouri State,9,5,55,68,Missouri State
 Northwestern State,Missouri State,67,94,Missouri State,7,12,60,82,Missouri State
 Little Rock,Missouri State,77,85,Missouri State,7,13,70,72,Missouri State
@@ -2551,6 +2814,7 @@ Missouri State,Valparaiso,78,68,Missouri State,7,7,71,61,Missouri State
 Missouri Science & Technology,Missouri State,49,94,Missouri State,10,11,39,83,Missouri State
 Southern Illinois,Missouri State,53,65,Missouri State,5,6,48,59,Missouri State
 Missouri State,Southern Illinois,68,53,Missouri State,5,6,63,47,Missouri State
+Valparaiso,Missouri State,55,66,Missouri State,6,8,49,58,Missouri State
 Northern Iowa,Saint Mary's,64,66,Saint Mary's,7,9,57,57,Western Kentucky
 Utah State,Northern Iowa,82,71,Utah State,7,14,75,57,Utah State
 St. Ambrose,Northern Iowa,53,98,Northern Iowa,2,10,51,88,Northern Iowa
@@ -2591,6 +2855,8 @@ Fresno State,Air Force,67,64,Fresno State,2,6,65,58,Fresno State
 New Mexico,Air Force,73,65,New Mexico,2,6,71,59,New Mexico
 New Mexico,Air Force,55,62,Air Force,5,4,50,58,Air Force
 Air Force,Colorado State,49,72,Colorado State,5,9,44,63,Colorado State
+Air Force,Colorado State,44,74,Colorado State,5,5,39,69,Colorado State
+Air Force,UNLV,52,80,UNLV,2,9,50,71,UNLV
 Boise State,Sam Houston State,86,55,Boise State,10,3,76,52,Boise State
 College of Idaho,Boise State,49,86,Boise State,5,7,44,79,Boise State
 Boise State,BYU,74,70,Boise State,6,7,68,63,Boise State
@@ -2611,6 +2877,8 @@ Utah State,Boise State,70,79,Boise State,3,8,67,71,Boise State
 Utah State,Boise State,77,81,Boise State,4,7,73,74,Boise State
 Boise State,San Diego State,66,78,San Diego State,12,6,54,72,San Diego State
 Boise State,San Diego State,58,62,San Diego State,5,5,53,57,San Diego State
+Fresno State,Boise State,67,64,Fresno State,10,7,57,57,San Diego State
+Nevada,Boise State,89,82,Nevada,9,7,80,75,Nevada
 Colorado State-Pueblo,Colorado State,77,89,Colorado State,11,6,66,83,Colorado State
 Colorado State,Saint Mary's,33,53,Saint Mary's,2,7,31,46,Saint Mary's
 Colorado State,Santa Clara,70,57,Colorado State,10,5,60,52,Colorado State
@@ -2626,6 +2894,10 @@ Colorado State,Utah State,64,83,Utah State,9,10,55,73,Utah State
 Colorado State,Utah State,84,76,Colorado State,9,8,75,68,Colorado State
 Colorado State,Wyoming,74,72,Colorado State,6,10,68,62,Colorado State
 Colorado State,Wyoming,68,59,Colorado State,3,6,65,53,Colorado State
+New Mexico,Colorado State,73,87,Colorado State,7,9,66,78,Colorado State
+Colorado State,Nevada,82,85,Nevada,8,11,74,74,Colorado State
+Fresno State,Colorado State,62,72,Colorado State,10,7,52,65,Colorado State
+Colorado State,Utah State,50,62,Utah State,3,7,47,55,Utah State
 William Jessup,Fresno State,47,87,Fresno State,8,5,39,82,Fresno State
 Fresno Pacific,Fresno State,65,78,Fresno State,10,8,55,70,Fresno State
 Wyoming,Fresno State,78,74,Wyoming,12,5,66,69,Fresno State
@@ -2641,6 +2913,9 @@ San Diego State,Fresno State,67,53,San Diego State,5,6,62,47,San Diego State
 San Diego State,Fresno State,75,57,San Diego State,8,5,67,52,San Diego State
 Fresno State,UNLV,67,64,Fresno State,10,3,57,61,UNLV
 Fresno State,UNLV,67,68,UNLV,10,8,57,60,UNLV
+Fresno State,Boise State,67,64,Fresno State,10,7,57,57,UNLV
+Utah State,Fresno State,57,51,Utah State,6,7,51,44,Utah State
+New Mexico,Fresno State,77,85,Fresno State,12,7,65,78,Fresno State
 Nevada,North Dakota State,62,48,Nevada,8,6,54,42,Nevada
 Pacific,Nevada,58,70,Nevada,6,10,52,60,Nevada
 San Francisco,Nevada,85,60,San Francisco,15,4,70,56,San Francisco
@@ -2657,6 +2932,8 @@ UNLV,Nevada,60,89,Nevada,8,14,52,75,Nevada
 UNLV,Nevada,62,72,Nevada,9,6,53,66,Nevada
 Nevada,Utah State,72,75,Utah State,13,11,59,64,Utah State
 Nevada,Utah State,66,87,Utah State,8,4,58,83,Utah State
+Colorado State,Nevada,82,85,Nevada,8,11,74,74,Utah State
+Nevada,San Diego State,70,77,San Diego State,5,9,65,68,San Diego State
 Our Lady of the Lake,New Mexico,65,104,New Mexico,10,10,55,94,New Mexico
 Le Tourneau,New Mexico,58,90,New Mexico,11,2,47,88,New Mexico
 Utah State,New Mexico,77,45,Utah State,4,5,73,40,Utah State
@@ -2680,6 +2957,9 @@ Wyoming,San Diego State,57,87,San Diego State,10,11,47,76,San Diego State
 Wyoming,San Diego State,71,98,San Diego State,10,11,61,87,San Diego State
 San José St,San Diego State,54,85,San Diego State,7,6,47,79,San Diego State
 San José St,San Diego State,55,77,San Diego State,10,10,45,67,San Diego State
+San Diego State,UNLV,71,62,San Diego State,9,9,62,53,San Diego State
+Wyoming,San Diego State,66,69,San Diego State,12,7,54,62,San Diego State
+Utah State,San Diego State,57,68,San Diego State,3,2,54,66,San Diego State
 Fresno Pacific,San José St,79,87,San José St,5,10,74,77,San José St
 San José St,Saint Mary's,61,96,Saint Mary's,9,6,52,90,Saint Mary's
 San José St,Utah State,62,107,Utah State,6,11,56,96,Utah State
@@ -2687,14 +2967,18 @@ San José St,Utah State,52,85,Utah State,4,8,48,77,Utah State
 Benedictine (AZ),San José St,64,80,San José St,10,8,54,72,San José St
 UNLV,San José St,76,60,UNLV,5,7,71,53,UNLV
 UNLV,San José St,67,64,UNLV,7,9,60,55,UNLV
+San José St,Wyoming,80,111,Wyoming,9,11,71,100,Wyoming
 UNLV,Alabama,74,86,Alabama,13,15,61,71,Alabama
 St. Katherine,UNLV,34,95,UNLV,2,12,32,83,UNLV
 Benedict,UNLV,45,99,UNLV,8,8,37,91,UNLV
 Utah State,UNLV,56,59,UNLV,5,13,51,46,Utah State
 Utah State,UNLV,83,74,Utah State,10,10,73,64,Utah State
+UNLV,Wyoming,69,80,Wyoming,3,10,66,70,Wyoming
+UNLV,Utah State,53,74,Utah State,6,6,47,68,Utah State
 Utah State,South Dakota State,59,83,South Dakota State,7,15,52,68,South Dakota State
 BYU,Utah State,67,64,BYU,8,2,59,62,Utah State
 College of Idaho,Utah State,64,90,Utah State,12,4,52,86,Utah State
+Wyoming,Utah State,59,72,Utah State,9,6,50,66,Utah State
 Mississippi Valley State,Wyoming,61,97,Wyoming,9,13,52,84,Wyoming
 Texas Southern,Wyoming,76,74,Texas Southern,3,8,73,66,Texas Southern
 Incarnate Word,Wyoming,83,94,Wyoming,10,10,73,84,Wyoming
@@ -2717,6 +3001,8 @@ Merrimack,Bryant,58,60,Bryant,7,6,51,54,Bryant
 Bryant,Merrimack,76,60,Bryant,6,7,70,53,Bryant
 Long Island University,Bryant,80,87,Bryant,10,8,70,79,Bryant
 Long Island University,Bryant,60,63,Bryant,4,7,56,56,Bryant
+Sacred Heart,Bryant,55,85,Bryant,9,7,46,78,Bryant
+Mount St. Mary's,Bryant,73,68,Mount St. Mary's,5,8,68,60,Mount St. Mary's
 Army,Central Connecticut,79,57,Army,15,3,64,54,Army
 Central Connecticut,Fairleigh Dickinson,94,87,Central Connecticut,10,8,84,79,Central Connecticut
 Central Connecticut,Fairleigh Dickinson,71,79,Fairleigh Dickinson,7,8,64,71,Fairleigh Dickinson
@@ -2769,6 +3055,8 @@ St. Francis (PA),Merrimack,62,68,Merrimack,4,12,58,56,St. Francis (PA)
 St. Francis (PA),Merrimack,54,59,Merrimack,9,6,45,53,Merrimack
 St. Francis (BKN),Merrimack,84,71,St. Francis (BKN),9,9,75,62,St. Francis (BKN)
 St. Francis (BKN),Merrimack,67,75,Merrimack,2,2,65,73,Merrimack
+Merrimack,Wagner,67,74,Wagner,7,3,60,71,Wagner
+Merrimack,Wagner,59,64,Wagner,9,3,50,61,Wagner
 Mount St. Mary's,Navy,67,73,Navy,11,4,56,69,Navy
 St. Francis (PA),Mount St. Mary's,57,75,Mount St. Mary's,5,7,52,68,Mount St. Mary's
 Mount St. Mary's,St. Francis (BKN),55,70,St. Francis (BKN),4,7,51,63,St. Francis (BKN)
@@ -2778,6 +3066,7 @@ Sacred Heart,Mount St. Mary's,64,76,Mount St. Mary's,8,10,56,66,Mount St. Mary's
 Wagner,Mount St. Mary's,61,39,Wagner,7,3,54,36,Wagner
 Wagner,Mount St. Mary's,57,55,Wagner,4,7,53,48,Wagner
 Mount St. Mary's,St. Francis (PA),72,65,Mount St. Mary's,9,3,63,62,Mount St. Mary's
+Mount St. Mary's,Wagner,66,60,Mount St. Mary's,3,6,63,54,Mount St. Mary's
 Sacred Heart,Wagner,46,74,Wagner,2,11,44,63,Wagner
 Sacred Heart,Wagner,86,85,Sacred Heart,11,5,75,80,Wagner
 St. Francis (PA),Sacred Heart,76,58,St. Francis (PA),9,4,67,54,St. Francis (PA)
@@ -2818,6 +3107,7 @@ SIU Edwardsville,Austin Peay,57,79,Austin Peay,6,7,51,72,Austin Peay
 Eastern Illinois,Austin Peay,76,69,Eastern Illinois,9,8,67,61,Eastern Illinois
 Austin Peay,Tennessee Tech,76,81,Tennessee Tech,5,11,71,70,Austin Peay
 Austin Peay,Jacksonville State,67,75,Jacksonville State,9,7,58,68,Jacksonville State
+Austin Peay,Eastern Kentucky,67,70,Eastern Kentucky,3,8,64,62,Austin Peay
 Belmont,Queens NC,73,61,Belmont,8,6,65,55,Belmont
 Samford,Belmont,96,83,Samford,14,10,82,73,Samford
 Tennessee State,Belmont,64,79,Belmont,4,10,60,69,Belmont
@@ -2839,6 +3129,9 @@ Jacksonville State,Belmont,59,63,Belmont,6,3,53,60,Belmont
 Tennessee Tech,Belmont,66,90,Belmont,4,7,62,83,Belmont
 Belmont,Eastern Kentucky,67,81,Eastern Kentucky,6,7,61,74,Eastern Kentucky
 Belmont,Morehead State,82,89,Morehead State,12,4,70,85,Morehead State
+SIU Edwardsville,Belmont,61,78,Belmont,4,10,57,68,Belmont
+Jacksonville State,Belmont,69,72,Belmont,7,9,62,63,Belmont
+Morehead State,Belmont,86,71,Morehead State,9,10,77,61,Morehead State
 Chicago State,Eastern Illinois,56,78,Eastern Illinois,8,5,48,73,Eastern Illinois
 Western Illinois,Eastern Illinois,88,92,Eastern Illinois,10,9,78,83,Eastern Illinois
 Eastern Illinois,Eastern Kentucky,61,69,Eastern Kentucky,6,5,55,64,Eastern Kentucky
@@ -2873,6 +3166,7 @@ Eastern Kentucky,UT Martin,89,72,Eastern Kentucky,7,9,82,63,Eastern Kentucky
 Eastern Kentucky,Southeast Missouri State,72,94,Southeast Missouri State,11,14,61,80,Southeast Missouri State
 Eastern Kentucky,Southeast Missouri State,87,65,Eastern Kentucky,14,6,73,59,Eastern Kentucky
 Tennessee State,Eastern Kentucky,84,89,Eastern Kentucky,6,6,78,83,Eastern Kentucky
+Eastern Kentucky,Morehead State,64,67,Morehead State,9,5,55,62,Morehead State
 Jacksonville State,Alabama,57,81,Alabama,9,7,48,74,Alabama
 Jacksonville State,South Alabama,77,73,Jacksonville State,15,8,62,65,South Alabama
 Mobile,Jacksonville State,66,85,Jacksonville State,12,6,54,79,Jacksonville State
@@ -2890,6 +3184,7 @@ Jacksonville State,Southeast Missouri State,66,54,Jacksonville State,4,7,62,47,J
 SIU Edwardsville,Jacksonville State,60,80,Jacksonville State,9,9,51,71,Jacksonville State
 Jacksonville State,Tennessee State,77,76,Jacksonville State,6,9,71,67,Jacksonville State
 Murray State,Jacksonville State,74,87,Jacksonville State,13,13,61,74,Jacksonville State
+Murray State,Jacksonville State,65,68,Jacksonville State,5,8,60,60,Jacksonville State
 Morehead State,Kentucky,45,81,Kentucky,3,6,42,75,Kentucky
 Arkansas State,Morehead State,61,69,Morehead State,4,5,57,64,Morehead State
 Transylvania,Morehead State,55,77,Morehead State,8,12,47,65,Morehead State
@@ -2907,6 +3202,7 @@ Morehead State,Tennessee State,79,66,Morehead State,8,9,71,57,Morehead State
 Morehead State,UT Martin,79,69,Morehead State,10,9,69,60,Morehead State
 Morehead State,SIU Edwardsville,56,48,Morehead State,3,5,53,43,Morehead State
 Tennessee State,Morehead State,60,74,Morehead State,7,7,53,67,Morehead State
+Southeast Missouri State,Morehead State,54,61,Morehead State,8,3,46,58,Morehead State
 Greenville,Murray State,95,173,Murray State,20,5,75,168,Murray State
 Transylvania,Murray State,49,90,Murray State,9,9,40,81,Murray State
 Murray State,Austin Peay,70,74,Austin Peay,3,7,67,67,Murray State
@@ -2919,6 +3215,7 @@ UT Martin,Murray State,55,84,Murray State,7,8,48,76,Murray State
 Murray State,SIU Edwardsville,86,57,Murray State,12,5,74,52,Murray State
 SIU Edwardsville,Murray State,62,89,Murray State,6,13,56,76,Murray State
 Murray State,Tennessee Tech,61,71,Tennessee Tech,7,10,54,61,Tennessee Tech
+Murray State,Jacksonville State,65,68,Jacksonville State,5,8,60,60,Tennessee Tech
 SIU Edwardsville,LSU,81,94,LSU,13,12,68,82,LSU
 St. Louis Pharmacy,SIU Edwardsville,45,80,SIU Edwardsville,8,10,37,70,SIU Edwardsville
 Omaha,SIU Edwardsville,65,63,Omaha,6,7,59,56,Omaha
@@ -2966,6 +3263,10 @@ Arizona State,UCLA,79,80,UCLA,10,7,69,73,UCLA
 Washington,Arizona State,64,97,Arizona State,7,10,57,87,Arizona State
 Washington,Arizona State,72,80,Arizona State,11,6,61,74,Arizona State
 Washington State,Arizona State,74,77,Arizona State,7,7,67,70,Arizona State
+Arizona State,Colorado,61,75,Colorado,7,6,54,69,Colorado
+Arizona State,Utah,59,98,Utah,3,8,56,90,Utah
+Washington State,Arizona State,59,64,Arizona State,6,2,53,62,Arizona State
+Arizona State,Oregon,73,91,Oregon,10,10,63,81,Oregon
 Grambling,Arizona,55,74,Arizona,3,7,52,67,Arizona
 Arizona,Stanford,75,78,Stanford,11,7,64,71,Stanford
 Colorado,Arizona,74,88,Arizona,12,8,62,80,Arizona
@@ -2984,6 +3285,7 @@ Arizona,UCLA,60,74,UCLA,4,4,56,70,UCLA
 Arizona,USC,81,72,Arizona,8,7,73,65,Arizona
 Washington State,Arizona,53,69,Arizona,7,4,46,65,Arizona
 Washington,Arizona,74,75,Arizona,6,8,68,67,Washington
+Arizona,Oregon,69,80,Oregon,8,12,61,68,Oregon
 California,Oregon State,63,71,Oregon State,6,5,57,66,Oregon State
 Northwest University,California,61,86,California,7,6,54,80,California
 Nicholls,California,49,60,California,6,10,43,50,California
@@ -3007,6 +3309,8 @@ California,Washington State,51,82,Washington State,5,12,46,70,Washington State
 California,Washington,51,62,Washington,3,8,48,54,Washington
 Oregon State,California,59,57,Oregon State,0,2,59,55,Oregon State
 Oregon,California,74,63,Oregon,6,7,68,56,Oregon
+California,Stanford,76,58,California,9,5,67,53,California
+California,Colorado,58,61,Colorado,7,3,51,58,Colorado
 South Dakota,Colorado,61,84,Colorado,3,10,58,74,Colorado
 Colorado,Tennessee,47,56,Tennessee,5,7,42,49,Tennessee
 Omaha,Colorado,49,91,Colorado,5,11,44,80,Colorado
@@ -3027,6 +3331,8 @@ Colorado,Oregon,56,60,Oregon,6,4,50,56,Oregon
 Colorado,Oregon State,61,57,Colorado,4,6,57,51,Colorado
 USC,Colorado,62,80,Colorado,5,12,57,68,Colorado
 UCLA,Colorado,61,70,Colorado,5,5,56,65,Colorado
+Colorado,USC,72,70,Colorado,12,8,60,62,USC
+Oregon State,Colorado,70,68,Oregon State,9,6,61,62,Colorado
 Missouri,Oregon,83,75,Missouri,9,7,74,68,Missouri
 Oregon,Washington,74,71,Oregon,4,7,70,64,Oregon
 San Francisco,Oregon,64,74,Oregon,8,4,56,70,Oregon
@@ -3039,6 +3345,9 @@ Washington,Oregon,74,86,Oregon,9,12,65,74,Oregon
 Utah,Oregon,64,67,Oregon,5,9,59,58,Utah
 Oregon,USC,58,72,USC,7,10,51,62,USC
 Oregon,Stanford,71,68,Oregon,10,8,61,60,Oregon
+UCLA,Oregon,74,82,Oregon,6,8,68,74,Oregon
+Oregon,Oregon State,80,67,Oregon,15,4,65,63,Oregon
+Oregon State,Oregon,75,64,Oregon State,10,6,65,58,Oregon State
 Northwest University,Oregon State,42,114,Oregon State,3,10,39,104,Oregon State
 Oregon State,Washington State,55,59,Washington State,7,7,48,52,Washington State
 Portland,Oregon State,87,86,Portland,7,9,80,77,Portland
@@ -3050,6 +3359,8 @@ Washington,Oregon State,71,91,Oregon State,5,11,66,80,Oregon State
 Washington State,Oregon State,66,68,Oregon State,8,5,58,63,Oregon State
 Utah,Oregon State,56,74,Oregon State,3,4,53,70,Oregon State
 Oregon State,Stanford,73,62,Oregon State,5,9,68,53,Oregon State
+Oregon State,Utah,75,70,Oregon State,10,8,65,62,Oregon State
+Oregon State,UCLA,83,79,Oregon State,10,5,73,74,UCLA
 Stanford,Alabama,82,64,Stanford,8,7,74,57,Stanford
 Washington,Stanford,75,91,Stanford,8,7,67,84,Stanford
 Washington State,Stanford,60,75,Stanford,11,3,49,72,Stanford
@@ -3060,6 +3371,7 @@ USC,Stanford,72,66,USC,4,7,68,59,USC
 Utah,Stanford,66,73,Stanford,6,8,60,65,Stanford
 Stanford,Washington,79,61,Stanford,3,8,76,53,Stanford
 Stanford,Washington State,76,85,Washington State,7,13,69,72,Washington State
+Stanford,USC,42,79,USC,6,9,36,70,USC
 Pepperdine,UCLA,98,107,UCLA,9,10,89,97,UCLA
 Seattle U,UCLA,52,78,UCLA,3,6,49,72,UCLA
 San Diego,UCLA,56,83,UCLA,8,6,48,77,UCLA
@@ -3070,6 +3382,7 @@ UCLA,USC,48,66,USC,3,9,45,57,USC
 UCLA,Washington State,73,81,Washington State,5,13,68,68,USC
 UCLA,Washington,64,61,UCLA,10,10,54,51,UCLA
 UCLA,Utah,76,61,UCLA,11,9,65,52,UCLA
+USC,UCLA,64,63,USC,4,5,60,58,USC
 California Baptist,USC,87,95,USC,20,5,67,90,USC
 USC,BYU,79,53,USC,6,7,73,46,USC
 Santa Clara,USC,63,86,USC,2,7,61,79,USC
@@ -3079,14 +3392,17 @@ Washington State,USC,77,85,USC,8,6,69,79,USC
 USC,Washington,69,54,USC,1,5,68,49,USC
 USC,Washington State,76,65,USC,5,3,71,62,USC
 USC,Utah,61,71,Utah,2,9,59,62,Utah
+Utah,USC,85,91,USC,6,6,79,85,USC
 Washington,Utah,62,76,Utah,6,7,56,69,Utah
 Utah,BYU,64,82,BYU,9,9,55,73,BYU
 Utah Valley,Utah,67,75,Utah,5,4,62,71,Utah
 Utah,Washington State,71,56,Utah,6,7,65,49,Utah
 Utah,Washington,79,83,Washington,7,12,72,71,Utah
+Washington,Utah,95,98,Utah,11,14,84,84,Utah
 Seattle U,Washington,41,73,Washington,4,8,37,65,Washington
 Washington State,Washington,77,62,Washington State,5,9,72,53,Washington State
 Washington,Washington State,65,63,Washington,7,6,58,57,Washington
+Washington,Utah,95,98,Utah,11,14,84,84,Washington
 Texas Southern,Washington State,52,56,Washington State,5,5,47,51,Washington State
 Prairie View A&M,Washington State,62,90,Washington State,4,13,58,77,Washington State
 Northwestern State,Washington State,52,62,Washington State,8,3,44,59,Washington State
@@ -3100,6 +3416,7 @@ Navy,American,69,60,Navy,3,11,66,49,Navy
 American,Loyola (MD),49,60,Loyola (MD),6,3,43,57,Loyola (MD)
 American,Bucknell,78,71,American,10,8,68,63,American
 Bucknell,American,68,81,American,5,11,63,70,American
+American,Army,66,89,Army,11,7,55,82,Army
 US Merchant Marine Academy,Army,32,93,Army,2,13,30,80,Army
 Army,Florida,69,76,Florida,10,4,59,72,Florida
 Army,Colgate,57,101,Colgate,6,12,51,89,Colgate
@@ -3116,6 +3433,7 @@ Holy Cross,Army,65,69,Army,7,7,58,62,Army
 Army,Holy Cross,51,67,Holy Cross,3,10,48,57,Holy Cross
 Boston University,Army,75,63,Boston University,15,10,60,53,Boston University
 Boston University,Army,55,57,Army,7,6,48,51,Army
+Loyola (MD),Army,67,63,Loyola (MD),10,3,57,60,Army
 Boston University,Holy Cross,83,76,Boston University,7,6,76,70,Boston University
 Holy Cross,Boston University,68,66,Holy Cross,6,7,62,59,Holy Cross
 Colgate,Boston University,86,79,Colgate,10,7,76,72,Colgate
@@ -3128,6 +3446,8 @@ Boston University,Holy Cross,78,69,Boston University,7,10,71,59,Boston Universit
 Boston University,Colgate,72,82,Colgate,8,8,64,74,Colgate
 Boston University,Colgate,63,78,Colgate,4,6,59,72,Colgate
 Holy Cross,Boston University,86,75,Holy Cross,10,6,76,69,Holy Cross
+Lehigh,Boston University,58,69,Boston University,5,5,53,64,Boston University
+Boston University,Colgate,69,77,Colgate,5,5,64,72,Colgate
 Bucknell,Navy,69,78,Navy,10,4,59,74,Navy
 Navy,Bucknell,63,60,Navy,6,2,57,58,Bucknell
 Lafayette,Bucknell,83,60,Lafayette,9,6,74,54,Lafayette
@@ -3136,10 +3456,13 @@ Lehigh,Bucknell,70,75,Bucknell,3,12,67,63,Lehigh
 Bucknell,Lehigh,77,61,Bucknell,9,4,68,57,Bucknell
 Bucknell,Lehigh,84,70,Bucknell,6,3,78,67,Bucknell
 Lehigh,Bucknell,68,92,Bucknell,8,10,60,82,Bucknell
+Bucknell,Lafayette,92,84,Bucknell,7,9,85,75,Bucknell
+Bucknell,Colgate,75,105,Colgate,8,11,67,94,Colgate
 Holy Cross,Colgate,55,95,Colgate,2,14,53,81,Colgate
 Holy Cross,Colgate,87,96,Colgate,5,11,82,85,Colgate
 Colgate,Holy Cross,74,63,Colgate,3,4,71,59,Colgate
 Colgate,Holy Cross,78,60,Colgate,6,5,72,55,Colgate
+Loyola (MD),Colgate,72,85,Colgate,5,14,67,71,Colgate
 Lehigh,Holy Cross,75,72,Lehigh,6,5,69,67,Lehigh
 Lehigh,Holy Cross,82,74,Lehigh,6,4,76,70,Lehigh
 Lafayette,Lehigh,89,90,Lehigh,6,4,83,86,Lehigh
@@ -3159,6 +3482,7 @@ Lehigh,Loyola (MD),76,72,Lehigh,5,4,71,68,Lehigh
 Loyola (MD),Navy,52,70,Navy,5,7,47,63,Navy
 Navy,Loyola (MD),73,67,Navy,4,3,69,64,Navy
 Loyola (MD),Navy,58,66,Navy,7,3,51,63,Navy
+Loyola (MD),Navy,76,68,Loyola (MD),7,8,69,60,Loyola (MD)
 Furman,Alabama,80,83,Alabama,13,10,67,73,Alabama
 East Tennessee State,Alabama,69,85,Alabama,9,12,60,73,Alabama
 Ole Miss,Alabama,64,82,Alabama,1,12,63,70,Alabama
@@ -3177,6 +3501,11 @@ Georgia,Alabama,82,115,Alabama,2,18,80,97,Alabama
 Vanderbilt,Alabama,78,82,Alabama,10,10,68,72,Alabama
 Alabama,Arkansas,66,81,Arkansas,11,4,55,77,Arkansas
 Alabama,Mississippi State,64,59,Alabama,7,1,57,58,Mississippi State
+Auburn,Alabama,58,70,Alabama,6,10,52,60,Alabama
+Alabama,Georgia,89,79,Alabama,10,8,79,71,Alabama
+Mississippi State,Alabama,48,85,Alabama,1,13,47,72,Alabama
+Tennessee,Alabama,68,73,Alabama,7,7,61,66,Alabama
+LSU,Alabama,79,80,Alabama,10,12,69,68,LSU
 Mississippi Valley State,Arkansas,62,142,Arkansas,13,20,49,122,Arkansas
 UT Arlington,Arkansas,60,72,Arkansas,7,7,53,65,Arkansas
 Southern,Arkansas,44,79,Arkansas,1,11,43,68,Arkansas
@@ -3196,6 +3525,10 @@ Arkansas,Kentucky,81,80,Arkansas,9,14,72,66,Arkansas
 Arkansas,Missouri,86,81,Arkansas,8,13,78,68,Arkansas
 Florida,Arkansas,64,75,Arkansas,4,4,60,71,Arkansas
 LSU,Arkansas,75,83,Arkansas,9,6,66,77,Arkansas
+Arkansas,South Carolina,101,73,Arkansas,15,6,86,67,Arkansas
+Texas A&M,Arkansas,80,87,Arkansas,10,9,70,78,Arkansas
+Missouri,Arkansas,64,70,Arkansas,6,5,58,65,Arkansas
+LSU,Arkansas,78,71,LSU,9,6,69,65,LSU
 Auburn,Gonzaga,67,90,Gonzaga,11,6,56,84,Gonzaga
 South Alabama,Auburn,81,90,Auburn,7,22,74,68,South Alabama
 Texas Southern,Auburn,63,80,Auburn,5,4,58,76,Auburn
@@ -3214,6 +3547,7 @@ Auburn,Kentucky,80,82,Kentucky,11,11,69,71,Kentucky
 Auburn,LSU,80,104,LSU,7,11,73,93,LSU
 Florida,Auburn,74,57,Florida,7,7,67,50,Florida
 Tennessee,Auburn,72,77,Auburn,11,9,61,68,Auburn
+Mississippi State,Auburn,71,78,Auburn,2,11,69,67,Mississippi State
 Florida,Vanderbilt,91,72,Florida,7,8,84,64,Florida
 LSU,Florida,79,83,Florida,7,5,72,78,Florida
 Kentucky,Florida,76,58,Kentucky,6,9,70,49,Kentucky
@@ -3225,6 +3559,10 @@ Vanderbilt,Florida,71,78,Florida,8,10,63,68,Florida
 South Carolina,Florida,72,66,South Carolina,4,7,68,59,South Carolina
 Georgia,Florida,63,70,Florida,4,6,59,64,Florida
 Florida,Kentucky,71,67,Florida,7,4,64,63,Florida
+Missouri,Florida,72,70,Missouri,9,5,63,65,Florida
+Florida,Tennessee,54,65,Tennessee,3,3,51,62,Tennessee
+Vanderbilt,Florida,63,69,Florida,9,6,54,63,Florida
+Florida,Tennessee,66,78,Tennessee,10,9,56,69,Tennessee
 North Georgia,Georgia,62,84,Georgia,10,5,52,79,Georgia
 Samford,Georgia,75,79,Georgia,9,6,66,73,Georgia
 Mississippi State,Georgia,83,73,Mississippi State,12,9,71,64,Mississippi State
@@ -3238,6 +3576,7 @@ Georgia,Tennessee,81,89,Tennessee,5,10,76,79,Tennessee
 Missouri,Georgia,70,80,Georgia,6,7,64,73,Georgia
 LSU,Georgia,78,91,Georgia,8,9,70,82,Georgia
 South Carolina,Georgia,91,70,South Carolina,10,7,81,63,South Carolina
+Georgia,Missouri,70,73,Missouri,8,7,62,66,Missouri
 Kentucky,Mississippi State,78,73,Kentucky,11,5,67,68,Mississippi State
 Vanderbilt,Kentucky,74,77,Kentucky,10,5,64,72,Kentucky
 LSU,Kentucky,69,82,Kentucky,4,7,65,75,Kentucky
@@ -3245,6 +3584,9 @@ Kentucky,Missouri,70,75,Missouri,9,9,61,66,Missouri
 Tennessee,Kentucky,82,71,Tennessee,5,4,77,67,Tennessee
 Kentucky,Vanderbilt,82,78,Kentucky,8,4,74,74,Kentucky
 Kentucky,Tennessee,70,55,Kentucky,7,6,63,49,Kentucky
+Kentucky,Ole Miss,62,70,Ole Miss,5,8,57,62,Ole Miss
+South Carolina,Kentucky,64,92,Kentucky,2,13,62,79,Kentucky
+Mississippi State,Kentucky,74,73,Mississippi State,5,11,69,62,Mississippi State
 SE Louisiana,LSU,43,96,LSU,5,13,38,83,LSU
 Sam Houston State,LSU,66,88,LSU,8,8,58,80,LSU
 Nicholls,LSU,80,86,LSU,8,4,72,82,LSU
@@ -3254,6 +3596,9 @@ South Carolina,LSU,80,85,LSU,8,7,72,78,LSU
 LSU,Texas A&M,78,66,LSU,10,12,68,54,LSU
 LSU,Mississippi State,94,80,LSU,10,9,84,71,LSU
 Tennessee,LSU,65,78,LSU,8,7,57,71,LSU
+Vanderbilt,LSU,68,83,LSU,8,10,60,73,LSU
+LSU,Missouri,86,80,LSU,5,9,81,71,LSU
+Ole Miss,LSU,73,76,LSU,6,7,67,69,LSU
 Texas State,Mississippi State,51,68,Mississippi State,4,9,47,59,Mississippi State
 Jackson State,Mississippi State,59,82,Mississippi State,10,8,49,74,Mississippi State
 Mississippi State,Dayton,82,85,Dayton,5,8,77,77,Mississippi State
@@ -3268,6 +3613,7 @@ Mississippi State,South Carolina,75,59,Mississippi State,10,5,65,54,Mississippi 
 Vanderbilt,Mississippi State,72,51,Vanderbilt,13,5,59,46,Vanderbilt
 Mississippi State,Ole Miss,66,56,Mississippi State,2,5,64,51,Mississippi State
 South Carolina,Mississippi State,48,69,Mississippi State,4,4,44,65,Mississippi State
+Mississippi State,Texas A&M,63,57,Mississippi State,8,4,55,53,Mississippi State
 Oral Roberts,Missouri,64,91,Missouri,7,10,57,81,Missouri
 Bradley,Missouri,53,54,Missouri,2,3,51,51,Missouri
 Tennessee,Missouri,73,53,Tennessee,5,3,68,50,Tennessee
@@ -3284,6 +3630,8 @@ Texas A&M,Ole Miss,50,61,Ole Miss,5,5,45,56,Ole Miss
 Tennessee,Ole Miss,50,52,Ole Miss,8,3,42,49,Ole Miss
 Ole Miss,South Carolina,81,74,Ole Miss,3,6,78,68,Ole Miss
 Ole Miss,Vanderbilt,70,75,Vanderbilt,4,11,66,64,Ole Miss
+Vanderbilt,Ole Miss,46,56,Ole Miss,6,5,40,51,Ole Miss
+South Carolina,Ole Miss,59,76,Ole Miss,2,5,57,71,Ole Miss
 Texas A&M,South Carolina,54,78,South Carolina,5,10,49,68,South Carolina
 South Carolina,Vanderbilt,81,93,Vanderbilt,10,13,71,80,Vanderbilt
 South Carolina,Tennessee,73,93,Tennessee,10,9,63,84,Tennessee
@@ -3296,6 +3644,7 @@ Tarleton,Texas A&M,66,73,Texas A&M,8,6,58,67,Texas A&M
 UT Rio Grande Valley,Texas A&M,68,81,Texas A&M,9,8,59,73,Texas A&M
 SE Louisiana,Texas A&M,52,69,Texas A&M,8,4,44,65,Texas A&M
 Wofford,Texas A&M,52,70,Texas A&M,12,3,40,67,Texas A&M
+Texas A&M,Vanderbilt,68,79,Vanderbilt,7,12,61,67,Vanderbilt
 Mississippi Valley State,Vanderbilt,41,84,Vanderbilt,9,10,32,74,Vanderbilt
 Alcorn State,Vanderbilt,59,87,Vanderbilt,3,14,56,73,Vanderbilt
 Kentucky,Vanderbilt,82,78,Kentucky,8,4,74,74,Vanderbilt
@@ -3318,6 +3667,7 @@ East Tennessee State,Chattanooga,51,53,Chattanooga,2,8,49,45,East Tennessee Stat
 Western Carolina,Chattanooga,81,89,Chattanooga,10,12,71,77,Chattanooga
 Chattanooga,UNC Greensboro,55,60,UNC Greensboro,11,4,44,56,UNC Greensboro
 Chattanooga,Mercer,77,81,Mercer,12,9,65,72,Mercer
+East Tennessee State,Chattanooga,63,53,East Tennessee State,8,6,55,47,East Tennessee State
 Abilene Christian,East Tennessee State,70,47,Abilene Christian,13,3,57,44,Abilene Christian
 Columbia International,East Tennessee State,54,96,East Tennessee State,7,11,47,85,East Tennessee State
 Lee University,East Tennessee State,53,62,East Tennessee State,7,4,46,58,East Tennessee State
@@ -3334,6 +3684,7 @@ East Tennessee State,The Citadel,71,79,The Citadel,8,8,63,71,The Citadel
 Wofford,East Tennessee State,49,71,East Tennessee State,8,8,41,63,East Tennessee State
 Mercer,East Tennessee State,71,64,Mercer,10,10,61,54,Mercer
 UNC Greensboro,East Tennessee State,85,74,UNC Greensboro,9,7,76,67,UNC Greensboro
+East Tennessee State,UNC Greensboro,65,77,UNC Greensboro,9,12,56,65,UNC Greensboro
 Tusculum,Furman,62,95,Furman,4,6,58,89,Furman
 South Wesleyan,Furman,49,89,Furman,4,5,45,84,Furman
 Flagler,Furman,61,86,Furman,6,12,55,74,Furman
@@ -3349,6 +3700,7 @@ Samford,Furman,64,78,Furman,7,13,57,65,Furman
 Furman,Mercer,70,60,Furman,5,5,65,55,Furman
 The Citadel,Furman,63,72,Furman,4,8,59,64,Furman
 Furman,Wofford,73,74,Wofford,9,8,64,66,Wofford
+VMI,Furman,91,90,VMI,10,12,81,78,VMI
 North Georgia,Mercer,48,79,Mercer,4,9,44,70,Mercer
 Georgia State,Mercer,69,86,Mercer,5,11,64,75,Mercer
 Columbia International,Mercer,62,88,Mercer,9,9,53,79,Mercer
@@ -3367,6 +3719,10 @@ Mercer,Samford,77,70,Mercer,6,7,71,63,Mercer
 UNC Greensboro,Mercer,77,74,UNC Greensboro,10,10,67,64,UNC Greensboro
 The Citadel,Mercer,52,88,Mercer,4,11,48,77,Mercer
 Mercer,Western Carolina,61,85,Western Carolina,4,13,57,72,Western Carolina
+Samford,Mercer,59,87,Mercer,7,12,52,75,Mercer
+Mercer,Wofford,62,61,Mercer,6,10,56,51,Mercer
+Mercer,VMI,73,59,Mercer,11,4,62,55,Mercer
+Mercer,UNC Greensboro,61,69,UNC Greensboro,5,6,56,63,UNC Greensboro
 Alabama A&M,Samford,78,76,Alabama A&M,6,5,72,71,Alabama A&M
 Covenant,Samford,73,98,Samford,14,10,59,88,Samford
 Samford,Troy,71,79,Troy,5,5,66,74,Troy
@@ -3389,6 +3745,8 @@ UNC Greensboro,The Citadel,85,66,UNC Greensboro,9,5,76,61,UNC Greensboro
 Western Carolina,The Citadel,63,74,The Citadel,4,8,59,66,The Citadel
 The Citadel,Wofford,67,81,Wofford,9,10,58,71,Wofford
 VMI,The Citadel,74,75,The Citadel,7,6,67,69,The Citadel
+Western Carolina,The Citadel,86,100,The Citadel,10,12,76,88,The Citadel
+The Citadel,UNC Greensboro,72,80,UNC Greensboro,5,9,67,71,UNC Greensboro
 UNC Greensboro,Little Rock,77,70,UNC Greensboro,7,5,70,65,UNC Greensboro
 UNC Greensboro,Wofford,84,75,UNC Greensboro,11,10,73,65,UNC Greensboro
 Wofford,UNC Greensboro,48,45,Wofford,7,4,41,41,UNC Greensboro
@@ -3431,6 +3789,10 @@ Houston Baptist,Abilene Christian,59,88,Abilene Christian,4,13,55,75,Abilene Chr
 Texas A&M-CC,Abilene Christian,55,83,Abilene Christian,3,7,52,76,Abilene Christian
 Sam Houston State,Abilene Christian,72,86,Abilene Christian,5,10,67,76,Abilene Christian
 Abilene Christian,Central Arkansas,82,84,Central Arkansas,12,7,70,77,Central Arkansas
+Abilene Christian,Stephen F. Austin,63,61,Abilene Christian,4,2,59,59,Central Arkansas
+Incarnate Word,Abilene Christian,60,85,Abilene Christian,10,12,50,73,Abilene Christian
+Lamar,Abilene Christian,71,93,Abilene Christian,7,9,64,84,Abilene Christian
+Abilene Christian,Nicholls,79,45,Abilene Christian,11,4,68,41,Abilene Christian
 Central Arkansas,Little Rock,83,86,Little Rock,5,8,78,78,Memphis
 Champion Christian College,Central Arkansas,28,92,Central Arkansas,2,8,26,84,Central Arkansas
 Central Arkansas,McNeese,81,67,Central Arkansas,6,9,75,58,Central Arkansas
@@ -3445,6 +3807,8 @@ Central Arkansas,Sam Houston State,57,97,Sam Houston State,6,13,51,84,Sam Housto
 Central Arkansas,Nicholls,68,79,Nicholls,11,9,57,70,Nicholls
 Central Arkansas,New Orleans,63,88,New Orleans,4,6,59,82,New Orleans
 Stephen F. Austin,Central Arkansas,79,66,Stephen F. Austin,3,7,76,59,Stephen F. Austin
+SE Louisiana,Central Arkansas,71,88,Central Arkansas,8,13,63,75,Central Arkansas
+Central Arkansas,Northwestern State,70,79,Northwestern State,11,11,59,68,Northwestern State
 Champion Christian College,Houston Baptist,60,93,Houston Baptist,9,13,51,80,Houston Baptist
 Northwestern State,Houston Baptist,93,99,Houston Baptist,7,12,86,87,Houston Baptist
 Houston Baptist,Lamar,65,71,Lamar,9,3,56,68,Lamar
@@ -3456,7 +3820,11 @@ Lamar,Houston Baptist,75,80,Houston Baptist,8,9,67,71,Houston Baptist
 Houston Baptist,Northwestern State,80,86,Northwestern State,7,13,73,73,Houston Baptist
 Houston Baptist,Nicholls,68,83,Nicholls,4,14,64,69,Nicholls
 Houston Baptist,McNeese,58,85,McNeese,9,10,49,75,McNeese
-Sam Houston State,Houston Baptist,44,30,Sam Houston State,3,2,41,28,Sam Houston State
+Sam Houston State,Houston Baptist,83,70,Sam Houston State,8,4,75,66,Sam Houston State
+Incarnate Word,Houston Baptist,67,72,Houston Baptist,6,6,61,66,Houston Baptist
+Texas A&M-CC,Houston Baptist,94,70,Texas A&M-CC,10,11,84,59,Texas A&M-CC
+Houston Baptist,Incarnate Word,80,68,Houston Baptist,7,5,73,63,Houston Baptist
+Houston Baptist,Lamar,52,62,Lamar,4,2,48,60,Lamar
 Our Lady of the Lake,Incarnate Word,71,84,Incarnate Word,3,5,68,79,Incarnate Word
 Incarnate Word,Texas State,64,72,Texas State,9,6,55,66,Texas State
 McMurry,Incarnate Word,71,92,Incarnate Word,6,6,65,86,Incarnate Word
@@ -3470,7 +3838,7 @@ Incarnate Word,Lamar,67,58,Incarnate Word,9,6,58,52,Incarnate Word
 Incarnate Word,Texas A&M-CC,58,53,Incarnate Word,8,5,50,48,Incarnate Word
 Northwestern State,Incarnate Word,68,67,Northwestern State,3,9,65,58,Northwestern State
 Lamar,Incarnate Word,67,45,Lamar,6,7,61,38,Lamar
-New Orleans,Incarnate Word,43,36,New Orleans,3,3,40,33,New Orleans
+New Orleans,Incarnate Word,88,72,New Orleans,5,5,83,67,New Orleans
 Lamar,UL Monroe,63,60,Lamar,5,5,58,55,Lamar
 SE Louisiana,Lamar,64,74,Lamar,5,8,59,66,Lamar
 Lamar,Nicholls,69,76,Nicholls,5,6,64,70,Nicholls
@@ -3481,7 +3849,9 @@ Nicholls,Lamar,76,71,Nicholls,7,4,69,67,Nicholls
 Lamar,Texas A&M-CC,68,77,Texas A&M-CC,3,8,65,69,Texas A&M-CC
 Sam Houston State,Lamar,77,71,Sam Houston State,8,5,69,66,Sam Houston State
 Stephen F. Austin,Lamar,83,88,Lamar,7,7,76,81,Lamar
-Texas A&M-CC,Lamar,31,33,Lamar,5,2,26,31,Lamar
+Texas A&M-CC,Lamar,47,66,Lamar,6,6,41,60,Lamar
+Lamar,McNeese,60,51,Lamar,9,4,51,47,Lamar
+Lamar,Sam Houston State,70,69,Lamar,8,10,62,59,Lamar
 Dallas Christian,McNeese,37,140,McNeese,5,21,32,119,McNeese
 McNeese,Stephen F. Austin,76,86,Stephen F. Austin,8,2,68,84,Stephen F. Austin
 Carver College,McNeese,53,96,McNeese,2,8,51,88,McNeese
@@ -3496,6 +3866,8 @@ SE Louisiana,McNeese,92,88,SE Louisiana,11,9,81,79,SE Louisiana
 McNeese,Nicholls,69,76,Nicholls,8,11,61,65,Nicholls
 McNeese,Northwestern State,66,69,Northwestern State,5,8,61,61,McNeese
 McNeese,SE Louisiana,95,91,McNeese,9,11,86,80,McNeese
+Nicholls,McNeese,80,67,Nicholls,6,10,74,57,Nicholls
+McNeese,SE Louisiana,68,71,SE Louisiana,7,7,61,64,SE Louisiana
 New Orleans,BYU,61,86,BYU,5,10,56,76,BYU
 Louisiana,New Orleans,66,63,Louisiana,4,6,62,57,Louisiana
 New Orleans,Florida National,74,57,New Orleans,0,8,74,49,New Orleans
@@ -3508,7 +3880,10 @@ New Orleans,SE Louisiana,73,79,SE Louisiana,6,4,67,75,SE Louisiana
 Stephen F. Austin,New Orleans,89,79,Stephen F. Austin,3,7,86,72,Stephen F. Austin
 New Orleans,Texas A&M-CC,69,61,New Orleans,6,8,63,53,New Orleans
 Nicholls,New Orleans,105,101,Nicholls,11,8,94,93,Nicholls
-New Orleans,Incarnate Word,45,38,New Orleans,3,3,42,35,New Orleans
+Northwestern State,New Orleans,83,92,New Orleans,4,4,79,88,New Orleans
+SE Louisiana,New Orleans,76,81,New Orleans,11,5,65,76,New Orleans
+SE Louisiana,New Orleans,63,80,New Orleans,3,6,60,74,New Orleans
+New Orleans,Northwestern State,79,82,Northwestern State,5,8,74,74,New Orleans
 Nicholls,Santa Clara,57,73,Santa Clara,7,4,50,69,Santa Clara
 Nicholls,Saint Mary's,50,73,Saint Mary's,6,12,44,61,Saint Mary's
 Sam Houston State,Nicholls,84,81,Sam Houston State,12,12,72,69,Sam Houston State
@@ -3518,6 +3893,7 @@ Carver College,Nicholls,60,105,Nicholls,4,9,56,96,Nicholls
 Nicholls,Sam Houston State,71,78,Sam Houston State,7,8,64,70,Sam Houston State
 Nicholls,SE Louisiana,86,84,Nicholls,8,9,78,75,Nicholls
 Northwestern State,Nicholls,71,87,Nicholls,8,5,63,82,Nicholls
+Northwestern State,Nicholls,76,88,Nicholls,6,5,70,83,Nicholls
 Northwestern State,UT Arlington,71,80,UT Arlington,9,6,62,74,UT Arlington
 UL Monroe,Northwestern State,92,83,UL Monroe,8,11,84,72,UL Monroe
 Champion Christian College,Northwestern State,44,77,Northwestern State,6,10,38,67,Northwestern State
@@ -3529,6 +3905,7 @@ McNeese,Northwestern State,66,69,Northwestern State,5,8,61,61,Northwestern State
 Houston Baptist,Northwestern State,80,86,Northwestern State,7,13,73,73,Northwestern State
 Stephen F. Austin,Northwestern State,83,57,Stephen F. Austin,6,6,77,51,Stephen F. Austin
 SE Louisiana,Northwestern State,61,79,Northwestern State,5,7,56,72,Northwestern State
+New Orleans,Northwestern State,79,82,Northwestern State,5,8,74,74,Northwestern State
 SE Louisiana,California Baptist,81,80,SE Louisiana,11,8,70,72,California Baptist
 SE Louisiana,California Baptist,66,83,California Baptist,3,10,63,73,California Baptist
 SE Louisiana,Grambling,77,70,SE Louisiana,10,4,67,66,SE Louisiana
@@ -3543,12 +3920,15 @@ Sam Houston State,UT Rio Grande Valley,69,66,Sam Houston State,5,4,64,62,Sam Hou
 Mary Hardin-Baylor,Sam Houston State,59,101,Sam Houston State,4,11,55,90,Sam Houston State
 Sam Houston State,Texas A&M-CC,75,70,Sam Houston State,9,8,66,62,Sam Houston State
 Sam Houston State,Stephen F. Austin,68,78,Stephen F. Austin,6,5,62,73,Stephen F. Austin
+Texas A&M-CC,Sam Houston State,61,84,Sam Houston State,6,12,55,72,Sam Houston State
+Stephen F. Austin,Sam Houston State,64,59,Stephen F. Austin,1,6,63,53,Stephen F. Austin
 Le Tourneau,Stephen F. Austin,57,102,Stephen F. Austin,9,8,48,94,Stephen F. Austin
 LSU Alexandria,Stephen F. Austin,79,97,Stephen F. Austin,7,7,72,90,Stephen F. Austin
 Stephen F. Austin,UL Monroe,55,66,UL Monroe,6,11,49,55,UL Monroe
 Midwestern State,Stephen F. Austin,71,87,Stephen F. Austin,7,8,64,79,Stephen F. Austin
 Stephen F. Austin,Texas A&M-CC,84,75,Stephen F. Austin,4,11,80,64,Stephen F. Austin
 Texas A&M-CC,Stephen F. Austin,68,80,Stephen F. Austin,5,6,63,74,Stephen F. Austin
+Abilene Christian,Stephen F. Austin,63,61,Abilene Christian,4,2,59,59,Stephen F. Austin
 Texas A&M-International,Texas A&M-CC,53,64,Texas A&M-CC,6,3,47,61,Texas A&M-CC
 Texas State,Texas A&M-CC,75,63,Texas State,6,7,69,56,Texas State
 Texas A&M-CC,UT Rio Grande Valley,59,62,UT Rio Grande Valley,7,3,52,59,UT Rio Grande Valley
@@ -3556,7 +3936,6 @@ UT Rio Grande Valley,Texas A&M-CC,68,64,UT Rio Grande Valley,6,2,62,62,UT Rio Gr
 Texas A&M-CC,Texas State,46,51,Texas State,5,2,41,49,Texas State
 Our Lady of the Lake,Texas A&M-CC,72,99,Texas A&M-CC,6,9,66,90,Texas A&M-CC
 Paul Quinn,Texas A&M-CC,35,59,Texas A&M-CC,0,4,35,55,Texas A&M-CC
-Texas A&M-CC,Lamar,31,35,Lamar,5,2,26,33,Lamar
 South Alabama,Alabama A&M,90,93,Alabama A&M,4,9,86,84,South Alabama
 Alabama State,Alabama A&M,63,70,Alabama A&M,3,4,60,66,Alabama A&M
 Southern,Alabama A&M,58,68,Alabama A&M,2,9,56,59,Alabama A&M
@@ -3568,6 +3947,9 @@ Alabama A&M,Alabama State,58,72,Alabama State,5,8,53,64,Alabama State
 Alabama A&M,Alcorn State,52,65,Alcorn State,3,6,49,59,Alcorn State
 Alabama A&M,Southern,57,73,Southern,6,7,51,66,Southern
 Prairie View A&M,Alabama A&M,55,54,Prairie View A&M,2,6,53,48,Prairie View A&M
+Texas Southern,Alabama A&M,68,58,Texas Southern,4,5,64,53,Texas Southern
+Alabama A&M,Jackson State,35,50,Jackson State,1,3,34,47,Jackson State
+Alabama A&M,Grambling,72,80,Grambling,10,8,62,72,Grambling
 Grambling,Alabama State,66,49,Grambling,7,2,59,47,Grambling
 Jackson State,Alabama State,60,44,Jackson State,8,3,52,41,Jackson State
 Alabama State,Arkansas-Pine Bluff,82,91,Arkansas-Pine Bluff,8,7,74,84,Arkansas-Pine Bluff
@@ -3579,8 +3961,11 @@ Alabama State,Prairie View A&M,63,87,Prairie View A&M,7,7,56,80,Prairie View A&M
 Arkansas-Pine Bluff,Alabama State,67,73,Alabama State,4,10,63,63,Prairie View A&M
 Mississippi Valley State,Alabama State,68,65,Mississippi Valley State,10,2,58,63,Alabama State
 Alabama State,Southern,66,75,Southern,7,3,59,72,Southern
+Alabama State,Alcorn State,59,68,Alcorn State,6,8,53,60,Alcorn State
 Texas Southern,Alabama State,86,76,Texas Southern,4,11,82,65,Texas Southern
-Prairie View A&M,Alabama State,4,2,Prairie View A&M,0,0,4,2,Prairie View A&M
+Prairie View A&M,Alabama State,70,67,Prairie View A&M,2,5,68,62,Prairie View A&M
+Alabama State,Grambling,68,91,Grambling,8,9,60,82,Grambling
+Alabama State,Jackson State,54,79,Jackson State,3,11,51,68,Jackson State
 Alcorn State,Grambling,74,79,Grambling,8,4,66,75,Grambling
 Mississippi Valley State,Alcorn State,59,71,Alcorn State,6,6,53,65,Alcorn State
 Arkansas-Pine Bluff,Alcorn State,48,82,Alcorn State,4,11,44,71,Alcorn State
@@ -3589,6 +3974,9 @@ Jackson State,Alcorn State,74,66,Jackson State,9,7,65,59,Jackson State
 Grambling,Alcorn State,67,62,Grambling,4,7,63,55,Grambling
 Alcorn State,Mississippi Valley State,70,56,Alcorn State,6,9,64,47,Alcorn State
 Alcorn State,Southern,75,89,Southern,4,6,71,83,Southern
+Alcorn State,Texas Southern,78,80,Texas Southern,9,4,69,76,Texas Southern
+Alcorn State,Prairie View A&M,69,81,Prairie View A&M,6,7,63,74,Prairie View A&M
+Alcorn State,Texas Southern,55,78,Texas Southern,6,4,49,74,Texas Southern
 Arkansas-Pine Bluff,Arkansas State,75,74,Arkansas-Pine Bluff,10,5,65,69,Arkansas State
 Mississippi Valley State,Arkansas-Pine Bluff,52,92,Arkansas-Pine Bluff,5,7,47,85,Arkansas-Pine Bluff
 Arkansas-Pine Bluff,Southern,53,88,Southern,2,11,51,77,Southern
@@ -3600,7 +3988,9 @@ Arkansas-Pine Bluff,Alabama State,67,73,Alabama State,4,10,63,63,Jackson State
 Southern,Arkansas-Pine Bluff,73,71,Southern,3,5,70,66,Southern
 Arkansas-Pine Bluff,Prairie View A&M,56,72,Prairie View A&M,5,6,51,66,Prairie View A&M
 Arkansas-Pine Bluff,Texas Southern,65,79,Texas Southern,7,8,58,71,Texas Southern
-Arkansas-Pine Bluff,Jackson State,18,14,Arkansas-Pine Bluff,0,1,18,13,Arkansas-Pine Bluff
+Arkansas-Pine Bluff,Jackson State,58,64,Jackson State,1,4,57,60,Jackson State
+Arkansas-Pine Bluff,Mississippi Valley State,82,59,Arkansas-Pine Bluff,6,9,76,50,Arkansas-Pine Bluff
+Arkansas-Pine Bluff,Jackson State,62,74,Jackson State,5,9,57,65,Jackson State
 Grambling,Grand Canyon,53,69,Grand Canyon,1,6,52,63,Grand Canyon
 East Texas Baptist,Grambling,59,68,Grambling,8,4,51,64,Grambling
 Grambling,UL Monroe,78,61,Grambling,11,8,67,53,Grambling
@@ -3612,18 +4002,25 @@ Mississippi Valley State,Grambling,72,85,Grambling,8,8,64,77,Grambling
 Grambling,Southern,72,69,Grambling,6,10,66,59,Grambling
 Texas Southern,Grambling,75,73,Texas Southern,7,4,68,69,Grambling
 Grambling,Jackson State,59,63,Jackson State,4,10,55,53,Grambling
+Grambling,Mississippi Valley State,63,67,Mississippi Valley State,6,11,57,56,Grambling
+Southern,Grambling,67,72,Grambling,5,7,62,65,Grambling
+Grambling,Prairie View A&M,63,75,Prairie View A&M,4,5,59,70,Prairie View A&M
 Mississippi Valley State,Jackson State,56,106,Jackson State,4,9,52,97,Jackson State
 Jackson State,Southern,57,53,Jackson State,1,1,56,52,Jackson State
 Jackson State,Mississippi Valley State,68,54,Jackson State,4,9,64,45,Jackson State
+Texas Southern,Jackson State,84,81,Texas Southern,6,4,78,77,Texas Southern
 Mississippi Valley State,Grand Canyon,49,88,Grand Canyon,13,7,36,81,Grand Canyon
 Mississippi Valley State,Southern,61,102,Southern,10,9,51,93,Southern
 Prairie View A&M,Mississippi Valley State,77,31,Prairie View A&M,5,5,72,26,Prairie View A&M
 Mississippi Valley State,Texas Southern,45,82,Texas Southern,3,3,42,79,Texas Southern
 Mississippi Valley State,Prairie View A&M,62,82,Prairie View A&M,11,9,51,73,Prairie View A&M
+Mississippi Valley State,Prairie View A&M,64,91,Prairie View A&M,7,12,57,79,Prairie View A&M
 Prairie View A&M,Little Rock,66,71,Little Rock,8,4,58,67,Little Rock
 Texas Southern,Prairie View A&M,67,73,Prairie View A&M,4,10,63,63,TCU
 Prairie View A&M,Texas Southern,77,75,Prairie View A&M,11,5,66,70,Texas Southern
-Prairie View A&M,Alabama State,6,7,Alabama State,0,1,6,6,Prairie View A&M
+Southern,Prairie View A&M,61,68,Prairie View A&M,5,7,56,61,Prairie View A&M
+Texas Southern,Prairie View A&M,80,61,Texas Southern,3,6,77,55,Texas Southern
+Southern,Texas Southern,74,80,Texas Southern,6,5,68,75,Texas Southern
 Texas Southern,Saint Mary's,70,82,Saint Mary's,4,16,66,66,Texas Southern
 Le Tourneau,Texas Southern,60,103,Texas Southern,4,5,56,98,Texas Southern
 Texas Southern,BYU,71,87,BYU,2,11,69,76,BYU
@@ -3664,6 +4061,7 @@ South Dakota,North Dakota,76,85,North Dakota,8,14,68,71,North Dakota
 South Dakota,North Dakota,81,85,North Dakota,9,11,72,74,North Dakota
 North Dakota,Omaha,62,72,Omaha,8,6,54,66,Omaha
 North Dakota,Omaha,81,69,North Dakota,9,6,72,63,North Dakota
+North Dakota,Oral Roberts,65,76,Oral Roberts,3,5,62,71,Oral Roberts
 North Dakota State,South Dakota State,75,77,South Dakota State,10,7,65,70,South Dakota State
 South Dakota,North Dakota State,67,74,North Dakota State,8,5,59,69,North Dakota State
 North Dakota State,Western Illinois,68,50,North Dakota State,9,4,59,46,North Dakota State
@@ -3678,6 +4076,9 @@ South Dakota State,North Dakota State,68,67,South Dakota State,13,7,55,60,North 
 South Dakota State,North Dakota State,82,84,North Dakota State,5,11,77,73,South Dakota State
 North Dakota State,South Dakota,71,80,South Dakota,10,5,61,75,South Dakota
 North Dakota State,South Dakota,89,77,North Dakota State,11,10,78,67,North Dakota State
+UM Kansas City,North Dakota State,65,69,North Dakota State,3,6,62,63,North Dakota State
+North Dakota State,South Dakota,79,75,North Dakota State,3,8,76,67,North Dakota State
+Oral Roberts,North Dakota State,75,72,Oral Roberts,9,7,66,65,Oral Roberts
 Oral Roberts,Omaha,95,83,Oral Roberts,15,6,80,77,Oral Roberts
 Oral Roberts,Omaha,86,75,Oral Roberts,12,1,74,74,Oral Roberts
 Omaha,South Dakota,59,91,South Dakota,7,7,52,84,South Dakota
@@ -3686,6 +4087,7 @@ Western Illinois,Omaha,85,77,Western Illinois,5,7,80,70,Western Illinois
 Western Illinois,Omaha,75,73,Western Illinois,6,5,69,68,Western Illinois
 Omaha,UM Kansas City,52,62,UM Kansas City,4,5,48,57,UM Kansas City
 Omaha,UM Kansas City,47,55,UM Kansas City,3,6,44,49,UM Kansas City
+Omaha,South Dakota State,71,84,South Dakota State,11,8,60,76,South Dakota State
 Rogers State,Oral Roberts,63,93,Oral Roberts,6,13,57,80,Oral Roberts
 SW Christian Univ,Oral Roberts,58,111,Oral Roberts,7,19,51,92,Oral Roberts
 Bacone,Oral Roberts,65,96,Oral Roberts,8,12,57,84,Oral Roberts
@@ -3697,6 +4099,7 @@ South Dakota State,Oral Roberts,95,80,South Dakota State,8,16,87,64,South Dakota
 Oral Roberts,South Dakota,84,86,South Dakota,13,12,71,74,South Dakota
 Western Illinois,Oral Roberts,81,85,Oral Roberts,16,11,65,74,Oral Roberts
 Western Illinois,Oral Roberts,59,95,Oral Roberts,3,11,56,84,Oral Roberts
+Oral Roberts,South Dakota State,90,88,Oral Roberts,14,6,76,82,South Dakota State
 South Dakota,South Dakota State,91,78,South Dakota,12,10,79,68,South Dakota
 Mount Marty,South Dakota,44,84,South Dakota,8,5,36,79,South Dakota
 South Dakota,UM Kansas City,66,64,South Dakota,7,8,59,56,South Dakota
@@ -3705,6 +4108,7 @@ South Dakota,Western Illinois,65,60,South Dakota,6,5,59,55,South Dakota
 South Dakota,Western Illinois,84,74,South Dakota,4,10,80,64,South Dakota
 South Dakota,South Dakota State,64,56,South Dakota,5,7,59,49,South Dakota
 South Dakota,South Dakota State,78,89,South Dakota State,3,7,75,82,South Dakota State
+Western Illinois,South Dakota,69,86,South Dakota,7,8,62,78,South Dakota
 South Dakota State,Saint Mary's,59,72,Saint Mary's,2,10,57,62,Saint Mary's
 Mount Marty,South Dakota State,50,93,South Dakota State,7,5,43,88,South Dakota State
 Western Illinois,South Dakota State,77,83,South Dakota State,7,5,70,78,South Dakota State
@@ -3736,6 +4140,10 @@ South Alabama,Appalachian State,56,54,South Alabama,9,6,47,48,Appalachian State
 Appalachian State,Georgia State,71,85,Georgia State,8,11,63,74,Georgia State
 Appalachian State,Georgia Southern,84,78,Appalachian State,10,5,74,73,Appalachian State
 Appalachian State,Georgia Southern,57,65,Georgia Southern,6,8,51,57,Georgia Southern
+Little Rock,Appalachian State,60,67,Appalachian State,4,12,56,55,Little Rock
+Appalachian State,Texas State,76,73,Appalachian State,12,8,64,65,Texas State
+Appalachian State,Coastal Carolina,64,61,Appalachian State,10,3,54,58,Coastal Carolina
+Appalachian State,Georgia State,80,73,Appalachian State,10,9,70,64,Appalachian State
 Crowley's Ridge College,Arkansas State,49,115,Arkansas State,2,10,47,105,Arkansas State
 Central Baptist College,Arkansas State,69,81,Arkansas State,6,4,63,77,Arkansas State
 Champion Christian College,Arkansas State,50,90,Arkansas State,4,12,46,78,Arkansas State
@@ -3754,6 +4162,8 @@ Arkansas State,Little Rock,67,65,Arkansas State,8,7,59,58,Arkansas State
 Texas State,Arkansas State,57,52,Texas State,5,0,52,52,Arkansas State
 Arkansas State,UT Arlington,71,73,UT Arlington,5,7,66,66,Arkansas State
 Arkansas State,UT Arlington,56,64,UT Arlington,6,8,50,56,UT Arlington
+Georgia Southern,Arkansas State,58,62,Arkansas State,3,6,55,56,Arkansas State
+Arkansas State,Georgia State,68,71,Georgia State,9,5,59,66,Georgia State
 NC Wesleyan,Coastal Carolina,68,117,Coastal Carolina,6,15,62,102,Coastal Carolina
 Columbia International,Coastal Carolina,56,113,Coastal Carolina,9,8,47,105,Coastal Carolina
 Greensboro,Coastal Carolina,45,103,Coastal Carolina,4,12,41,91,Coastal Carolina
@@ -3772,6 +4182,7 @@ Coastal Carolina,South Alabama,66,70,South Alabama,8,11,58,59,South Alabama
 Georgia Southern,Coastal Carolina,55,65,Coastal Carolina,10,5,45,60,Coastal Carolina
 Coastal Carolina,Troy,75,59,Coastal Carolina,7,7,68,52,Coastal Carolina
 Coastal Carolina,Troy,76,71,Coastal Carolina,11,9,65,62,Coastal Carolina
+Troy,Coastal Carolina,68,86,Coastal Carolina,9,9,59,77,Coastal Carolina
 Florida National,Georgia Southern,65,97,Georgia Southern,10,6,55,91,Georgia Southern
 College of Coastal Georgia,Georgia Southern,79,91,Georgia Southern,8,9,71,82,Georgia Southern
 Carver College,Georgia Southern,27,92,Georgia Southern,1,6,26,86,Georgia Southern
@@ -3785,7 +4196,7 @@ Georgia Southern,South Alabama,48,62,South Alabama,8,9,40,53,South Alabama
 Georgia Southern,Troy,56,68,Troy,9,5,47,63,Troy
 Georgia Southern,Troy,79,64,Georgia Southern,11,4,68,60,Georgia Southern
 Georgia Southern,Georgia State,75,79,Georgia State,11,6,64,73,Georgia State
-Georgia State,Georgia Tech,123,120,Georgia State,10,7,113,113,Georgia Southern
+Georgia State,Georgia Tech,123,120,Georgia State,10,7,113,113,Arkansas State
 Toccoa Falls,Georgia State,60,105,Georgia State,11,16,49,89,Georgia State
 Carver College,Georgia State,57,122,Georgia State,5,13,52,109,Georgia State
 South Alabama,Georgia State,70,67,South Alabama,8,5,62,62,Appalachian State
@@ -3793,7 +4204,8 @@ Troy,Georgia State,66,80,Georgia State,7,7,59,73,Georgia State
 Troy,Georgia State,53,65,Georgia State,6,8,47,57,Georgia State
 Georgia State,South Alabama,84,81,Georgia State,11,15,73,66,Georgia State
 Georgia State,South Alabama,82,73,Georgia State,9,5,73,68,Georgia State
-Georgia State,Georgia Tech,123,120,Georgia State,10,7,113,113,Georgia State
+Louisiana,Georgia State,73,84,Georgia State,9,6,64,78,Georgia State
+Georgia State,Georgia Tech,123,120,Georgia State,10,7,113,113,Appalachian State
 Central Arkansas,Little Rock,83,86,Little Rock,5,8,78,78,Winthrop
 Champion Christian College,Little Rock,50,78,Little Rock,5,7,45,71,Little Rock
 UT Arlington,Little Rock,93,102,Little Rock,10,9,83,93,Little Rock
@@ -3824,6 +4236,7 @@ Louisiana,Texas State,74,73,Louisiana,11,5,63,68,Texas State
 UL Monroe,Louisiana,72,66,UL Monroe,11,5,61,61,Arkansas State
 Louisiana,UL Monroe,88,72,Louisiana,14,5,74,67,Louisiana
 UT Arlington,Louisiana,74,76,Louisiana,8,6,66,70,Louisiana
+South Alabama,Louisiana,68,79,Louisiana,10,5,58,74,Louisiana
 Mobile,South Alabama,75,95,South Alabama,17,11,58,84,South Alabama
 Emmanuel,South Alabama,47,86,South Alabama,9,11,38,75,South Alabama
 William Carey,South Alabama,67,80,South Alabama,7,9,60,71,South Alabama
@@ -3832,6 +4245,7 @@ South Alabama,Georgia State,70,67,South Alabama,8,5,62,62,South Alabama
 Troy,South Alabama,70,73,South Alabama,8,5,62,68,South Alabama
 South Alabama,Troy,58,51,South Alabama,7,6,51,45,South Alabama
 South Alabama,Appalachian State,65,63,South Alabama,8,6,57,57,South Alabama
+UL Monroe,South Alabama,72,80,South Alabama,7,11,65,69,South Alabama
 Mary Hardin-Baylor,Texas State,59,98,Texas State,7,5,52,93,Texas State
 Our Lady of the Lake,Texas State,61,58,Our Lady of the Lake,6,4,55,54,Our Lady of the Lake
 Texas State,UL Monroe,57,47,Texas State,4,6,53,41,Texas State
@@ -3844,6 +4258,7 @@ UL Monroe,Texas State,57,61,Texas State,8,7,49,54,Texas State
 Central Baptist College,Troy,44,61,Troy,3,3,41,58,Troy
 Carver College,Troy,35,88,Troy,4,4,31,84,Troy
 Spring Hill,Troy,73,90,Troy,6,6,67,84,Troy
+Troy,UT Arlington,91,86,Troy,10,10,81,76,Troy
 UT Arlington,UL Monroe,77,64,UT Arlington,10,5,67,59,UT Arlington
 UT Arlington,UL Monroe,75,74,UT Arlington,9,10,66,64,UT Arlington
 UL Monroe,UT Arlington,56,63,UT Arlington,7,9,49,54,UT Arlington
@@ -3869,6 +4284,8 @@ BYU,Pacific,80,52,BYU,13,2,67,50,BYU
 BYU,Loyola Marymount,88,71,BYU,9,6,79,65,BYU
 San Francisco,BYU,73,79,BYU,12,11,61,68,BYU
 Saint Mary's,BYU,51,65,BYU,5,9,46,56,BYU
+Pepperdine,BYU,77,82,BYU,5,7,72,75,BYU
+BYU,Gonzaga,78,88,Gonzaga,11,12,67,76,Gonzaga
 Dixie State,Gonzaga,67,112,Gonzaga,4,8,63,104,Gonzaga
 San Francisco,Gonzaga,62,85,Gonzaga,8,5,54,80,Gonzaga
 Gonzaga,Portland,116,88,Gonzaga,4,13,112,75,Gonzaga
@@ -3883,6 +4300,7 @@ Saint Mary's,Gonzaga,65,87,Gonzaga,6,8,59,79,Gonzaga
 San Diego,Gonzaga,69,106,Gonzaga,5,5,64,101,Gonzaga
 Santa Clara,Gonzaga,75,89,Gonzaga,6,7,69,82,Gonzaga
 Loyola Marymount,Gonzaga,69,86,Gonzaga,6,9,63,77,Gonzaga
+Saint Mary's,Gonzaga,55,78,Gonzaga,2,5,53,73,Gonzaga
 San Francisco,Loyola Marymount,60,68,Loyola Marymount,7,4,53,64,Loyola Marymount
 Loyola Marymount,Pacific,49,58,Pacific,4,3,45,55,Pacific
 San Diego,Loyola Marymount,69,72,Loyola Marymount,7,7,62,65,Loyola Marymount
@@ -3893,6 +4311,8 @@ Pacific,Loyola Marymount,76,80,Loyola Marymount,8,11,68,69,Loyola Marymount
 Loyola Marymount,Santa Clara,76,73,Loyola Marymount,4,5,72,68,Loyola Marymount
 Loyola Marymount,San Francisco,68,63,Loyola Marymount,6,9,62,54,Loyola Marymount
 Loyola Marymount,Pepperdine,81,74,Loyola Marymount,6,7,75,67,Loyola Marymount
+San Francisco,Loyola Marymount,66,70,Loyola Marymount,13,4,53,66,Loyola Marymount
+Loyola Marymount,Saint Mary's,47,52,Saint Mary's,3,2,44,50,Saint Mary's
 Pacific,Westmont,92,64,Pacific,6,8,86,56,Pacific
 Santa Clara,Pacific,58,79,Pacific,6,7,52,72,Pacific
 Pacific,Pepperdine,68,85,Pepperdine,6,12,62,73,Pepperdine
@@ -3901,6 +4321,7 @@ Pacific,Portland,80,58,Pacific,8,8,72,50,Pacific
 Pacific,San Diego,77,67,Pacific,2,6,75,61,Pacific
 Pacific,Saint Mary's,46,58,Saint Mary's,2,4,44,54,Saint Mary's
 San Francisco,Pacific,69,76,Pacific,4,4,65,72,Pacific
+Santa Clara,Pacific,81,76,Santa Clara,7,7,74,69,Santa Clara
 St. Katherine,Pepperdine,45,94,Pepperdine,4,7,41,87,Pepperdine
 Concordia University Irvine,Pepperdine,68,91,Pepperdine,4,3,64,88,Pepperdine
 Portland,Pepperdine,65,80,Pepperdine,7,6,58,74,Pepperdine
@@ -3910,6 +4331,7 @@ Saint Mary's,Pepperdine,58,60,Pepperdine,4,5,54,55,Pepperdine
 Pepperdine,Santa Clara,82,86,Santa Clara,7,7,75,79,Santa Clara
 Pepperdine,Saint Mary's,61,66,Saint Mary's,4,7,57,59,Saint Mary's
 Pepperdine,San Diego,90,84,Pepperdine,12,6,78,78,Loyola Marymount
+Santa Clara,Pepperdine,70,78,Pepperdine,3,9,67,69,Pepperdine
 Seattle U,Portland,84,72,Seattle U,12,6,72,66,Seattle U
 William Jessup,Portland,73,83,Portland,8,7,65,76,Portland
 Northwest University,Portland,69,74,Portland,9,6,60,68,Portland
@@ -3918,6 +4340,7 @@ Portland,Seattle U,68,84,Seattle U,7,8,61,76,Seattle U
 Portland,San Francisco,64,88,San Francisco,5,15,59,73,San Francisco
 San Francisco,Portland,79,63,San Francisco,13,4,66,59,San Francisco
 San Diego,Portland,78,70,San Diego,5,8,73,62,San Diego
+Portland,Santa Clara,86,95,Santa Clara,12,10,74,85,Santa Clara
 Northern Iowa,Saint Mary's,64,66,Saint Mary's,7,9,57,57,Memphis
 Texas Southern,Saint Mary's,70,82,Saint Mary's,4,16,66,66,Saint Mary's
 Santa Clara,Saint Mary's,66,64,Santa Clara,6,5,60,59,Santa Clara
@@ -3926,6 +4349,7 @@ San Diego,San Francisco,62,70,San Francisco,5,6,57,64,San Francisco
 Santa Clara,San Diego,69,63,Santa Clara,11,6,58,57,Santa Clara
 San Diego,Santa Clara,71,60,San Diego,5,4,66,56,San Diego
 Pepperdine,San Diego,90,84,Pepperdine,12,6,78,78,Pacific
+San Diego,San Francisco,51,67,San Francisco,2,8,49,59,San Francisco
 Grand Canyon,San Francisco,65,68,San Francisco,2,14,63,54,Grand Canyon
 San Francisco,Santa Clara,73,50,San Francisco,10,5,63,45,San Francisco
 Fresno Pacific,Santa Clara,65,88,Santa Clara,12,8,53,80,Santa Clara
@@ -3943,6 +4367,9 @@ California Baptist,New Mexico State,70,97,New Mexico State,6,10,64,87,New Mexico
 California Baptist,Grand Canyon,61,71,Grand Canyon,6,3,55,68,Grand Canyon
 California Baptist,Grand Canyon,65,62,California Baptist,4,9,61,53,California Baptist
 Vanguard,California Baptist,65,78,California Baptist,8,9,57,69,California Baptist
+Seattle U,California Baptist,80,79,Seattle U,7,8,73,71,Seattle U
+Seattle U,California Baptist,76,79,California Baptist,8,8,68,71,California Baptist
+Seattle U,California Baptist,83,66,Seattle U,11,6,72,60,Seattle U
 St. Katherine,Dixie State,48,86,Dixie State,0,12,48,74,Dixie State
 Bethesda,Dixie State,69,90,Dixie State,6,5,63,85,Dixie State
 Dixie State,UT Rio Grande Valley,49,82,UT Rio Grande Valley,1,8,48,74,UT Rio Grande Valley
@@ -3955,6 +4382,8 @@ Dixie State,Utah Valley,72,87,Utah Valley,7,6,65,81,Utah Valley
 Dixie State,Utah Valley,93,89,Dixie State,7,3,86,86,Utah Valley
 Tarleton,Dixie State,77,59,Tarleton,6,4,71,55,Tarleton
 Tarleton,Dixie State,48,64,Dixie State,2,11,46,53,Dixie State
+New Mexico State,Dixie State,76,66,New Mexico State,10,7,66,59,New Mexico State
+New Mexico State,Dixie State,68,56,New Mexico State,7,6,61,50,New Mexico State
 Benedictine (AZ),Grand Canyon,63,94,Grand Canyon,8,5,55,89,Grand Canyon
 Grand Canyon,Tarleton,75,72,Grand Canyon,5,7,70,65,Grand Canyon
 Grand Canyon,Tarleton,59,48,Grand Canyon,6,6,53,42,Grand Canyon
@@ -3964,6 +4393,10 @@ New Mexico State,Grand Canyon,62,70,Grand Canyon,5,7,57,63,Grand Canyon
 New Mexico State,Grand Canyon,53,65,Grand Canyon,7,5,46,60,Grand Canyon
 Grand Canyon,Seattle U,57,63,Seattle U,6,6,51,57,Seattle U
 Grand Canyon,Seattle U,81,71,Grand Canyon,9,6,72,65,Grand Canyon
+Utah Valley,Grand Canyon,59,55,Utah Valley,5,7,54,48,Utah Valley
+Utah Valley,Grand Canyon,64,74,Grand Canyon,4,6,60,68,Grand Canyon
+Seattle U,Grand Canyon,47,81,Grand Canyon,4,8,43,73,Grand Canyon
+New Mexico State,Grand Canyon,56,74,Grand Canyon,9,8,47,66,Grand Canyon
 New Mexico State,Arizona Christian,83,77,New Mexico State,6,13,77,64,New Mexico State
 Benedictine (AZ),New Mexico State,54,92,New Mexico State,5,11,49,81,New Mexico State
 West New Mexico,New Mexico State,41,70,New Mexico State,3,7,38,63,New Mexico State
@@ -3973,6 +4406,9 @@ Utah Valley,New Mexico State,69,66,Utah Valley,4,7,65,59,Utah Valley
 Utah Valley,New Mexico State,60,67,New Mexico State,5,8,55,59,New Mexico State
 New Mexico State,Tarleton,78,51,New Mexico State,13,3,65,48,New Mexico State
 New Mexico State,Tarleton,55,64,Tarleton,9,5,46,59,Tarleton
+UT Rio Grande Valley,New Mexico State,51,69,New Mexico State,5,8,46,61,New Mexico State
+UT Rio Grande Valley,New Mexico State,61,77,New Mexico State,2,12,59,65,New Mexico State
+New Mexico State,Utah Valley,78,62,New Mexico State,9,5,69,57,New Mexico State
 William Jessup,Seattle U,53,77,Seattle U,5,7,48,70,Seattle U
 Northwest University,Seattle U,40,89,Seattle U,5,5,35,84,Seattle U
 College of Idaho,Seattle U,54,78,Seattle U,6,5,48,73,Seattle U
@@ -3985,6 +4421,8 @@ Tarleton,Utah Valley,60,73,Utah Valley,3,10,57,63,Utah Valley
 Tarleton,Utah Valley,70,62,Tarleton,9,6,61,56,Tarleton
 SW Adventist,Tarleton,26,97,Tarleton,1,1,25,96,Tarleton
 McMurry,Tarleton,54,112,Tarleton,9,4,45,108,Tarleton
+Tarleton,UT Rio Grande Valley,65,47,Tarleton,6,8,59,39,Tarleton
+Tarleton,UT Rio Grande Valley,69,58,Tarleton,3,6,66,52,Tarleton
 Our Lady of the Lake,UT Rio Grande Valley,68,91,UT Rio Grande Valley,4,6,64,85,UT Rio Grande Valley
 UT Rio Grande Valley,Texas A&M-CC,68,64,UT Rio Grande Valley,6,2,62,62,Texas A&M
 Texas A&M-International,UT Rio Grande Valley,51,89,UT Rio Grande Valley,3,10,48,79,UT Rio Grande Valley
